@@ -1,0 +1,75 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DVLD.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="BaseBackColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Control</Value>
+    </Setting>
+    <Setting Name="BaseForeColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">ControlText</Value>
+    </Setting>
+    <Setting Name="AccentForeColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">200, 0, 0</Value>
+    </Setting>
+    <Setting Name="BaseLinkColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Blue</Value>
+    </Setting>
+    <Setting Name="InactiveForeColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Gray</Value>
+    </Setting>
+    <Setting Name="StrongForeColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Red</Value>
+    </Setting>
+    <Setting Name="MenuStripBackColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">241, 245, 249</Value>
+    </Setting>
+    <Setting Name="GridHeaderCellColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">224, 224, 224</Value>
+    </Setting>
+    <Setting Name="SurfaceBorderColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">150, 150, 150</Value>
+    </Setting>
+    <Setting Name="TitleBarColorMode" Type="Salem.Drawing.ColorModes" Scope="User">
+      <Value Profile="(Default)">Light</Value>
+    </Setting>
+    <Setting Name="GridHeaderCellHighlightColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">InactiveCaption</Value>
+    </Setting>
+    <Setting Name="SurfaceHoverColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">240, 240, 240</Value>
+    </Setting>
+    <Setting Name="InactiveTabBackColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">216, 216, 216</Value>
+    </Setting>
+    <Setting Name="DateTimePickerStyle" Type="Syncfusion.Windows.Forms.VisualStyle" Scope="User">
+      <Value Profile="(Default)">Office2016Colorful</Value>
+    </Setting>
+    <Setting Name="SyncTextBoxStyle" Type="Syncfusion.Windows.Forms.Tools.TextBoxExt+theme" Scope="User">
+      <Value Profile="(Default)">Office2016White</Value>
+    </Setting>
+    <Setting Name="MenuStripItemBorderColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">0, 120, 215</Value>
+    </Setting>
+    <Setting Name="MenuStripItemHoverBackColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">179, 215, 243</Value>
+    </Setting>
+    <Setting Name="CurrentLanguage" Type="DVLD_Business.SupportedLanguages" Scope="User">
+      <Value Profile="(Default)">English</Value>
+    </Setting>
+    <Setting Name="RememberedUsername" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="RememberedPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CurrentThemeID" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="CurrentThemeColorMode" Type="Salem.Drawing.ColorModes" Scope="User">
+      <Value Profile="(Default)">Dark</Value>
+    </Setting>
+    <Setting Name="SurfaceBackColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Window</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

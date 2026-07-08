@@ -1,0 +1,751 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1372, 713</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ll_exportData.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="ll_exportData.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ll_exportData.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 7.3pt, style=Italic</value>
+  </data>
+  <data name="ll_exportData.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ll_exportData.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ll_exportData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>601, 681</value>
+  </data>
+  <data name="ll_exportData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 23</value>
+  </data>
+  <data name="ll_exportData.Text" xml:space="preserve">
+    <value>تصدير البيانات</value>
+  </data>
+  <data name="label_noDataAvailable.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label_noDataAvailable.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 13pt, style=Bold, Italic</value>
+  </data>
+  <data name="label_noDataAvailable.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label_noDataAvailable.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label_noDataAvailable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>491, 457</value>
+  </data>
+  <data name="label_noDataAvailable.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label_noDataAvailable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>849, 38</value>
+  </data>
+  <data name="label_noDataAvailable.Text" xml:space="preserve">
+    <value>لا توجد بيانات...</value>
+  </data>
+  <data name="label_numOfRecords.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="label_numOfRecords.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label_numOfRecords.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 7.3pt</value>
+  </data>
+  <data name="label_numOfRecords.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label_numOfRecords.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label_numOfRecords.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1225, 683</value>
+  </data>
+  <data name="label_numOfRecords.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label_numOfRecords.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="label_numOfRecords.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="label6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="label6.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 7.3pt, style=Bold</value>
+  </data>
+  <data name="label6.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label6.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1269, 681</value>
+  </data>
+  <data name="label6.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 23</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>عدد الصفوف:</value>
+  </data>
+  <data name="pnl_updateSelectedItem.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="textBox_minimumAllowedAge.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBox_minimumAllowedAge.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="textBox_minimumAllowedAge.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="textBox_minimumAllowedAge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 206</value>
+  </data>
+  <data name="textBox_minimumAllowedAge.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="textBox_minimumAllowedAge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 26</value>
+  </data>
+  <data name="label8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label8.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label8.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label8.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 204</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 30</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>أقل سن مسموح به:</value>
+  </data>
+  <data name="label9.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label9.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label9.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label9.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 246</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 30</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>فترة الصلاحية:</value>
+  </data>
+  <data name="textBox_defaultValidityLength.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBox_defaultValidityLength.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="textBox_defaultValidityLength.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="textBox_defaultValidityLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 248</value>
+  </data>
+  <data name="textBox_defaultValidityLength.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="textBox_defaultValidityLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 26</value>
+  </data>
+  <data name="label7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label7.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label7.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label7.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 135</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 30</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>الوصف:</value>
+  </data>
+  <data name="button_save.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="button_save.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button_save.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 8pt, style=Bold</value>
+  </data>
+  <data name="button_save.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button_save.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button_save.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 342</value>
+  </data>
+  <data name="button_save.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>32, 0, 0, 0</value>
+  </data>
+  <data name="button_save.Text" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="label5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label5.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label5.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label5.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 288</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 30</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>رسوم الفئة:</value>
+  </data>
+  <data name="label4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label4.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label4.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 91</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 30</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>اسم الفئة:</value>
+  </data>
+  <data name="label3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 47</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 30</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>الرقم التعريفي:</value>
+  </data>
+  <data name="label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 9pt, style=Bold, Italic, Underline</value>
+  </data>
+  <data name="label2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 10</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 26</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>تعديل العنصر المحدد:</value>
+  </data>
+  <data name="label_id.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label_id.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="label_id.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label_id.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label_id.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 47</value>
+  </data>
+  <data name="label_id.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 30</value>
+  </data>
+  <data name="label_id.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="textBox_className.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="textBox_className.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBox_className.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="textBox_className.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="textBox_className.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 93</value>
+  </data>
+  <data name="textBox_className.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 26</value>
+  </data>
+  <data name="textBox_description.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBox_description.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="textBox_description.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="textBox_description.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 135</value>
+  </data>
+  <data name="textBox_description.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 55</value>
+  </data>
+  <data name="textBox_description.Text" xml:space="preserve">
+    <value>تتيح لمالكها قيادة الآلات الزراعية ومركبات العمل المستخدمة في الزراعة.</value>
+  </data>
+  <data name="textBox_fees.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBox_fees.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="textBox_fees.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="textBox_fees.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 290</value>
+  </data>
+  <data name="textBox_fees.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="textBox_fees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 26</value>
+  </data>
+  <data name="pnl_updateSelectedItem.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnl_updateSelectedItem.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnl_updateSelectedItem.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnl_updateSelectedItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 261</value>
+  </data>
+  <data name="pnl_updateSelectedItem.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>16, 0, 6, 0</value>
+  </data>
+  <data name="pnl_updateSelectedItem.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 15, 10</value>
+  </data>
+  <data name="pnl_updateSelectedItem.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="pnl_updateSelectedItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>447, 389</value>
+  </data>
+  <data name="ll_refreshData.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="ll_refreshData.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ll_refreshData.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 7.3pt, style=Italic</value>
+  </data>
+  <data name="ll_refreshData.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ll_refreshData.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ll_refreshData.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ll_refreshData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 681</value>
+  </data>
+  <data name="ll_refreshData.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="ll_refreshData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="ll_refreshData.Text" xml:space="preserve">
+    <value>إعادة تحميل البيانات</value>
+  </data>
+  <data name="dgv_licenseClasses.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgv_licenseClasses.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="dgv_licenseClasses.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="dgv_licenseClasses.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 251</value>
+  </data>
+  <data name="dgv_licenseClasses.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="dgv_licenseClasses.Size" type="System.Drawing.Size, System.Drawing">
+    <value>883, 422</value>
+  </data>
+  <data name="label1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rubik SemiBold, 16.1999989pt, style=Bold</value>
+  </data>
+  <data name="label1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1373, 56</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>إدارة فئات الرخص</value>
+  </data>
+  <data name="pictureBox1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pictureBox1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pictureBox1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1373, 178</value>
+  </data>
+  <data name="button_close.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="button_close.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button_close.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 9pt, style=Bold</value>
+  </data>
+  <data name="button_close.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button_close.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button_close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 664</value>
+  </data>
+  <data name="button_close.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>38, 0, 0, 0</value>
+  </data>
+  <data name="button_close.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="button_close.Text" xml:space="preserve">
+    <value>إغلاق</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        LzowMDATODg4ACoqMAA+TiMBSnMzflB+OPpZh0P/VIM+/FiHRHNKWToAAAAAAAAAAABPdjoMUX87wk96
+        Of9VekP/TXI81kVYOS64//8AX3aGAFNibAA1ODsALi0sAMPAwVewsLC9boeU2EdUYP9LXG3/cpetz7S0
+        tbvX1NJRLCwrAEBFSwBrf48AeZq0ANL//wBOZEswTXJB11N5Qv9Qezr/UX46xE91OQ0AAAAAAAAAAEtx
+        NBJNdDi9U3NN/1t2b/9gd3r4boORzGF3ho5RYWxfT11mLDMvLwbAurcxt7SzvJicoEyPrL/BbISY/1h2
+        j/+ft8W4mJiYUqilo4BaLRAEU1VdC2V3hzNnf5JpcIqflV92idFXcHP6U29e/09yRv9NdTm7TG8zEgAA
+        AAAAAAAASGstA1N4Qp5UbVz/aX+O/3OKm/9+nLD/fJ2z/22No/5vkKbnZIOZsGd9jMlacIHoQVtxx2qT
+        svZZeZj/S2mH/5euv/hHW27RVnKH2WuGm6Bvi6O+a4mj62B/m/9gfZf/WnKK/1x1iv9ee4b/SmFR/1J3
+        Q55MdDEDAAAAAAAAAABTfDwPVYM/y0xnR/9ofo7/fJWp/4Wlu/+Jq8L/g6jA/4Opw/97pMD/a5Sx/1uD
+        ov9Eao//RnWg/zxeg/8+XH3/T3GS/1B6n/9rmbv/eaLA/2+Zuv9pk7b/X4Kj/2B9mP9bdY7/UmmC/1t1
+        h/9KaUP/VIA+zFJ8PBAAAAAAAAAAAFB5ORZOejfTVIJA/Fp8X/95laf/h6S6/4ypvv+Nq77/jKrA/4On
+        wP9olbb/aJa3/0Zqj/9EdaT/Rm+W/1J5nP9SfqT/THee/2qWuf94ocD/cJi2/22Tsv96nbv/aYmo/1t6
+        mf9QbH7/S29H/1aFQPtOeTfRTnc4FgAAAAAAAAAASm40CU51OGNZiUTmUYA7/1p8W/mEna3zhZ6w/3eV
+        qv9xmLT/YY6v/1+Lq/9ciqv/Q2SH/0Z0n/98o8L/fafE/3Gixv9Ld6H/aZO1/2CKq/9bgJ//XYOh/2eG
+        oP9xjaf/ZIWe6k1yS/NSgTv/WYlE5U52N15IbjEIAAAAAAAAAABJeDEAWIREIVWFQeRRgDv/UH469ldz
+        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
+        CB/8AAA//4AD///gB///4Af///gf///+f/8=
+</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1390, 760</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>فئات الرخص</value>
+  </data>
+</root>

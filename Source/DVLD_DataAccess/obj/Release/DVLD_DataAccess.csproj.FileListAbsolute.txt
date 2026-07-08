@@ -1,0 +1,13 @@
+B:\PROGRAMMING\Abu-Hadhoud\Course 19\DVLD\DVLD_DataAccess\bin\Release\DVLD_DataAccess.dll
+B:\PROGRAMMING\Abu-Hadhoud\Course 19\DVLD\DVLD_DataAccess\bin\Release\DVLD_DataAccess.pdb
+B:\PROGRAMMING\Abu-Hadhoud\Course 19\DVLD\DVLD_DataAccess\obj\Release\DVLD_DataAccess.csproj.AssemblyReference.cache
+B:\PROGRAMMING\Abu-Hadhoud\Course 19\DVLD\DVLD_DataAccess\obj\Release\DVLD_DataAccess.csproj.CoreCompileInputs.cache
+B:\PROGRAMMING\Abu-Hadhoud\Course 19\DVLD\DVLD_DataAccess\obj\Release\DVLD_DataAccess.dll
+B:\PROGRAMMING\Abu-Hadhoud\Course 19\DVLD\DVLD_DataAccess\obj\Release\DVLD_DataAccess.pdb
+B:\PROGRAMMING\Abu-Hadhoud\Course 19\DVLD\DVLD_DataAccess\obj\Release\DVLD_Dat.AAF49C98.Up2Date
+B:\PROGRAMMING\Abu-Hadhoud\Course 19\DVLD\DVLD_DataAccess\bin\Release\Salem.Standalone.pdb
+B:\PROGRAMMING\Abu-Hadhoud\Course 19\DVLD\DVLD_DataAccess\bin\Release\ar\DVLD_DataAccess.resources.dll
+B:\PROGRAMMING\Abu-Hadhoud\Course 19\DVLD\DVLD_DataAccess\obj\Release\DVLD_DataAccess.Properties.StringResources.resources
+B:\PROGRAMMING\Abu-Hadhoud\Course 19\DVLD\DVLD_DataAccess\obj\Release\DVLD_DataAccess.Properties.StringResources.ar.resources
+B:\PROGRAMMING\Abu-Hadhoud\Course 19\DVLD\DVLD_DataAccess\obj\Release\DVLD_DataAccess.csproj.GenerateResource.cache
+B:\PROGRAMMING\Abu-Hadhoud\Course 19\DVLD\DVLD_DataAccess\obj\Release\ar\DVLD_DataAccess.resources.dll

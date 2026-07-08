@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txt_chooseValidOption" xml:space="preserve">
+    <value>اختر خيارًا صالحًا.</value>
+  </data>
+  <data name="msg_errorDeleting" xml:space="preserve">
+    <value>حدث خطأ أثناء الحذف.
+حاول مرة أخرى.</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Written 16" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="txt_isLocked" xml:space="preserve">
+    <value>هل منتهي؟</value>
+  </data>
+  <data name="msg_recordNoLongerInDatabase" xml:space="preserve">
+    <value>لم يعد هذا العنصر موجودًا في قاعدة البيانات!</value>
+  </data>
+  <data name="txt_unknownField" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="Reset White 16" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="msg_documentExportedSuccessfully" xml:space="preserve">
+    <value>تم تصدير مستندك بنجاح.
+اضغط هنا لرؤيته.</value>
+  </data>
+  <data name="txt_female" xml:space="preserve">
+    <value>أنثى</value>
+  </data>
+  <data name="txt_localDrivingLicenseAppID" xml:space="preserve">
+    <value>رقم طلب رخصة القيادة المحلية</value>
+  </data>
+  <data name="Help_Disabled 24" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="msg_error" xml:space="preserve">
+    <value>خطأ</value>
+  </data>
+  <data name="DVLD Logo" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Question 16" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="msg_dataSavedSuccessfully" xml:space="preserve">
+    <value>تم حفظ البيانات بنجاح.</value>
+  </data>
+  <data name="txt_requiredField" xml:space="preserve">
+    <value>هذا الحقل مطلوب.</value>
+  </data>
+  <data name="txt_title" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="msg_confirm" xml:space="preserve">
+    <value>تأكيد</value>
+  </data>
+  <data name="txt_yes" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="txt_longUnknownField" xml:space="preserve">
+    <value>[؟؟؟؟]</value>
+  </data>
+  <data name="msg_incompleteCredentials" xml:space="preserve">
+    <value>البيانات غير مكتملة.</value>
+  </data>
+  <data name="Detained 16" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="msg_userSaveFailed" xml:space="preserve">
+    <value>لم نستطع حفظ معلومات المستخدم.
+حاول مرة أخرى.</value>
+  </data>
+  <data name="msg_currentUserIsInactive" xml:space="preserve">
+    <value>لم يعد المستخدم النشط فعالًا!
+سيتم تسجيل الخروج من النظام...</value>
+  </data>
+  <data name="txt_notRecordedYet" xml:space="preserve">
+    <value>[لم يسجل بعد]</value>
+  </data>
+  <data name="Released 16" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="msg_notImplementedYet" xml:space="preserve">
+    <value>لم يتم إتمام هذه الميزة بعد.</value>
+  </data>
+  <data name="msg_personImageLoadFailed" xml:space="preserve">
+    <value>لم نستطع تحميل صورة الشخص.
+حاول مرة أخرى.</value>
+  </data>
+  <data name="msg_dataSaveFailed" xml:space="preserve">
+    <value>حدث خطأ ما أثناء حفظ البيانات.
+حاول مرة أخرى.</value>
+  </data>
+  <data name="msg_currentUserNoLongerExists" xml:space="preserve">
+    <value>لم يعد المستخدم النشط موجودًا في قاعدة البيانات!
+سيتم تسجيل الخروج من النظام...</value>
+  </data>
+  <data name="txt_id" xml:space="preserve">
+    <value>الرقم التعريفي</value>
+  </data>
+  <data name="msg_userSavedSuccessfully" xml:space="preserve">
+    <value>تم حفظ المستخدم بنجاح.</value>
+  </data>
+  <data name="txt_all" xml:space="preserve">
+    <value>الكل</value>
+  </data>
+  <data name="txt_male" xml:space="preserve">
+    <value>ذكر</value>
+  </data>
+  <data name="txt_enterValidDecimalValue" xml:space="preserve">
+    <value>أدخل قيمة عددية صحيحة.</value>
+  </data>
+  <data name="Street 16" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="msg_success" xml:space="preserve">
+    <value>عملية ناجحة</value>
+  </data>
+  <data name="txt_fees" xml:space="preserve">
+    <value>الرسوم</value>
+  </data>
+  <data name="msg_unexpectedError" xml:space="preserve">
+    <value>خطأ غير متوقع</value>
+  </data>
+  <data name="msg_accessDenied" xml:space="preserve">
+    <value>الوصول محظور</value>
+  </data>
+  <data name="msg_somethingWentWrongWhileSaving" xml:space="preserve">
+    <value>حدث خطأ ما أثناء الحفظ.
+حاول مرة أخرى.</value>
+  </data>
+  <data name="msg_notice" xml:space="preserve">
+    <value>تنبيه</value>
+  </data>
+  <data name="Vision 16" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="txt_no" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="msg_warning" xml:space="preserve">
+    <value>تنبيه</value>
+  </data>
+  <data name="msg_help" xml:space="preserve">
+    <value>تلميح</value>
+  </data>
+  <data name="txt_retakeFailedTest" xml:space="preserve">
+    <value>إعادة الخضوع في اختبار مرسوب فيه</value>
+  </data>
+  <data name="msg_notReady" xml:space="preserve">
+    <value>غير جاهز!</value>
+  </data>
+  <data name="msg_welcome" xml:space="preserve">
+    <value>مرحبًا!</value>
+  </data>
+  <data name="txt_noDataAvailable" xml:space="preserve">
+    <value>لا توجد بيانات...</value>
+  </data>
+  <data name="txt_noPermissionsToSeeData" xml:space="preserve">
+    <value>ليس لديك صلاحيات لرؤية هذه البيانات.</value>
+  </data>
+</root>

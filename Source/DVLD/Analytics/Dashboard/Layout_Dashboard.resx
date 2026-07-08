@@ -1,0 +1,558 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;ctrlChart_RevenueByTestType1.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;ctrlChart_RevenueByServiceType1.Type" xml:space="preserve">
+    <value>DVLD.Analytics.Dashboard.Controls.CtrlChart_RevenueByServiceType, DVLD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ctrlChart_TotalApplicationsWithTime1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="flowLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ctrlChart_RevenueByLicenseClass1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 8, 8, 8</value>
+  </data>
+  <data name="&gt;&gt;ctrlChart_LicenseDetainFineFees1.Type" xml:space="preserve">
+    <value>DVLD.Analytics.Dashboard.Controls.CtrlChart_LicenseDetainFineFees, DVLD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_close.Name" xml:space="preserve">
+    <value>btn_close</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ctrlChart_TestTypesPassRates1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 10pt</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ctrlChart_LicenseDetainFineFees1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;ctrlChart_TotalApplicationsWithTime1.Name" xml:space="preserve">
+    <value>ctrlChart_TotalApplicationsWithTime1</value>
+  </data>
+  <data name="ctrlChart_NewLocalLicenseAppStatus1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ctrlChart_NewLocalLicenseAppStatus1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 10.2pt</value>
+  </data>
+  <data name="btn_close.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 4</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ctrlChart_RevenueByServiceType1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ctrlChart_LicenseDetainFineFees1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 2111</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1920, 1050</value>
+  </data>
+  <data name="ctrlChart_RevenueByTestType1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btn_close.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semilight, 19.8pt</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DVLD.ClosableLayout, DVLD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_close.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 42</value>
+  </data>
+  <data name="&gt;&gt;ctrlChart_TestAppointmentsLoad1.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Layout_Dashboard</value>
+  </data>
+  <data name="ctrlChart_TestAppointmentsLoad1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ctrl_SystemWideRevenue1.Type" xml:space="preserve">
+    <value>DVLD.Analytics.Dashboard.Controls.Ctrl_SystemWideRevenue, DVLD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ctrlChart_TestAppointmentsLoad1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 8, 8, 8</value>
+  </data>
+  <data name="&gt;&gt;ctrlChart_RevenueByServiceType1.Name" xml:space="preserve">
+    <value>ctrlChart_RevenueByServiceType1</value>
+  </data>
+  <data name="&gt;&gt;ctrlChart_TestAppointmentsLoad1.Type" xml:space="preserve">
+    <value>DVLD.Analytics.Dashboard.Controls.CtrlChart_TestAppointmentsLoad, DVLD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="flowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ctrlChart_RevenueByLicenseClass1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 670</value>
+  </data>
+  <data name="label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ctrl_SystemWideRevenue1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>644, 2111</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 10</value>
+  </data>
+  <data name="ctrlChart_RevenueByServiceType1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 1425</value>
+  </data>
+  <data name="ctrlChart_NewLocalLicenseAppStatus1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1292, 16</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1920, 66</value>
+  </data>
+  <data name="&gt;&gt;ctrlChart_TestAppointmentsLoad1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ctrlChart_RevenueByLicenseClass1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1271, 1425</value>
+  </data>
+  <data name="flowLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ctrlChart_RevenueByLicenseClass1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ctrlChart_NewLocalLicenseAppStatus1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 8, 8, 8</value>
+  </data>
+  <data name="ctrl_SystemWideRevenue1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 8, 8, 8</value>
+  </data>
+  <data name="&gt;&gt;ctrl_SystemWideRevenue1.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 20</value>
+  </data>
+  <data name="flowLayoutPanel1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 8, 8, 8</value>
+  </data>
+  <data name="btn_close.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 10pt</value>
+  </data>
+  <data name="ctrlChart_RevenueByTestType1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btn_close.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 22</value>
+  </data>
+  <data name="ctrlChart_TotalApplicationsWithTime1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1260, 665</value>
+  </data>
+  <data name="btn_close.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ctrlChart_TestTypesPassRates1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>704, 697</value>
+  </data>
+  <data name="ctrlChart_RevenueByTestType1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 8, 8, 8</value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 10, 0, 0</value>
+  </data>
+  <data name="ctrlChart_NewLocalLicenseAppStatus1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>591, 665</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ctrlChart_NewLocalLicenseAppStatus1.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="btn_close.ToolTip" xml:space="preserve">
+    <value>Close this view</value>
+  </data>
+  <data name="&gt;&gt;btn_close.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ctrlChart_TestAppointmentsLoad1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 10.2pt</value>
+  </data>
+  <data name="ctrlChart_TestTypesPassRates1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ctrlChart_RevenueByServiceType1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1920, 974</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ctrlChart_RevenueByServiceType1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btn_close.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btn_close.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ctrlChart_NewLocalLicenseAppStatus1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ctrlChart_TotalApplicationsWithTime1.Type" xml:space="preserve">
+    <value>DVLD.Analytics.Dashboard.Controls.CtrlChart_TotalApplicationsWithTime, DVLD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ctrlChart_RevenueByTestType1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>611, 670</value>
+  </data>
+  <data name="&gt;&gt;ctrlChart_RevenueByTestType1.Type" xml:space="preserve">
+    <value>DVLD.Analytics.Dashboard.Controls.CtrlChart_RevenueByTestType, DVLD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ctrlChart_NewLocalLicenseAppStatus1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>425, 665</value>
+  </data>
+  <data name="&gt;&gt;ctrlChart_RevenueByLicenseClass1.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Type" xml:space="preserve">
+    <value>Salem.Controls.SmoothFlowLayoutPanel, Salem.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ctrlChart_RevenueByServiceType1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 8, 8, 8</value>
+  </data>
+  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 76</value>
+  </data>
+  <data name="ctrl_SystemWideRevenue1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="ctrlChart_TotalApplicationsWithTime1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ctrlChart_NewLocalLicenseAppStatus1.Name" xml:space="preserve">
+    <value>ctrlChart_NewLocalLicenseAppStatus1</value>
+  </data>
+  <data name="ctrlChart_RevenueByTestType1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>644, 1425</value>
+  </data>
+  <data name="ctrlChart_TestAppointmentsLoad1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flowLayoutPanel1.AutoScrollMinSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 2850</value>
+  </data>
+  <data name="&gt;&gt;ctrlChart_NewLocalLicenseAppStatus1.Type" xml:space="preserve">
+    <value>DVLD.Analytics.Dashboard.Controls.CtrlChart_NewLocalLicenseAppStatus, DVLD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_close.Text" xml:space="preserve">
+    <value>×</value>
+  </data>
+  <data name="&gt;&gt;ctrlChart_TestTypesPassRates1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ctrlChart_LicenseDetainFineFees1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 670</value>
+  </data>
+  <data name="&gt;&gt;ctrlChart_RevenueByLicenseClass1.Name" xml:space="preserve">
+    <value>ctrlChart_RevenueByLicenseClass1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ctrlChart_TestTypesPassRates1.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="ctrlChart_TestAppointmentsLoad1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 697</value>
+  </data>
+  <data name="&gt;&gt;ctrlChart_RevenueByTestType1.Name" xml:space="preserve">
+    <value>ctrlChart_RevenueByTestType1</value>
+  </data>
+  <data name="label1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;ctrl_SystemWideRevenue1.Name" xml:space="preserve">
+    <value>ctrl_SystemWideRevenue1</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="ctrlChart_TestTypesPassRates1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ctrlChart_RevenueByServiceType1.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="ctrlChart_TotalApplicationsWithTime1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 10pt</value>
+  </data>
+  <data name="btn_close.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btn_close.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ctrl_SystemWideRevenue1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ctrlChart_RevenueByLicenseClass1.Type" xml:space="preserve">
+    <value>DVLD.Analytics.Dashboard.Controls.CtrlChart_RevenueByLicenseClass, DVLD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="flowLayoutPanel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ctrlChart_TotalApplicationsWithTime1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 8, 8, 8</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Name" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="ctrlChart_TestAppointmentsLoad1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>672, 712</value>
+  </data>
+  <data name="ctrlChart_LicenseDetainFineFees1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 8, 8, 8</value>
+  </data>
+  <data name="&gt;&gt;ctrlChart_TotalApplicationsWithTime1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 10</value>
+  </data>
+  <data name="ctrlChart_TotalApplicationsWithTime1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Display Semib, 15.5pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;ctrlChart_TotalApplicationsWithTime1.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="flowLayoutPanel1.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctrlChart_TestTypesPassRates1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 8, 8, 8</value>
+  </data>
+  <data name="&gt;&gt;ctrlChart_LicenseDetainFineFees1.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="ctrlChart_TestTypesPassRates1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1179, 712</value>
+  </data>
+  <data name="ctrl_SystemWideRevenue1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ctrl_SystemWideRevenue1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 23, 1, 0</value>
+  </data>
+  <data name="&gt;&gt;ctrlChart_TestAppointmentsLoad1.Name" xml:space="preserve">
+    <value>ctrlChart_TestAppointmentsLoad1</value>
+  </data>
+  <data name="&gt;&gt;ctrlChart_RevenueByLicenseClass1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ctrlChart_TestTypesPassRates1.Type" xml:space="preserve">
+    <value>DVLD.Analytics.Dashboard.Controls.CtrlChart_TestTypesPassRates, DVLD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ctrl_SystemWideRevenue1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1239, 670</value>
+  </data>
+  <data name="&gt;&gt;ctrlChart_NewLocalLicenseAppStatus1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ctrlChart_TestTypesPassRates1.Name" xml:space="preserve">
+    <value>ctrlChart_TestTypesPassRates1</value>
+  </data>
+  <data name="btn_close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1868, 0</value>
+  </data>
+  <data name="ctrlChart_RevenueByLicenseClass1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ctrlChart_RevenueByServiceType1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 670</value>
+  </data>
+  <data name="&gt;&gt;ctrlChart_LicenseDetainFineFees1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ctrlChart_LicenseDetainFineFees1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ctrlChart_LicenseDetainFineFees1.Name" xml:space="preserve">
+    <value>ctrlChart_LicenseDetainFineFees1</value>
+  </data>
+  <data name="ctrlChart_TotalApplicationsWithTime1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1142, 552</value>
+  </data>
+  <data name="&gt;&gt;ctrlChart_RevenueByTestType1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ar</value>
+  </metadata>
+</root>

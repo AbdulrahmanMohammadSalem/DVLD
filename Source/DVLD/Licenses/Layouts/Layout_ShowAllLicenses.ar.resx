@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rubik SemiBold, 16.1999989pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>إدارة جميع الرخص</value>
+  </data>
+  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 31</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>948, 303</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>الرخص المحلية</value>
+  </data>
+  <data name="ll_interExportData.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 7.3pt, style=Italic</value>
+  </data>
+  <data name="ll_interExportData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 274</value>
+  </data>
+  <data name="ll_interExportData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 23</value>
+  </data>
+  <data name="ll_interExportData.Text" xml:space="preserve">
+    <value>تصدير البيانات</value>
+  </data>
+  <data name="ll_newInterApplication.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="ll_newInterApplication.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 8pt, style=Italic</value>
+  </data>
+  <data name="ll_newInterApplication.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 10</value>
+  </data>
+  <data name="ll_newInterApplication.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 25</value>
+  </data>
+  <data name="ll_newInterApplication.Text" xml:space="preserve">
+    <value>إنشاء طلب رخصة دولية جديد</value>
+  </data>
+  <data name="lbl_interNoDataAvailable.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 13pt, style=Bold, Italic</value>
+  </data>
+  <data name="lbl_interNoDataAvailable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 145</value>
+  </data>
+  <data name="lbl_interNoDataAvailable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 38</value>
+  </data>
+  <data name="lbl_interNoDataAvailable.Text" xml:space="preserve">
+    <value>لا توجد بيانات...</value>
+  </data>
+  <data name="lbl_interNumOfRecords.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="lbl_interNumOfRecords.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 7.3pt</value>
+  </data>
+  <data name="lbl_interNumOfRecords.Location" type="System.Drawing.Point, System.Drawing">
+    <value>744, 277</value>
+  </data>
+  <data name="lbl_interNumOfRecords.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="label3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 7.3pt, style=Bold</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>849, 274</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 23</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>عدد الصفوف:</value>
+  </data>
+  <data name="ll_interRefreshData.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="ll_interRefreshData.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 7.3pt, style=Italic</value>
+  </data>
+  <data name="ll_interRefreshData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 274</value>
+  </data>
+  <data name="ll_interRefreshData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="ll_interRefreshData.Text" xml:space="preserve">
+    <value>إعادة تحميل البيانات</value>
+  </data>
+  <data name="dgv_interLicenses.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 41</value>
+  </data>
+  <data name="dgv_interLicenses.Size" type="System.Drawing.Size, System.Drawing">
+    <value>928, 227</value>
+  </data>
+  <data name="label5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 8pt, style=Bold</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>794, 10</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 25</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>جميع الرخص الدولية:</value>
+  </data>
+  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 31</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>948, 303</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>الرخص الدولية</value>
+  </data>
+  <data name="tabControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rubik, 9pt</value>
+  </data>
+  <data name="tabControl1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="ll_localExportData.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 7.3pt, style=Italic</value>
+  </data>
+  <data name="ll_localExportData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 274</value>
+  </data>
+  <data name="ll_localExportData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 23</value>
+  </data>
+  <data name="ll_localExportData.Text" xml:space="preserve">
+    <value>تصدير البيانات</value>
+  </data>
+  <data name="ll_newLocalApplication.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="ll_newLocalApplication.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 8pt, style=Italic</value>
+  </data>
+  <data name="ll_newLocalApplication.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 10</value>
+  </data>
+  <data name="ll_newLocalApplication.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 25</value>
+  </data>
+  <data name="ll_newLocalApplication.Text" xml:space="preserve">
+    <value>إنشاء طلب رخصة محلية جديد</value>
+  </data>
+  <data name="lbl_localNoDataAvailable.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 13pt, style=Bold, Italic</value>
+  </data>
+  <data name="lbl_localNoDataAvailable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 145</value>
+  </data>
+  <data name="lbl_localNoDataAvailable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 38</value>
+  </data>
+  <data name="lbl_localNoDataAvailable.Text" xml:space="preserve">
+    <value>لا توجد بيانات...</value>
+  </data>
+  <data name="lbl_localNumOfRecords.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="lbl_localNumOfRecords.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 7.3pt</value>
+  </data>
+  <data name="lbl_localNumOfRecords.Location" type="System.Drawing.Point, System.Drawing">
+    <value>744, 277</value>
+  </data>
+  <data name="lbl_localNumOfRecords.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="label6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 7.3pt, style=Bold</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>849, 274</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 23</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>عدد الصفوف:</value>
+  </data>
+  <data name="ll_localRefreshData.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="ll_localRefreshData.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 7.3pt, style=Italic</value>
+  </data>
+  <data name="ll_localRefreshData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 274</value>
+  </data>
+  <data name="ll_localRefreshData.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 0, 3, 6</value>
+  </data>
+  <data name="ll_localRefreshData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="ll_localRefreshData.Text" xml:space="preserve">
+    <value>إعادة تحميل البيانات</value>
+  </data>
+  <data name="IsDetainedImage.HeaderText" xml:space="preserve">
+    <value>حالة الحجز</value>
+  </data>
+  <data name="dgv_localLicenses.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 41</value>
+  </data>
+  <data name="dgv_localLicenses.Size" type="System.Drawing.Size, System.Drawing">
+    <value>928, 227</value>
+  </data>
+  <data name="label4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 8pt, style=Bold</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>789, 10</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 25</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>جميع الرخص المحلية:</value>
+  </data>
+</root>

@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="allTime" xml:space="preserve">
+    <value>All Time</value>
+  </data>
+  <data name="col_createdBy" xml:space="preserve">
+    <value>Created By</value>
+  </data>
+  <data name="col_detainDate" xml:space="preserve">
+    <value>Detain Date</value>
+  </data>
+  <data name="col_detainReason" xml:space="preserve">
+    <value>Detain Reason</value>
+  </data>
+  <data name="col_fineFees" xml:space="preserve">
+    <value>Fine Fees</value>
+  </data>
+  <data name="col_isReleased" xml:space="preserve">
+    <value>Is Released?</value>
+  </data>
+  <data name="col_localLicenseID" xml:space="preserve">
+    <value>Local License ID</value>
+  </data>
+  <data name="col_releaseAppID" xml:space="preserve">
+    <value>Release App. ID</value>
+  </data>
+  <data name="col_releaseDate" xml:space="preserve">
+    <value>Release Date</value>
+  </data>
+  <data name="col_releasedBy" xml:space="preserve">
+    <value>Released By</value>
+  </data>
+  <data name="field_address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="field_dateOfBirth" xml:space="preserve">
+    <value>Date of Birth</value>
+  </data>
+  <data name="field_email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="field_fullName" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="field_gender" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="field_nationality" xml:space="preserve">
+    <value>Nationality</value>
+  </data>
+  <data name="field_nationalNum" xml:space="preserve">
+    <value>National No</value>
+  </data>
+  <data name="field_personID" xml:space="preserve">
+    <value>Person ID</value>
+  </data>
+  <data name="field_phoneNum" xml:space="preserve">
+    <value>Phone No</value>
+  </data>
+  <data name="from" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="h_apps" xml:space="preserve">
+    <value>Applications</value>
+  </data>
+  <data name="h_detentions" xml:space="preserve">
+    <value>Detentions</value>
+  </data>
+  <data name="h_drivingTests" xml:space="preserve">
+    <value>Driving Tests</value>
+  </data>
+  <data name="h_interLicenses" xml:space="preserve">
+    <value>International Licenses</value>
+  </data>
+  <data name="h_localLicenseApps" xml:space="preserve">
+    <value>Local License Applications</value>
+  </data>
+  <data name="h_localLicenses" xml:space="preserve">
+    <value>Local Licenses</value>
+  </data>
+  <data name="h_otherApps" xml:space="preserve">
+    <value>Other Applications</value>
+  </data>
+  <data name="h_personalInfo" xml:space="preserve">
+    <value>Personal Info</value>
+  </data>
+  <data name="h_tests" xml:space="preserve">
+    <value>Tests</value>
+  </data>
+  <data name="h_visionTests" xml:space="preserve">
+    <value>Vision Tests</value>
+  </data>
+  <data name="h_writtenTests" xml:space="preserve">
+    <value>Written Tests</value>
+  </data>
+  <data name="reportTitle" xml:space="preserve">
+    <value>Person History Report</value>
+  </data>
+  <data name="upUntil" xml:space="preserve">
+    <value>Up Until</value>
+  </data>
+  <data name="col_testAppointID" xml:space="preserve">
+    <value>Appoint. ID</value>
+  </data>
+  <data name="col_localLicenseAppID" xml:space="preserve">
+    <value>L.L.App. ID</value>
+  </data>
+  <data name="col_class" xml:space="preserve">
+    <value>Class</value>
+  </data>
+  <data name="col_appointDate" xml:space="preserve">
+    <value>Appoint. Date</value>
+  </data>
+  <data name="col_testResult" xml:space="preserve">
+    <value>Test Result</value>
+  </data>
+  <data name="col_isLocked" xml:space="preserve">
+    <value>Is Locked?</value>
+  </data>
+  <data name="col_retakeAppID" xml:space="preserve">
+    <value>Retake App. ID</value>
+  </data>
+  <data name="col_totalPaidFees" xml:space="preserve">
+    <value>Total Paid Fees</value>
+  </data>
+  <data name="col_appointCreatedBy" xml:space="preserve">
+    <value>Appoint. Created By</value>
+  </data>
+  <data name="col_testCreatedBy" xml:space="preserve">
+    <value>Test Created By</value>
+  </data>
+  <data name="col_id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="col_issueDate" xml:space="preserve">
+    <value>Issue Date</value>
+  </data>
+  <data name="col_expirationDate" xml:space="preserve">
+    <value>Expiration Date</value>
+  </data>
+  <data name="col_isActive" xml:space="preserve">
+    <value>Is Active?</value>
+  </data>
+  <data name="col_appID" xml:space="preserve">
+    <value>App. ID</value>
+  </data>
+  <data name="col_assocLocalLicenseID" xml:space="preserve">
+    <value>Assoc.L. License ID</value>
+  </data>
+  <data name="col_issueReason" xml:space="preserve">
+    <value>Issue Reason</value>
+  </data>
+  <data name="col_issueNotes" xml:space="preserve">
+    <value>Issue Notes</value>
+  </data>
+  <data name="col_firstTimeFees" xml:space="preserve">
+    <value>First Time Fees</value>
+  </data>
+  <data name="col_type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="col_dateTime" xml:space="preserve">
+    <value>Date/Time</value>
+  </data>
+  <data name="col_fees" xml:space="preserve">
+    <value>Fees</value>
+  </data>
+  <data name="col_passedTests" xml:space="preserve">
+    <value>Passed Tests</value>
+  </data>
+  <data name="col_status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="col_updateDate" xml:space="preserve">
+    <value>Update Date</value>
+  </data>
+  <data name="reportSubject_1" xml:space="preserve">
+    <value>A report documenting the history of a person with the ID of </value>
+  </data>
+  <data name="reportSubject_2" xml:space="preserve">
+    <value> and the national number of </value>
+  </data>
+  <data name="col_paidFees" xml:space="preserve">
+    <value>Paid Fees</value>
+  </data>
+  <data name="totalPaidFineFees" xml:space="preserve">
+    <value>TOTAL PAID FINE FEES</value>
+  </data>
+  <data name="totalPendingFineFees" xml:space="preserve">
+    <value>TOTAL PENDING FINE FEES</value>
+  </data>
+</root>
