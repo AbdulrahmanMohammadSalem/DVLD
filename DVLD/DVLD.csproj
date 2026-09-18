@@ -2205,7 +2205,7 @@
     <None Include="Resources\Reports 32.png" />
     <None Include="Resources\Dashboard 32.png" />
     <None Include="Resources\Analytics 64.png" />
-    <None Include="Permissions.md" />
+    <None Include="Permissions Model.md" />
     <None Include="Resources\info.png" />
     <None Include="Resources\Reset 16.png" />
     <None Include="Resources\Reset 32.png" />
