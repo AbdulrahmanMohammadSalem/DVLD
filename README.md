@@ -10,6 +10,7 @@ In order to compile and thus use this software, you must have
 >*This project uses Syncfusion® WinForms control library. You may face licensing issues keeping you from using this software. There's nothing I can do to solve that other than maybe stop using them if I want to publish a project as open-source.*
 
 # License — Personal Use Only
-	- *This project is © 2026 Abdulrahman Mohammad Salem and is licensed under the [SALEM PERSONAL-USE LICENSE (SPUL) v1.0](https://github.com/AbdulrahmanMohammadSalem/My-Projects-Portfolio/blob/main/LICENSE).*
-	- *You may view and use the code for private, non-commercial projects only. You may NOT fork, modify, redistribute, or claim ownership.*
-	- *For permission beyond personal use contact: abdulrahmansalem.contact@gmail.com.*
+
+- *This project is © 2026 Abdulrahman Mohammad Salem and is licensed under the [SALEM PERSONAL-USE LICENSE (SPUL) v1.0](https://github.com/AbdulrahmanMohammadSalem/My-Projects-Portfolio/blob/main/LICENSE).*
+- *You may view and use the code for private, non-commercial projects only. You may NOT fork, modify, redistribute, or claim ownership.*
+- *For permission beyond personal use contact: abdulrahmansalem.contact@gmail.com.*
