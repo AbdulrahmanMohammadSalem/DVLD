@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label_title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rubik SemiBold, 16.1999989pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label_title.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label_title.Text" xml:space="preserve">
+    <value>طلب فك حجز الرخصة المحلية</value>
+  </data>
+  <data name="lbl_releasedBy.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="lbl_releasedBy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 219</value>
+  </data>
+  <data name="lbl_releasedBy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 30</value>
+  </data>
+  <data name="lbl_releasedBy.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="lbl_totalFees.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="lbl_totalFees.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 219</value>
+  </data>
+  <data name="lbl_totalFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 30</value>
+  </data>
+  <data name="lbl_totalFees.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="lbl_applicationFees.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="lbl_applicationFees.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 182</value>
+  </data>
+  <data name="lbl_applicationFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 30</value>
+  </data>
+  <data name="lbl_applicationFees.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>734, 216</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>المبلغ الكلي:</value>
+  </data>
+  <data name="lbl_releaseDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="lbl_releaseDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 182</value>
+  </data>
+  <data name="lbl_releaseDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 30</value>
+  </data>
+  <data name="lbl_releaseDate.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="lbl_fineFees.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="lbl_fineFees.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 145</value>
+  </data>
+  <data name="lbl_fineFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 30</value>
+  </data>
+  <data name="lbl_fineFees.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 179</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 30</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>تاريخ فك الحجز:</value>
+  </data>
+  <data name="lbl_releaseAppID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="lbl_releaseAppID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 145</value>
+  </data>
+  <data name="lbl_releaseAppID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 30</value>
+  </data>
+  <data name="lbl_releaseAppID.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="lbl_detainReason.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="lbl_detainReason.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 108</value>
+  </data>
+  <data name="lbl_detainReason.Size" type="System.Drawing.Size, System.Drawing">
+    <value>714, 30</value>
+  </data>
+  <data name="lbl_detainReason.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 142</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 30</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>رقم طلب فك الحجز:</value>
+  </data>
+  <data name="lbl_licenseID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="lbl_licenseID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 34</value>
+  </data>
+  <data name="lbl_licenseID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 30</value>
+  </data>
+  <data name="lbl_licenseID.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>734, 105</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>سبب الحجز:</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>734, 31</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>رقم الحجز:</value>
+  </data>
+  <data name="lbl_createdBy.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="lbl_createdBy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 71</value>
+  </data>
+  <data name="lbl_createdBy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 30</value>
+  </data>
+  <data name="lbl_createdBy.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAOZJREFUWEft
+        llEKwyAQRHOUHqVH6SEq9DYFe5Acw/zlKA1ClXWqg1u3lIIPFnRmspuYH5dlMvkXnN+eqLXQZLvRNNVk
+        u9E01WQLro9wdn5bY4NUycN1rTqya5yRvDec33YaGMT5cIkvgXrm46NTQGdQ0wg6A//ptwrnZqhpBJ1B
+        TSPoDGnWjm1Ek33lvkCatfWI1toXtB5kjXu11r4AH5Q1qsm+cl9ATSPoDGnWvqJXY9AMvgCuezUGzbSa
+        sWE1jUEz2EyWRmPQDDWNoDPifeB2DyfUrXhdeHbUMymAx2pY/EY0mfyCA7VqNtcBsKriAAAAAElFTkSu
+        QmCC
+</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>734, 68</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>تاريخ الحجز:</value>
+  </data>
+  <data name="lbl_detainDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="lbl_detainDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 71</value>
+  </data>
+  <data name="lbl_detainDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 30</value>
+  </data>
+  <data name="lbl_detainDate.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>734, 142</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>قيمة الغرامة:</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>734, 179</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>رسوم تقديم الطلب:</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 31</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 30</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>رقم الرخصة المحلية:</value>
+  </data>
+  <data name="lbl_detainID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="lbl_detainID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 34</value>
+  </data>
+  <data name="lbl_detainID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 30</value>
+  </data>
+  <data name="lbl_detainID.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 216</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 30</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>فُك بواسطة:</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 68</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 30</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>أنشئ بواسطة:</value>
+  </data>
+  <data name="groupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rubik, 9pt</value>
+  </data>
+  <data name="groupBox2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>941, 270</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>معلومات الحجز وطلب الفك</value>
+  </data>
+  <data name="button_close.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 9pt, style=Bold</value>
+  </data>
+  <data name="button_close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 853</value>
+  </data>
+  <data name="button_close.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>40, 0, 0, 0</value>
+  </data>
+  <data name="button_close.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="button_close.Text" xml:space="preserve">
+    <value>إغلاق</value>
+  </data>
+  <data name="btn_release.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 9pt, style=Bold, Italic</value>
+  </data>
+  <data name="btn_release.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 853</value>
+  </data>
+  <data name="btn_release.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>18, 0, 0, 0</value>
+  </data>
+  <data name="btn_release.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="btn_release.Text" xml:space="preserve">
+    <value>فك الحجز</value>
+  </data>
+  <data name="ll_showLicenseHistory.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="ll_showLicenseHistory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>774, 842</value>
+  </data>
+  <data name="ll_showLicenseHistory.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="ll_showLicenseHistory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 26</value>
+  </data>
+  <data name="ll_showLicenseHistory.Text" xml:space="preserve">
+    <value>عرض سجل الرخص للسائق</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>طلب فك حجز رخصة</value>
+  </data>
+</root>

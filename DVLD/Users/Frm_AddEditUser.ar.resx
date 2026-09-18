@@ -1,0 +1,1025 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button_next.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button_next.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 7.3pt, style=Bold</value>
+  </data>
+  <data name="button_next.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 403</value>
+  </data>
+  <data name="button_next.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 28, 0</value>
+  </data>
+  <data name="button_next.Text" xml:space="preserve">
+    <value>التالي</value>
+  </data>
+  <data name="button_close.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="button_close.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 9pt, style=Bold</value>
+  </data>
+  <data name="button_close.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button_close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 580</value>
+  </data>
+  <data name="button_close.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>42, 0, 0, 0</value>
+  </data>
+  <data name="button_close.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="button_close.Text" xml:space="preserve">
+    <value>إغلاق</value>
+  </data>
+  <data name="btn_save.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btn_save.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 9pt, style=Bold</value>
+  </data>
+  <data name="btn_save.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 580</value>
+  </data>
+  <data name="btn_save.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>40, 0, 0, 0</value>
+  </data>
+  <data name="btn_save.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="btn_save.Text" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="ctrl_PersonCardWithFilter1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 15</value>
+  </data>
+  <data name="tab_personalInfo.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tab_personalInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 30</value>
+  </data>
+  <data name="tab_personalInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>960, 455</value>
+  </data>
+  <data name="tab_personalInfo.Text" xml:space="preserve">
+    <value>المعلومات الشخصية</value>
+  </data>
+  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 7.8pt, style=Bold</value>
+  </data>
+  <data name="label16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 5</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 23</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>12- إدارة إعدادات النظام:</value>
+  </data>
+  <data name="ll_applicationSettingsAccess.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="ll_applicationSettingsAccess.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 7.8pt, style=Italic</value>
+  </data>
+  <data name="ll_applicationSettingsAccess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 31</value>
+  </data>
+  <data name="ll_applicationSettingsAccess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 23</value>
+  </data>
+  <data name="ll_applicationSettingsAccess.Text" xml:space="preserve">
+    <value>ضبط...</value>
+  </data>
+  <data name="cb_applicationSettingsAccess.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="cb_applicationSettingsAccess.Items" xml:space="preserve">
+    <value>صلاحيات مطلقة</value>
+  </data>
+  <data name="cb_applicationSettingsAccess.Items1" xml:space="preserve">
+    <value>لا صلاحيات</value>
+  </data>
+  <data name="cb_applicationSettingsAccess.Items2" xml:space="preserve">
+    <value>صلاحيات مخصصة</value>
+  </data>
+  <data name="cb_applicationSettingsAccess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 27</value>
+  </data>
+  <data name="cb_applicationSettingsAccess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 31</value>
+  </data>
+  <data name="cb_applicationSettingsAccess.Text" xml:space="preserve">
+    <value>صلاحيات مطلقة</value>
+  </data>
+  <data name="panel12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 382</value>
+  </data>
+  <data name="panel12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 7, 0, 15</value>
+  </data>
+  <data name="panel12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 58</value>
+  </data>
+  <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 7.8pt, style=Bold</value>
+  </data>
+  <data name="label15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 5</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 23</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>11- إدارة الجداول المرجعية:</value>
+  </data>
+  <data name="ll_lookupTablesManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="ll_lookupTablesManagement.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 7.8pt, style=Italic</value>
+  </data>
+  <data name="ll_lookupTablesManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 31</value>
+  </data>
+  <data name="ll_lookupTablesManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 23</value>
+  </data>
+  <data name="ll_lookupTablesManagement.Text" xml:space="preserve">
+    <value>ضبط...</value>
+  </data>
+  <data name="cb_lookupTablesManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="cb_lookupTablesManagement.Items" xml:space="preserve">
+    <value>صلاحيات مطلقة</value>
+  </data>
+  <data name="cb_lookupTablesManagement.Items1" xml:space="preserve">
+    <value>لا صلاحيات</value>
+  </data>
+  <data name="cb_lookupTablesManagement.Items2" xml:space="preserve">
+    <value>صلاحيات مخصصة</value>
+  </data>
+  <data name="cb_lookupTablesManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 27</value>
+  </data>
+  <data name="cb_lookupTablesManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 31</value>
+  </data>
+  <data name="cb_lookupTablesManagement.Text" xml:space="preserve">
+    <value>صلاحيات مطلقة</value>
+  </data>
+  <data name="panel11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>480, 382</value>
+  </data>
+  <data name="panel11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 7, 0, 15</value>
+  </data>
+  <data name="panel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 58</value>
+  </data>
+  <data name="label14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 7.8pt, style=Bold</value>
+  </data>
+  <data name="label14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 5</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 23</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>10- إنشاء التقارير:</value>
+  </data>
+  <data name="ll_reportsAccess.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="ll_reportsAccess.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 7.8pt, style=Italic</value>
+  </data>
+  <data name="ll_reportsAccess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 31</value>
+  </data>
+  <data name="ll_reportsAccess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 23</value>
+  </data>
+  <data name="ll_reportsAccess.Text" xml:space="preserve">
+    <value>ضبط...</value>
+  </data>
+  <data name="cb_reportsAccess.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="cb_reportsAccess.Items" xml:space="preserve">
+    <value>صلاحيات مطلقة</value>
+  </data>
+  <data name="cb_reportsAccess.Items1" xml:space="preserve">
+    <value>لا صلاحيات</value>
+  </data>
+  <data name="cb_reportsAccess.Items2" xml:space="preserve">
+    <value>صلاحيات مخصصة</value>
+  </data>
+  <data name="cb_reportsAccess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 27</value>
+  </data>
+  <data name="cb_reportsAccess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 31</value>
+  </data>
+  <data name="cb_reportsAccess.Text" xml:space="preserve">
+    <value>صلاحيات مطلقة</value>
+  </data>
+  <data name="panel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 305</value>
+  </data>
+  <data name="panel10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 5, 0, 12</value>
+  </data>
+  <data name="panel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 58</value>
+  </data>
+  <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 7.8pt, style=Bold</value>
+  </data>
+  <data name="label13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 5</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 23</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>9- عناصر لوحة التحكم:</value>
+  </data>
+  <data name="ll_dashboardAccess.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="ll_dashboardAccess.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 7.8pt, style=Italic</value>
+  </data>
+  <data name="ll_dashboardAccess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 31</value>
+  </data>
+  <data name="ll_dashboardAccess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 23</value>
+  </data>
+  <data name="ll_dashboardAccess.Text" xml:space="preserve">
+    <value>ضبط...</value>
+  </data>
+  <data name="cb_dashboardAccess.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="cb_dashboardAccess.Items" xml:space="preserve">
+    <value>صلاحيات مطلقة</value>
+  </data>
+  <data name="cb_dashboardAccess.Items1" xml:space="preserve">
+    <value>لا صلاحيات</value>
+  </data>
+  <data name="cb_dashboardAccess.Items2" xml:space="preserve">
+    <value>صلاحيات مخصصة</value>
+  </data>
+  <data name="cb_dashboardAccess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 27</value>
+  </data>
+  <data name="cb_dashboardAccess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 31</value>
+  </data>
+  <data name="cb_dashboardAccess.Text" xml:space="preserve">
+    <value>صلاحيات مطلقة</value>
+  </data>
+  <data name="panel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>480, 305</value>
+  </data>
+  <data name="panel9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 5, 0, 12</value>
+  </data>
+  <data name="panel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 58</value>
+  </data>
+  <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 7.8pt, style=Bold</value>
+  </data>
+  <data name="label12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 5</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 23</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>8- إدارة حجز الرخص:</value>
+  </data>
+  <data name="ll_licenseDetentionManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="ll_licenseDetentionManagement.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 7.8pt, style=Italic</value>
+  </data>
+  <data name="ll_licenseDetentionManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 31</value>
+  </data>
+  <data name="ll_licenseDetentionManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 23</value>
+  </data>
+  <data name="ll_licenseDetentionManagement.Text" xml:space="preserve">
+    <value>ضبط...</value>
+  </data>
+  <data name="cb_licenseDetentionManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="cb_licenseDetentionManagement.Items" xml:space="preserve">
+    <value>صلاحيات مطلقة</value>
+  </data>
+  <data name="cb_licenseDetentionManagement.Items1" xml:space="preserve">
+    <value>لا صلاحيات</value>
+  </data>
+  <data name="cb_licenseDetentionManagement.Items2" xml:space="preserve">
+    <value>صلاحيات مخصصة</value>
+  </data>
+  <data name="cb_licenseDetentionManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 27</value>
+  </data>
+  <data name="cb_licenseDetentionManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 31</value>
+  </data>
+  <data name="cb_licenseDetentionManagement.Text" xml:space="preserve">
+    <value>صلاحيات مطلقة</value>
+  </data>
+  <data name="panel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 232</value>
+  </data>
+  <data name="panel8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 7, 0, 10</value>
+  </data>
+  <data name="panel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 58</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 7.8pt, style=Bold</value>
+  </data>
+  <data name="label11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 5</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 23</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>7- إدارة الرخص:</value>
+  </data>
+  <data name="ll_licensesManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="ll_licensesManagement.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 7.8pt, style=Italic</value>
+  </data>
+  <data name="ll_licensesManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 31</value>
+  </data>
+  <data name="ll_licensesManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 23</value>
+  </data>
+  <data name="ll_licensesManagement.Text" xml:space="preserve">
+    <value>ضبط...</value>
+  </data>
+  <data name="cb_licensesManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="cb_licensesManagement.Items" xml:space="preserve">
+    <value>صلاحيات مطلقة</value>
+  </data>
+  <data name="cb_licensesManagement.Items1" xml:space="preserve">
+    <value>لا صلاحيات</value>
+  </data>
+  <data name="cb_licensesManagement.Items2" xml:space="preserve">
+    <value>صلاحيات مخصصة</value>
+  </data>
+  <data name="cb_licensesManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 27</value>
+  </data>
+  <data name="cb_licensesManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 31</value>
+  </data>
+  <data name="cb_licensesManagement.Text" xml:space="preserve">
+    <value>صلاحيات مطلقة</value>
+  </data>
+  <data name="panel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>480, 232</value>
+  </data>
+  <data name="panel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 7, 0, 10</value>
+  </data>
+  <data name="panel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 58</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 7.8pt, style=Bold</value>
+  </data>
+  <data name="label10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 5</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 23</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>6- إدارة الاختبارات:</value>
+  </data>
+  <data name="ll_testsManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="ll_testsManagement.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 7.8pt, style=Italic</value>
+  </data>
+  <data name="ll_testsManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 31</value>
+  </data>
+  <data name="ll_testsManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 23</value>
+  </data>
+  <data name="ll_testsManagement.Text" xml:space="preserve">
+    <value>ضبط...</value>
+  </data>
+  <data name="cb_testsManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="cb_testsManagement.Items" xml:space="preserve">
+    <value>صلاحيات مطلقة</value>
+  </data>
+  <data name="cb_testsManagement.Items1" xml:space="preserve">
+    <value>لا صلاحيات</value>
+  </data>
+  <data name="cb_testsManagement.Items2" xml:space="preserve">
+    <value>صلاحيات مخصصة</value>
+  </data>
+  <data name="cb_testsManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 27</value>
+  </data>
+  <data name="cb_testsManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 31</value>
+  </data>
+  <data name="cb_testsManagement.Text" xml:space="preserve">
+    <value>صلاحيات مطلقة</value>
+  </data>
+  <data name="panel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 160</value>
+  </data>
+  <data name="panel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 10, 0, 7</value>
+  </data>
+  <data name="panel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 58</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 7.8pt, style=Bold</value>
+  </data>
+  <data name="label9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 5</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 23</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>5- إدارة طلبات رخص القيادة الدولية:</value>
+  </data>
+  <data name="ll_interLicenseAppsManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="ll_interLicenseAppsManagement.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 7.8pt, style=Italic</value>
+  </data>
+  <data name="ll_interLicenseAppsManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 31</value>
+  </data>
+  <data name="ll_interLicenseAppsManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 23</value>
+  </data>
+  <data name="ll_interLicenseAppsManagement.Text" xml:space="preserve">
+    <value>ضبط...</value>
+  </data>
+  <data name="cb_interLicenseAppsManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="cb_interLicenseAppsManagement.Items" xml:space="preserve">
+    <value>صلاحيات مطلقة</value>
+  </data>
+  <data name="cb_interLicenseAppsManagement.Items1" xml:space="preserve">
+    <value>لا صلاحيات</value>
+  </data>
+  <data name="cb_interLicenseAppsManagement.Items2" xml:space="preserve">
+    <value>صلاحيات مخصصة</value>
+  </data>
+  <data name="cb_interLicenseAppsManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 27</value>
+  </data>
+  <data name="cb_interLicenseAppsManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 31</value>
+  </data>
+  <data name="cb_interLicenseAppsManagement.Text" xml:space="preserve">
+    <value>صلاحيات مطلقة</value>
+  </data>
+  <data name="panel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>480, 160</value>
+  </data>
+  <data name="panel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 10, 0, 7</value>
+  </data>
+  <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 58</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 7.8pt, style=Bold</value>
+  </data>
+  <data name="label8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 5</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 23</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>4- إدارة طلبات رخص القيادة المحلية:</value>
+  </data>
+  <data name="ll_localLicenseAppsManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="ll_localLicenseAppsManagement.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 7.8pt, style=Italic</value>
+  </data>
+  <data name="ll_localLicenseAppsManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 31</value>
+  </data>
+  <data name="ll_localLicenseAppsManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 23</value>
+  </data>
+  <data name="ll_localLicenseAppsManagement.Text" xml:space="preserve">
+    <value>ضبط...</value>
+  </data>
+  <data name="cb_localLicenseAppsManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="cb_localLicenseAppsManagement.Items" xml:space="preserve">
+    <value>صلاحيات مطلقة</value>
+  </data>
+  <data name="cb_localLicenseAppsManagement.Items1" xml:space="preserve">
+    <value>لا صلاحيات</value>
+  </data>
+  <data name="cb_localLicenseAppsManagement.Items2" xml:space="preserve">
+    <value>صلاحيات مخصصة</value>
+  </data>
+  <data name="cb_localLicenseAppsManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 27</value>
+  </data>
+  <data name="cb_localLicenseAppsManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 31</value>
+  </data>
+  <data name="cb_localLicenseAppsManagement.Text" xml:space="preserve">
+    <value>صلاحيات مطلقة</value>
+  </data>
+  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 87</value>
+  </data>
+  <data name="panel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 12, 0, 5</value>
+  </data>
+  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 58</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 7.8pt, style=Bold</value>
+  </data>
+  <data name="label7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 5</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 23</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>3- إدارة السائقين:</value>
+  </data>
+  <data name="ll_driversManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="ll_driversManagement.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 7.8pt, style=Italic</value>
+  </data>
+  <data name="ll_driversManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 31</value>
+  </data>
+  <data name="ll_driversManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 23</value>
+  </data>
+  <data name="ll_driversManagement.Text" xml:space="preserve">
+    <value>ضبط...</value>
+  </data>
+  <data name="cb_driversManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="cb_driversManagement.Items" xml:space="preserve">
+    <value>صلاحيات مطلقة</value>
+  </data>
+  <data name="cb_driversManagement.Items1" xml:space="preserve">
+    <value>لا صلاحيات</value>
+  </data>
+  <data name="cb_driversManagement.Items2" xml:space="preserve">
+    <value>صلاحيات مخصصة</value>
+  </data>
+  <data name="cb_driversManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 27</value>
+  </data>
+  <data name="cb_driversManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 31</value>
+  </data>
+  <data name="cb_driversManagement.Text" xml:space="preserve">
+    <value>صلاحيات مطلقة</value>
+  </data>
+  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>480, 87</value>
+  </data>
+  <data name="panel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 12, 0, 5</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 58</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 7.8pt, style=Bold</value>
+  </data>
+  <data name="label6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 5</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 23</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>2- إدارة المستخدمين:</value>
+  </data>
+  <data name="ll_usersManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="ll_usersManagement.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 7.8pt, style=Italic</value>
+  </data>
+  <data name="ll_usersManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 31</value>
+  </data>
+  <data name="ll_usersManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 23</value>
+  </data>
+  <data name="ll_usersManagement.Text" xml:space="preserve">
+    <value>ضبط...</value>
+  </data>
+  <data name="cb_usersManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="cb_usersManagement.Items" xml:space="preserve">
+    <value>صلاحيات مطلقة</value>
+  </data>
+  <data name="cb_usersManagement.Items1" xml:space="preserve">
+    <value>لا صلاحيات</value>
+  </data>
+  <data name="cb_usersManagement.Items2" xml:space="preserve">
+    <value>صلاحيات مخصصة</value>
+  </data>
+  <data name="cb_usersManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 27</value>
+  </data>
+  <data name="cb_usersManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 31</value>
+  </data>
+  <data name="cb_usersManagement.Text" xml:space="preserve">
+    <value>صلاحيات مطلقة</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 15</value>
+  </data>
+  <data name="panel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 15, 0, 2</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 58</value>
+  </data>
+  <data name="ll_peopleManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="ll_peopleManagement.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 7.8pt, style=Italic</value>
+  </data>
+  <data name="ll_peopleManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 31</value>
+  </data>
+  <data name="ll_peopleManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 23</value>
+  </data>
+  <data name="ll_peopleManagement.Text" xml:space="preserve">
+    <value>ضبط...</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 7.8pt, style=Bold</value>
+  </data>
+  <data name="label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 5</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 23</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>1- إدارة الأشخاص:</value>
+  </data>
+  <data name="cb_peopleManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="cb_peopleManagement.Items" xml:space="preserve">
+    <value>صلاحيات مطلقة</value>
+  </data>
+  <data name="cb_peopleManagement.Items1" xml:space="preserve">
+    <value>لا صلاحيات</value>
+  </data>
+  <data name="cb_peopleManagement.Items2" xml:space="preserve">
+    <value>صلاحيات مخصصة</value>
+  </data>
+  <data name="cb_peopleManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 27</value>
+  </data>
+  <data name="cb_peopleManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 31</value>
+  </data>
+  <data name="cb_peopleManagement.Text" xml:space="preserve">
+    <value>صلاحيات مطلقة</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>480, 15</value>
+  </data>
+  <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 15, 0, 2</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 58</value>
+  </data>
+  <data name="pnl_permissions.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 7.8pt</value>
+  </data>
+  <data name="pnl_permissions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>960, 455</value>
+  </data>
+  <data name="tab_permissions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 30</value>
+  </data>
+  <data name="tab_permissions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>960, 455</value>
+  </data>
+  <data name="tab_permissions.Text" xml:space="preserve">
+    <value>الصلاحيات</value>
+  </data>
+  <data name="checkBox_isActive.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="checkBox_isActive.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox_isActive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 179</value>
+  </data>
+  <data name="checkBox_isActive.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="checkBox_isActive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 30</value>
+  </data>
+  <data name="checkBox_isActive.Text" xml:space="preserve">
+    <value>حالة النشاط</value>
+  </data>
+  <data name="lbl_userID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 26</value>
+  </data>
+  <data name="textBox_username.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="textBox_username.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 63</value>
+  </data>
+  <data name="textBox_username.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="textBox_username.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 26</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 63</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>اسم المستخدم:</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 139</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>تأكيد كلمة المرور:</value>
+  </data>
+  <data name="textBox_password.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="textBox_password.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 101</value>
+  </data>
+  <data name="textBox_password.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="textBox_password.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 26</value>
+  </data>
+  <data name="textBox_confirmPassword.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="textBox_confirmPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 139</value>
+  </data>
+  <data name="textBox_confirmPassword.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="textBox_confirmPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 26</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 101</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>كلمة المرور:</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 25</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>رقم المستخدم:</value>
+  </data>
+  <data name="pnl_loginInfoFields.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 109</value>
+  </data>
+  <data name="pnl_loginInfoFields.Size" type="System.Drawing.Size, System.Drawing">
+    <value>482, 236</value>
+  </data>
+  <data name="tab_loginInfo.Text" xml:space="preserve">
+    <value>معلومات تسجيل الدخول</value>
+  </data>
+  <data name="tabControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rubik, 8pt</value>
+  </data>
+  <data name="tabControl1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>962, 486</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>إضافة مستخدم جديد</value>
+  </data>
+  <data name="label_title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rubik SemiBold, 16.1999989pt, style=Bold</value>
+  </data>
+  <data name="label_title.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_title.Text" xml:space="preserve">
+    <value>إضافة مستخدم جديد</value>
+  </data>
+</root>

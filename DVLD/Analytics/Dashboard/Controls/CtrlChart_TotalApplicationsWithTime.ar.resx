@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="pb_help.ToolTip" xml:space="preserve">
+    <value>يعرض هذا الرسم البياني العدد الإجمالي للطلبات من النوع (الأنواع) المحددة على مدار أشهر سنة محددة، مع تصفية النتائج حسب الحالة المحددة.</value>
+  </data>
+  <data name="btn_refresh.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_refresh.ToolTip1" xml:space="preserve">
+    <value>إعادة تحميل الرسم البياني</value>
+  </data>
+  <data name="btn_export.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_export.ToolTip1" xml:space="preserve">
+    <value>تصدير الرسم البياني</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ll_prevQuarter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 7.2pt, style=Italic</value>
+  </data>
+  <data name="ll_prevQuarter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>982, 548</value>
+  </data>
+  <data name="ll_prevQuarter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 21</value>
+  </data>
+  <data name="ll_prevQuarter.Text" xml:space="preserve">
+    <value>الربع السابق ←</value>
+  </data>
+  <data name="ll_nextQuarter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 7.2pt, style=Italic</value>
+  </data>
+  <data name="ll_nextQuarter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1074, 548</value>
+  </data>
+  <data name="ll_nextQuarter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 21</value>
+  </data>
+  <data name="ll_nextQuarter.Text" xml:space="preserve">
+    <value>→ الربع التالي</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chk_retakeFailedTest.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="chk_retakeFailedTest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>561, 622</value>
+  </data>
+  <data name="chk_retakeFailedTest.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 15, 0, 10</value>
+  </data>
+  <data name="chk_retakeFailedTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 30</value>
+  </data>
+  <data name="chk_retakeFailedTest.Text" xml:space="preserve">
+    <value>إعادة الخضوع لاختبار</value>
+  </data>
+  <data name="chk_replaceDamagedLicense.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="chk_replaceDamagedLicense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 586</value>
+  </data>
+  <data name="chk_replaceDamagedLicense.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 15, 0, 10</value>
+  </data>
+  <data name="chk_replaceDamagedLicense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 30</value>
+  </data>
+  <data name="chk_replaceDamagedLicense.Text" xml:space="preserve">
+    <value>إصدار بدل تالف لرخصة</value>
+  </data>
+  <data name="cb_appStatus.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="cb_appStatus.Items" xml:space="preserve">
+    <value>مكتمل</value>
+  </data>
+  <data name="cb_appStatus.Items1" xml:space="preserve">
+    <value>ملغي</value>
+  </data>
+  <data name="cb_appStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 620</value>
+  </data>
+  <data name="cb_appStatus.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 0, 5, 0</value>
+  </data>
+  <data name="cb_appStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 34</value>
+  </data>
+  <data name="cb_appStatus.Text" xml:space="preserve">
+    <value>مكتمل</value>
+  </data>
+  <data name="label3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 624</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 26</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>الحالة:</value>
+  </data>
+  <data name="label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 585</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 26</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>السنة:</value>
+  </data>
+  <data name="num_year.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="num_year.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 585</value>
+  </data>
+  <data name="num_year.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 0, 0, 0</value>
+  </data>
+  <data name="num_year.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 26</value>
+  </data>
+  <data name="chk_overallTotal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="chk_overallTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 622</value>
+  </data>
+  <data name="chk_overallTotal.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 0, 0, 15</value>
+  </data>
+  <data name="chk_overallTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 30</value>
+  </data>
+  <data name="chk_overallTotal.Text" xml:space="preserve">
+    <value>الإجمالي الكلي</value>
+  </data>
+  <data name="chk_releaseDetainedLicense.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="chk_releaseDetainedLicense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>743, 622</value>
+  </data>
+  <data name="chk_releaseDetainedLicense.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 0, 0, 15</value>
+  </data>
+  <data name="chk_releaseDetainedLicense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 30</value>
+  </data>
+  <data name="chk_releaseDetainedLicense.Text" xml:space="preserve">
+    <value>فك الحجز عن رخصة محجوزة</value>
+  </data>
+  <data name="chk_renewLicense.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="chk_renewLicense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1026, 622</value>
+  </data>
+  <data name="chk_renewLicense.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 0, 15, 15</value>
+  </data>
+  <data name="chk_renewLicense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 30</value>
+  </data>
+  <data name="chk_renewLicense.Text" xml:space="preserve">
+    <value>تجديد رخصة</value>
+  </data>
+  <data name="chk_replaceLostLicense.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="chk_replaceLostLicense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>541, 586</value>
+  </data>
+  <data name="chk_replaceLostLicense.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 15, 0, 10</value>
+  </data>
+  <data name="chk_replaceLostLicense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 30</value>
+  </data>
+  <data name="chk_replaceLostLicense.Text" xml:space="preserve">
+    <value>إصدار بدل فاقد لرخصة</value>
+  </data>
+  <data name="chk_newInterLicense.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="chk_newInterLicense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>809, 586</value>
+  </data>
+  <data name="chk_newInterLicense.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 0, 0, 10</value>
+  </data>
+  <data name="chk_newInterLicense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 30</value>
+  </data>
+  <data name="chk_newInterLicense.Text" xml:space="preserve">
+    <value>رخصة دولية جديدة</value>
+  </data>
+  <data name="chk_newLocalLicense.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="chk_newLocalLicense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>982, 586</value>
+  </data>
+  <data name="chk_newLocalLicense.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 15, 15, 10</value>
+  </data>
+  <data name="chk_newLocalLicense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 30</value>
+  </data>
+  <data name="chk_newLocalLicense.Text" xml:space="preserve">
+    <value>رخصة محلية جديدة</value>
+  </data>
+  <data name="lbl_chartIsDisabled.Location" type="System.Drawing.Point, System.Drawing">
+    <value>462, 290</value>
+  </data>
+  <data name="lbl_chartIsDisabled.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 28</value>
+  </data>
+  <data name="lbl_chartIsDisabled.Text" xml:space="preserve">
+    <value>هذا الرسم البياني معطل.</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+</root>

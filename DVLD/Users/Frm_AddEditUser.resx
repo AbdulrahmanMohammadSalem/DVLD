@@ -1,0 +1,3186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label6.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panel4.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ll_lookupTablesManagement.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ll_licensesManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;label15.Name" xml:space="preserve">
+    <value>label15</value>
+  </data>
+  <data name="&gt;&gt;cb_testsManagement.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ll_reportsAccess.Name" xml:space="preserve">
+    <value>ll_reportsAccess</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button_close.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 40</value>
+  </data>
+  <data name="pnl_permissions.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label7.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ll_interLicenseAppsManagement.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="&gt;&gt;ll_driversManagement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ll_licenseDetentionManagement.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="panel3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 9.5pt, style=Bold</value>
+  </data>
+  <data name="cb_lookupTablesManagement.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnl_loginInfoFields.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="ll_usersManagement.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>pnl_loginInfoFields</value>
+  </data>
+  <data name="&gt;&gt;ll_lookupTablesManagement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cb_licensesManagement.Type" xml:space="preserve">
+    <value>Salem.Controls.SalDropDownList, Salem.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cb_licensesManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="panel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ll_interLicenseAppsManagement.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;panel7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cb_peopleManagement.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 10pt, style=Bold</value>
+  </data>
+  <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="label6.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_userID.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cb_testsManagement.Type" xml:space="preserve">
+    <value>Salem.Controls.SalDropDownList, Salem.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ll_usersManagement.Name" xml:space="preserve">
+    <value>ll_usersManagement</value>
+  </data>
+  <data name="&gt;&gt;ll_licenseDetentionManagement.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="ll_licenseDetentionManagement.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>panel10</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Confirm Password:</value>
+  </data>
+  <data name="tab_loginInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnl_loginInfoFields.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ll_licensesManagement.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;button_close.Name" xml:space="preserve">
+    <value>button_close</value>
+  </data>
+  <data name="label4.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;cb_lookupTablesManagement.Name" xml:space="preserve">
+    <value>cb_lookupTablesManagement</value>
+  </data>
+  <data name="label14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tab_personalInfo.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cb_usersManagement.Text" xml:space="preserve">
+    <value>Full Access</value>
+  </data>
+  <data name="tabControl1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cb_localLicenseAppsManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, -28</value>
+  </data>
+  <data name="&gt;&gt;btn_save.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cb_peopleManagement.Items1" xml:space="preserve">
+    <value>No Access</value>
+  </data>
+  <data name="cb_testsManagement.Items" xml:space="preserve">
+    <value>Full Access</value>
+  </data>
+  <data name="&gt;&gt;cb_dashboardAccess.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ll_dashboardAccess.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label11.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ll_licenseDetentionManagement.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="cb_licenseDetentionManagement.Items2" xml:space="preserve">
+    <value>Custom Settings</value>
+  </data>
+  <data name="cb_licenseDetentionManagement.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="panel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 5</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cb_dashboardAccess.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="cb_interLicenseAppsManagement.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ll_localLicenseAppsManagement.Text" xml:space="preserve">
+    <value>Configure...</value>
+  </data>
+  <data name="&gt;&gt;textBox_confirmPassword.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.TextBoxExt, Syncfusion.Shared.Base, Version=32.1462.19.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="label9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pnl_permissions.RowCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;cb_licensesManagement.Name" xml:space="preserve">
+    <value>cb_licensesManagement</value>
+  </data>
+  <data name="ll_applicationSettingsAccess.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label16.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="panel9.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ll_interLicenseAppsManagement.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="ll_localLicenseAppsManagement.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 21</value>
+  </data>
+  <data name="&gt;&gt;panel5.Name" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="ll_reportsAccess.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.5pt, style=Italic</value>
+  </data>
+  <data name="label3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ll_testsManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-99, -24</value>
+  </data>
+  <data name="&gt;&gt;panel10.Parent" xml:space="preserve">
+    <value>pnl_permissions</value>
+  </data>
+  <data name="cb_applicationSettingsAccess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 29</value>
+  </data>
+  <data name="textBox_password.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="panel11.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cb_localLicenseAppsManagement.Items2" xml:space="preserve">
+    <value>Custom Settings</value>
+  </data>
+  <data name="label13.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 10pt, style=Bold</value>
+  </data>
+  <data name="panel11.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="panel12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>4. Local License Applications Management:</value>
+  </data>
+  <data name="textBox_username.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 30</value>
+  </data>
+  <data name="label16.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBox_username.MaxLength" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 25</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 30</value>
+  </data>
+  <data name="panel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 7, 0, 11</value>
+  </data>
+  <data name="&gt;&gt;tab_permissions.Name" xml:space="preserve">
+    <value>tab_permissions</value>
+  </data>
+  <data name="cb_lookupTablesManagement.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cb_applicationSettingsAccess.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;ll_localLicenseAppsManagement.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Salem.Controls.SalForm, Salem.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panel8.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tab_personalInfo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cb_dashboardAccess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 29</value>
+  </data>
+  <data name="tab_personalInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 28</value>
+  </data>
+  <data name="&gt;&gt;ll_reportsAccess.Parent" xml:space="preserve">
+    <value>panel10</value>
+  </data>
+  <data name="ll_licenseDetentionManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="checkBox_isActive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 179</value>
+  </data>
+  <data name="label14.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btn_save.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;panel7.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 3, 5</value>
+  </data>
+  <data name="&gt;&gt;ll_dashboardAccess.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="textBox_confirmPassword.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 10pt</value>
+  </data>
+  <data name="cb_applicationSettingsAccess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, -28</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;panel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="panel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 5</value>
+  </data>
+  <data name="textBox_confirmPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="label16.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="panel12.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;pnl_permissions.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ll_reportsAccess.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="ll_licensesManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 21</value>
+  </data>
+  <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 9.5pt, style=Bold</value>
+  </data>
+  <data name="checkBox_isActive.Text" xml:space="preserve">
+    <value>?Is Active</value>
+  </data>
+  <data name="panel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>6. Tests Management:</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>User ID:</value>
+  </data>
+  <data name="&gt;&gt;ll_peopleManagement.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ll_peopleManagement.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ll_driversManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="cb_applicationSettingsAccess.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;cb_applicationSettingsAccess.Name" xml:space="preserve">
+    <value>cb_applicationSettingsAccess</value>
+  </data>
+  <data name="&gt;&gt;pnl_permissions.Parent" xml:space="preserve">
+    <value>tab_permissions</value>
+  </data>
+  <data name="button_next.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cb_peopleManagement.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnl_loginInfoFields.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 22, 22, 22</value>
+  </data>
+  <data name="ll_localLicenseAppsManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 21</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>Manina.Windows.Forms.TabControl, TabControl, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="checkBox_isActive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 26</value>
+  </data>
+  <data name="&gt;&gt;label_title.Name" xml:space="preserve">
+    <value>label_title</value>
+  </data>
+  <data name="ll_peopleManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-99, -24</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabControl1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
+    <value>pnl_permissions</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 21</value>
+  </data>
+  <data name="ll_testsManagement.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ll_licenseDetentionManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 21</value>
+  </data>
+  <data name="cb_applicationSettingsAccess.DropDownWidth" type="System.Int32, mscorlib">
+    <value>154</value>
+  </data>
+  <data name="label14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 3, 5</value>
+  </data>
+  <data name="cb_lookupTablesManagement.Text" xml:space="preserve">
+    <value>Full Access</value>
+  </data>
+  <data name="panel7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 21</value>
+  </data>
+  <data name="cb_dashboardAccess.Items1" xml:space="preserve">
+    <value>No Access</value>
+  </data>
+  <data name="cb_dashboardAccess.Items2" xml:space="preserve">
+    <value>Custom Settings</value>
+  </data>
+  <data name="button_next.Text" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="&gt;&gt;panel11.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;button_close.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 9.5pt, style=Bold</value>
+  </data>
+  <data name="cb_licensesManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 29</value>
+  </data>
+  <data name="cb_licensesManagement.Items1" xml:space="preserve">
+    <value>No Access</value>
+  </data>
+  <data name="tab_loginInfo.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Frm_AddEditUser</value>
+  </data>
+  <data name="&gt;&gt;ll_applicationSettingsAccess.Parent" xml:space="preserve">
+    <value>panel12</value>
+  </data>
+  <data name="&gt;&gt;ll_usersManagement.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 13</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 21</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cb_lookupTablesManagement.Type" xml:space="preserve">
+    <value>Salem.Controls.SalDropDownList, Salem.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 30</value>
+  </data>
+  <data name="panel5.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="button_close.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 40, 0</value>
+  </data>
+  <data name="&gt;&gt;cb_applicationSettingsAccess.Type" xml:space="preserve">
+    <value>Salem.Controls.SalDropDownList, Salem.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cb_usersManagement.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="ll_driversManagement.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBox_password.IconPadding" type="System.Int32, mscorlib">
+    <value>-22</value>
+  </data>
+  <data name="tab_permissions.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>20, 20, 20, 20</value>
+  </data>
+  <data name="ll_reportsAccess.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cb_applicationSettingsAccess.Items1" xml:space="preserve">
+    <value>No Access</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="cb_applicationSettingsAccess.Items2" xml:space="preserve">
+    <value>Custom Settings</value>
+  </data>
+  <data name="&gt;&gt;tab_permissions.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="label12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 3, 5</value>
+  </data>
+  <data name="cb_interLicenseAppsManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, -28</value>
+  </data>
+  <data name="lbl_userID.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ll_licenseDetentionManagement.Name" xml:space="preserve">
+    <value>ll_licenseDetentionManagement</value>
+  </data>
+  <data name="btn_save.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ll_testsManagement.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tab_permissions.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label_title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>962, 56</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;ll_testsManagement.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="checkBox_isActive.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 10pt, style=Bold</value>
+  </data>
+  <data name="label8.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tab_personalInfo.Type" xml:space="preserve">
+    <value>Manina.Windows.Forms.Tab, TabControl, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cb_licenseDetentionManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="panel11.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panel9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="button_close.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ll_interLicenseAppsManagement.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ll_driversManagement.Name" xml:space="preserve">
+    <value>ll_driversManagement</value>
+  </data>
+  <data name="tab_loginInfo.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 0, 0, 0</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="label_title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 10</value>
+  </data>
+  <data name="label15.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button_close.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="ll_licensesManagement.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.5pt, style=Italic</value>
+  </data>
+  <data name="ll_applicationSettingsAccess.Text" xml:space="preserve">
+    <value>Configure...</value>
+  </data>
+  <data name="ll_applicationSettingsAccess.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="&gt;&gt;ll_testsManagement.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ll_dashboardAccess.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 3, 5</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>2. Users Management:</value>
+  </data>
+  <data name="ll_licensesManagement.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="checkBox_isActive.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cb_dashboardAccess.Text" xml:space="preserve">
+    <value>Full Access</value>
+  </data>
+  <data name="ll_testsManagement.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.5pt, style=Italic</value>
+  </data>
+  <data name="&gt;&gt;cb_dashboardAccess.Name" xml:space="preserve">
+    <value>cb_dashboardAccess</value>
+  </data>
+  <data name="pnl_loginInfoFields.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label_title.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="panel7.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ctrl_PersonCardWithFilter1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 15, 0, 0</value>
+  </data>
+  <data name="ll_usersManagement.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="panel5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ll_licensesManagement.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Username:</value>
+  </data>
+  <data name="cb_localLicenseAppsManagement.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;pnl_permissions.Name" xml:space="preserve">
+    <value>pnl_permissions</value>
+  </data>
+  <data name="cb_driversManagement.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="pnl_loginInfoFields.Size" type="System.Drawing.Size, System.Drawing">
+    <value>482, 232</value>
+  </data>
+  <data name="textBox_username.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 63</value>
+  </data>
+  <data name="&gt;&gt;button_next.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label7.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 9.5pt, style=Bold</value>
+  </data>
+  <data name="ll_usersManagement.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.5pt, style=Italic</value>
+  </data>
+  <data name="label13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cb_interLicenseAppsManagement.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tab_loginInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ll_peopleManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 21</value>
+  </data>
+  <data name="textBox_confirmPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 139</value>
+  </data>
+  <data name="&gt;&gt;cb_licenseDetentionManagement.Name" xml:space="preserve">
+    <value>cb_licenseDetentionManagement</value>
+  </data>
+  <data name="&gt;&gt;ctrl_PersonCardWithFilter1.Name" xml:space="preserve">
+    <value>ctrl_PersonCardWithFilter1</value>
+  </data>
+  <data name="cb_interLicenseAppsManagement.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="button_next.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lbl_userID.Type" xml:space="preserve">
+    <value>Salem.Controls.SalSelectableLabel, Salem.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cb_lookupTablesManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, -28</value>
+  </data>
+  <data name="&gt;&gt;cb_dashboardAccess.Type" xml:space="preserve">
+    <value>Salem.Controls.SalDropDownList, Salem.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;button_next.Parent" xml:space="preserve">
+    <value>tab_personalInfo</value>
+  </data>
+  <data name="panel10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 5, 0, 13</value>
+  </data>
+  <data name="cb_licenseDetentionManagement.Items" xml:space="preserve">
+    <value>Full Access</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 10pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;cb_interLicenseAppsManagement.Name" xml:space="preserve">
+    <value>cb_interLicenseAppsManagement</value>
+  </data>
+  <data name="cb_localLicenseAppsManagement.Text" xml:space="preserve">
+    <value>Full Access</value>
+  </data>
+  <data name="ll_dashboardAccess.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.5pt, style=Italic</value>
+  </data>
+  <data name="cb_applicationSettingsAccess.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;textBox_password.Parent" xml:space="preserve">
+    <value>pnl_loginInfoFields</value>
+  </data>
+  <data name="ctrl_PersonCardWithFilter1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="cb_licensesManagement.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel6.Name" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;ctrl_PersonCardWithFilter1.Parent" xml:space="preserve">
+    <value>tab_personalInfo</value>
+  </data>
+  <data name="btn_save.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cb_testsManagement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 0</value>
+  </data>
+  <data name="label_title.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button_close.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cb_licenseDetentionManagement.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ll_testsManagement.Name" xml:space="preserve">
+    <value>ll_testsManagement</value>
+  </data>
+  <data name="&gt;&gt;cb_driversManagement.Name" xml:space="preserve">
+    <value>cb_driversManagement</value>
+  </data>
+  <data name="tab_permissions.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBox_isActive.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="cb_applicationSettingsAccess.Items" xml:space="preserve">
+    <value>Full Access</value>
+  </data>
+  <data name="panel7.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ll_applicationSettingsAccess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-99, -25</value>
+  </data>
+  <data name="ll_usersManagement.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="ll_usersManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 21</value>
+  </data>
+  <data name="cb_applicationSettingsAccess.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="panel7.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="panel4.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="&gt;&gt;panel9.Parent" xml:space="preserve">
+    <value>pnl_permissions</value>
+  </data>
+  <data name="label12.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="ll_licensesManagement.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="cb_interLicenseAppsManagement.Text" xml:space="preserve">
+    <value>Full Access</value>
+  </data>
+  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="cb_testsManagement.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ll_driversManagement.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.5pt, style=Italic</value>
+  </data>
+  <data name="cb_usersManagement.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ll_dashboardAccess.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="ll_interLicenseAppsManagement.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ll_dashboardAccess.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cb_applicationSettingsAccess.Text" xml:space="preserve">
+    <value>Full Access</value>
+  </data>
+  <data name="ll_driversManagement.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="pnl_permissions.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 16</value>
+  </data>
+  <data name="&gt;&gt;panel7.Name" xml:space="preserve">
+    <value>panel7</value>
+  </data>
+  <data name="label10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 3, 5</value>
+  </data>
+  <data name="label10.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;cb_reportsAccess.Name" xml:space="preserve">
+    <value>cb_reportsAccess</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>pnl_permissions</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cb_dashboardAccess.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cb_peopleManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, -28</value>
+  </data>
+  <data name="&gt;&gt;cb_localLicenseAppsManagement.Name" xml:space="preserve">
+    <value>cb_localLicenseAppsManagement</value>
+  </data>
+  <data name="panel9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 5, 0, 13</value>
+  </data>
+  <data name="cb_driversManagement.Text" xml:space="preserve">
+    <value>Full Access</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 9.5pt, style=Bold</value>
+  </data>
+  <data name="label15.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ll_peopleManagement.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.5pt, style=Italic</value>
+  </data>
+  <data name="&gt;&gt;ll_dashboardAccess.Name" xml:space="preserve">
+    <value>ll_dashboardAccess</value>
+  </data>
+  <data name="textBox_confirmPassword.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ll_localLicenseAppsManagement.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 13</value>
+  </data>
+  <data name="cb_driversManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, -28</value>
+  </data>
+  <data name="cb_reportsAccess.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ctrl_PersonCardWithFilter1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;panel10.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 13, 0, 5</value>
+  </data>
+  <data name="label_title.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;cb_lookupTablesManagement.Parent" xml:space="preserve">
+    <value>panel11</value>
+  </data>
+  <data name="cb_reportsAccess.Items" xml:space="preserve">
+    <value>Full Access</value>
+  </data>
+  <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;cb_peopleManagement.Name" xml:space="preserve">
+    <value>cb_peopleManagement</value>
+  </data>
+  <data name="label9.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textBox_confirmPassword.Name" xml:space="preserve">
+    <value>textBox_confirmPassword</value>
+  </data>
+  <data name="button_next.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;tab_loginInfo.Type" xml:space="preserve">
+    <value>Manina.Windows.Forms.Tab, TabControl, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="panel3.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="ctrl_PersonCardWithFilter1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 15</value>
+  </data>
+  <data name="cb_reportsAccess.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 0</value>
+  </data>
+  <data name="tab_permissions.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ll_interLicenseAppsManagement.Text" xml:space="preserve">
+    <value>Configure...</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 30</value>
+  </data>
+  <data name="&gt;&gt;ll_testsManagement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cb_peopleManagement.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ll_reportsAccess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBox_username.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btn_save.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="panel8.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="panel11.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="ll_applicationSettingsAccess.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="cb_reportsAccess.Text" xml:space="preserve">
+    <value>Full Access</value>
+  </data>
+  <data name="cb_interLicenseAppsManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="ll_licenseDetentionManagement.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 13, 0, 5</value>
+  </data>
+  <data name="pnl_permissions.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="panel12" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="panel11" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="panel10" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="panel9" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="panel8" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="panel7" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="panel6" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="panel5" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="panel4" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="panel3" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="panel2" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="panel1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,16.66667,Percent,16.66667,Percent,16.66667,Percent,16.66667,Percent,16.66667,Percent,16.66667" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="ll_reportsAccess.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ll_licensesManagement.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 21</value>
+  </data>
+  <data name="ll_lookupTablesManagement.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 9.5pt, style=Bold</value>
+  </data>
+  <data name="ll_reportsAccess.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ll_localLicenseAppsManagement.Parent" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;cb_licensesManagement.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;errorProvider1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ll_testsManagement.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;ctrl_PersonCardWithFilter1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cb_lookupTablesManagement.Items" xml:space="preserve">
+    <value>Full Access</value>
+  </data>
+  <data name="cb_licensesManagement.DropDownWidth" type="System.Int32, mscorlib">
+    <value>154</value>
+  </data>
+  <data name="ll_reportsAccess.Text" xml:space="preserve">
+    <value>Configure...</value>
+  </data>
+  <data name="cb_interLicenseAppsManagement.DropDownWidth" type="System.Int32, mscorlib">
+    <value>154</value>
+  </data>
+  <data name="ll_peopleManagement.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ll_peopleManagement.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="cb_lookupTablesManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="ll_reportsAccess.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="ll_licenseDetentionManagement.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.5pt, style=Italic</value>
+  </data>
+  <data name="label12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ll_peopleManagement.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cb_interLicenseAppsManagement.Items2" xml:space="preserve">
+    <value>Custom Settings</value>
+  </data>
+  <data name="ll_reportsAccess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 21</value>
+  </data>
+  <data name="cb_lookupTablesManagement.DropDownWidth" type="System.Int32, mscorlib">
+    <value>154</value>
+  </data>
+  <data name="ll_testsManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 21</value>
+  </data>
+  <data name="cb_testsManagement.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="lbl_userID.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;cb_licenseDetentionManagement.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;ll_lookupTablesManagement.Parent" xml:space="preserve">
+    <value>panel11</value>
+  </data>
+  <data name="label_title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Display Semib, 15.5pt, style=Bold</value>
+  </data>
+  <data name="label11.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label13.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tab_personalInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>960, 456</value>
+  </data>
+  <data name="ctrl_PersonCardWithFilter1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;ll_driversManagement.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btn_save.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cb_licenseDetentionManagement.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cb_licensesManagement.Text" xml:space="preserve">
+    <value>Full Access</value>
+  </data>
+  <data name="cb_peopleManagement.Items2" xml:space="preserve">
+    <value>Custom Settings</value>
+  </data>
+  <data name="ctrl_PersonCardWithFilter1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="button_next.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>34, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;cb_reportsAccess.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tab_permissions.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ll_localLicenseAppsManagement.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 21</value>
+  </data>
+  <data name="label8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;pnl_loginInfoFields.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ll_applicationSettingsAccess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 21</value>
+  </data>
+  <data name="panel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="cb_dashboardAccess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, -28</value>
+  </data>
+  <data name="label4.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ll_interLicenseAppsManagement.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label12.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="&gt;&gt;panel4.Name" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="panel10.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;cb_peopleManagement.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="cb_driversManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="label10.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ll_applicationSettingsAccess.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btn_save.Location" type="System.Drawing.Point, System.Drawing">
+    <value>814, 580</value>
+  </data>
+  <data name="&gt;&gt;button_next.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cb_testsManagement.Text" xml:space="preserve">
+    <value>Full Access</value>
+  </data>
+  <data name="cb_dashboardAccess.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 0</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="button_close.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="ctrl_PersonCardWithFilter1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 3, 5</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>8. License Detention Management:</value>
+  </data>
+  <data name="ll_lookupTablesManagement.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label5.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label14.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ctrl_PersonCardWithFilter1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="&gt;&gt;ll_dashboardAccess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cb_applicationSettingsAccess.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel6.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;button_next.Name" xml:space="preserve">
+    <value>button_next</value>
+  </data>
+  <data name="cb_peopleManagement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 0</value>
+  </data>
+  <data name="panel9.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 9.5pt, style=Bold</value>
+  </data>
+  <data name="ll_applicationSettingsAccess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 21</value>
+  </data>
+  <data name="&gt;&gt;cb_lookupTablesManagement.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="button_next.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 9pt</value>
+  </data>
+  <data name="ll_driversManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-99, -24</value>
+  </data>
+  <data name="pnl_permissions.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cb_dashboardAccess.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ll_driversManagement.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;ll_licenseDetentionManagement.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cb_usersManagement.DropDownWidth" type="System.Int32, mscorlib">
+    <value>154</value>
+  </data>
+  <data name="cb_driversManagement.Items1" xml:space="preserve">
+    <value>No Access</value>
+  </data>
+  <data name="cb_reportsAccess.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="cb_dashboardAccess.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="button_next.Location" type="System.Drawing.Point, System.Drawing">
+    <value>804, 407</value>
+  </data>
+  <data name="button_next.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 15</value>
+  </data>
+  <data name="panel6.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label_title.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 15, 0, 3</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button_close.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 10pt</value>
+  </data>
+  <data name="tab_personalInfo.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cb_peopleManagement.DropDownWidth" type="System.Int32, mscorlib">
+    <value>154</value>
+  </data>
+  <data name="checkBox_isActive.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;lbl_userID.Parent" xml:space="preserve">
+    <value>pnl_loginInfoFields</value>
+  </data>
+  <data name="cb_testsManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, -28</value>
+  </data>
+  <data name="ll_interLicenseAppsManagement.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.5pt, style=Italic</value>
+  </data>
+  <data name="panel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 7</value>
+  </data>
+  <data name="panel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 15, 0, 3</value>
+  </data>
+  <data name="ll_interLicenseAppsManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="textBox_confirmPassword.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Add New User</value>
+  </data>
+  <data name="ll_lookupTablesManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="ll_localLicenseAppsManagement.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.5pt, style=Italic</value>
+  </data>
+  <data name="cb_localLicenseAppsManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 29</value>
+  </data>
+  <data name="ll_interLicenseAppsManagement.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ll_licensesManagement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnl_loginInfoFields.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 112</value>
+  </data>
+  <data name="cb_usersManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, -28</value>
+  </data>
+  <data name="panel6.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 9.5pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btn_save.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="textBox_password.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 101</value>
+  </data>
+  <data name="textBox_username.IconPadding" type="System.Int32, mscorlib">
+    <value>-22</value>
+  </data>
+  <data name="panel12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 3</value>
+  </data>
+  <data name="panel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 11</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>962, 485</value>
+  </data>
+  <data name="cb_usersManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 29</value>
+  </data>
+  <data name="ll_interLicenseAppsManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-99, -24</value>
+  </data>
+  <data name="ll_reportsAccess.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="panel8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnl_permissions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;ll_licensesManagement.Parent" xml:space="preserve">
+    <value>panel7</value>
+  </data>
+  <data name="label_title.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="label7.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnl_permissions.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;tab_loginInfo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cb_reportsAccess.Parent" xml:space="preserve">
+    <value>panel10</value>
+  </data>
+  <data name="cb_lookupTablesManagement.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="ll_usersManagement.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="panel10.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel11.Name" xml:space="preserve">
+    <value>panel11</value>
+  </data>
+  <data name="btn_save.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;cb_driversManagement.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="cb_lookupTablesManagement.Items2" xml:space="preserve">
+    <value>Custom Settings</value>
+  </data>
+  <data name="ll_dashboardAccess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-99, -24</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>pnl_loginInfoFields</value>
+  </data>
+  <data name="&gt;&gt;cb_testsManagement.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="cb_licensesManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, -28</value>
+  </data>
+  <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 9.5pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;panel11.Parent" xml:space="preserve">
+    <value>pnl_permissions</value>
+  </data>
+  <data name="ll_licensesManagement.Text" xml:space="preserve">
+    <value>Configure...</value>
+  </data>
+  <data name="panel6.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cb_driversManagement.Items2" xml:space="preserve">
+    <value>Custom Settings</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="pnl_loginInfoFields.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="panel3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;panel9.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pnl_permissions.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;ll_localLicenseAppsManagement.Name" xml:space="preserve">
+    <value>ll_localLicenseAppsManagement</value>
+  </data>
+  <data name="&gt;&gt;cb_usersManagement.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel9.Name" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="panel12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 3, 0, 15</value>
+  </data>
+  <data name="ll_testsManagement.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tab_personalInfo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 9pt</value>
+  </data>
+  <data name="cb_localLicenseAppsManagement.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="&gt;&gt;ll_usersManagement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="ll_localLicenseAppsManagement.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 15</value>
+  </data>
+  <data name="&gt;&gt;textBox_password.Name" xml:space="preserve">
+    <value>textBox_password</value>
+  </data>
+  <data name="cb_testsManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 29</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>5. International License Applications Management:</value>
+  </data>
+  <data name="&gt;&gt;pnl_loginInfoFields.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_next.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ll_licenseDetentionManagement.Text" xml:space="preserve">
+    <value>Configure...</value>
+  </data>
+  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;checkBox_isActive.Parent" xml:space="preserve">
+    <value>pnl_loginInfoFields</value>
+  </data>
+  <data name="ll_driversManagement.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;cb_usersManagement.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel12.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label14.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cb_licensesManagement.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ll_applicationSettingsAccess.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="btn_save.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_save.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 40</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;lbl_userID.Name" xml:space="preserve">
+    <value>lbl_userID</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>12. Application Settings Access:</value>
+  </data>
+  <data name="cb_reportsAccess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 29</value>
+  </data>
+  <data name="&gt;&gt;ll_peopleManagement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ll_interLicenseAppsManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 21</value>
+  </data>
+  <data name="&gt;&gt;btn_save.Name" xml:space="preserve">
+    <value>btn_save</value>
+  </data>
+  <data name="&gt;&gt;cb_localLicenseAppsManagement.Parent" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="ll_testsManagement.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button_next.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="panel8.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="&gt;&gt;pnl_loginInfoFields.Name" xml:space="preserve">
+    <value>pnl_loginInfoFields</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cb_interLicenseAppsManagement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 0</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button_close.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="panel10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 21</value>
+  </data>
+  <data name="cb_applicationSettingsAccess.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 0</value>
+  </data>
+  <data name="panel12.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="panel8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 7, 0, 11</value>
+  </data>
+  <data name="&gt;&gt;cb_testsManagement.Name" xml:space="preserve">
+    <value>cb_testsManagement</value>
+  </data>
+  <data name="&gt;&gt;ll_interLicenseAppsManagement.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="cb_licenseDetentionManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 29</value>
+  </data>
+  <data name="ll_localLicenseAppsManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-99, -24</value>
+  </data>
+  <data name="&gt;&gt;cb_interLicenseAppsManagement.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label12.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ll_localLicenseAppsManagement.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="panel4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;ll_lookupTablesManagement.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tab_permissions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="panel4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="label15.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="label16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_userID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 30</value>
+  </data>
+  <data name="button_close.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel4.Parent" xml:space="preserve">
+    <value>pnl_permissions</value>
+  </data>
+  <data name="lbl_userID.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 9.5pt, style=Bold</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 63</value>
+  </data>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tab_loginInfo.Text" xml:space="preserve">
+    <value>Login Info</value>
+  </data>
+  <data name="checkBox_isActive.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="cb_usersManagement.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textBox_password.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.TextBoxExt, Syncfusion.Shared.Base, Version=32.1462.19.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="cb_licensesManagement.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 9.5pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;ll_lookupTablesManagement.Name" xml:space="preserve">
+    <value>ll_lookupTablesManagement</value>
+  </data>
+  <data name="&gt;&gt;cb_applicationSettingsAccess.Parent" xml:space="preserve">
+    <value>panel12</value>
+  </data>
+  <data name="tab_permissions.Text" xml:space="preserve">
+    <value>Permissions</value>
+  </data>
+  <data name="label2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cb_lookupTablesManagement.Items1" xml:space="preserve">
+    <value>No Access</value>
+  </data>
+  <data name="checkBox_isActive.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;panel10.Name" xml:space="preserve">
+    <value>panel10</value>
+  </data>
+  <data name="&gt;&gt;ll_interLicenseAppsManagement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>7. Licenses Management:</value>
+  </data>
+  <data name="ll_usersManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="cb_testsManagement.Items2" xml:space="preserve">
+    <value>Custom Settings</value>
+  </data>
+  <data name="cb_testsManagement.Items1" xml:space="preserve">
+    <value>No Access</value>
+  </data>
+  <data name="ll_applicationSettingsAccess.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.5pt, style=Italic</value>
+  </data>
+  <data name="button_close.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 66</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>pnl_permissions</value>
+  </data>
+  <data name="ll_testsManagement.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panel11.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;panel12.Name" xml:space="preserve">
+    <value>panel12</value>
+  </data>
+  <data name="cb_peopleManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 29</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnl_loginInfoFields.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="panel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 11</value>
+  </data>
+  <data name="&gt;&gt;ll_licensesManagement.Name" xml:space="preserve">
+    <value>ll_licensesManagement</value>
+  </data>
+  <data name="ll_applicationSettingsAccess.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;cb_driversManagement.Type" xml:space="preserve">
+    <value>Salem.Controls.SalDropDownList, Salem.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label8.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label15.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cb_reportsAccess.DropDownWidth" type="System.Int32, mscorlib">
+    <value>154</value>
+  </data>
+  <data name="cb_testsManagement.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ll_driversManagement.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textBox_username.Name" xml:space="preserve">
+    <value>textBox_username</value>
+  </data>
+  <data name="pnl_loginInfoFields.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cb_driversManagement.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 9.5pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;panel11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 21</value>
+  </data>
+  <data name="&gt;&gt;tab_loginInfo.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="ll_licensesManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-99, -24</value>
+  </data>
+  <data name="tab_permissions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="cb_usersManagement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 0</value>
+  </data>
+  <data name="label13.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ll_peopleManagement.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_save.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 43, 0</value>
+  </data>
+  <data name="ll_lookupTablesManagement.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ll_lookupTablesManagement.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panel9.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;textBox_username.Parent" xml:space="preserve">
+    <value>pnl_loginInfoFields</value>
+  </data>
+  <data name="cb_reportsAccess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, -28</value>
+  </data>
+  <data name="tabControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 28</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_save.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="ll_dashboardAccess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 21</value>
+  </data>
+  <data name="ll_dashboardAccess.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label12.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tab_personalInfo.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="cb_peopleManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;tab_loginInfo.Name" xml:space="preserve">
+    <value>tab_loginInfo</value>
+  </data>
+  <data name="ll_lookupTablesManagement.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.5pt, style=Italic</value>
+  </data>
+  <data name="textBox_confirmPassword.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>pnl_loginInfoFields</value>
+  </data>
+  <data name="label5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="label5.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="label3.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 21</value>
+  </data>
+  <data name="panel5.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ll_dashboardAccess.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label6.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="textBox_username.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cb_lookupTablesManagement.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 15</value>
+  </data>
+  <data name="&gt;&gt;cb_localLicenseAppsManagement.Type" xml:space="preserve">
+    <value>Salem.Controls.SalDropDownList, Salem.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="panel9.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cb_localLicenseAppsManagement.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 3, 5</value>
+  </data>
+  <data name="ll_licenseDetentionManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-99, -24</value>
+  </data>
+  <data name="cb_licensesManagement.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="ll_usersManagement.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ll_lookupTablesManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-99, -25</value>
+  </data>
+  <data name="cb_dashboardAccess.Items" xml:space="preserve">
+    <value>Full Access</value>
+  </data>
+  <data name="ll_dashboardAccess.Text" xml:space="preserve">
+    <value>Configure...</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ll_usersManagement.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ll_testsManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;checkBox_isActive.Name" xml:space="preserve">
+    <value>checkBox_isActive</value>
+  </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cb_licenseDetentionManagement.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;button_close.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="panel7.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;panel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cb_driversManagement.DropDownWidth" type="System.Int32, mscorlib">
+    <value>154</value>
+  </data>
+  <data name="label_title.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 139</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ll_applicationSettingsAccess.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ll_driversManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 21</value>
+  </data>
+  <data name="cb_interLicenseAppsManagement.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ll_interLicenseAppsManagement.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;cb_localLicenseAppsManagement.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel6.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cb_driversManagement.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tab_loginInfo.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cb_localLicenseAppsManagement.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cb_localLicenseAppsManagement.Items" xml:space="preserve">
+    <value>Full Access</value>
+  </data>
+  <data name="tabControl1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="textBox_password.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="panel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="cb_reportsAccess.Items2" xml:space="preserve">
+    <value>Custom Settings</value>
+  </data>
+  <data name="&gt;&gt;panel9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cb_reportsAccess.Items1" xml:space="preserve">
+    <value>No Access</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>11. Lookup Tables Management:</value>
+  </data>
+  <data name="cb_driversManagement.Items" xml:space="preserve">
+    <value>Full Access</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>panel12</value>
+  </data>
+  <data name="&gt;&gt;cb_applicationSettingsAccess.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label9.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="label9.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cb_licensesManagement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 0</value>
+  </data>
+  <data name="&gt;&gt;cb_peopleManagement.Type" xml:space="preserve">
+    <value>Salem.Controls.SalDropDownList, Salem.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>982, 633</value>
+  </data>
+  <data name="panel12.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cb_reportsAccess.Type" xml:space="preserve">
+    <value>Salem.Controls.SalDropDownList, Salem.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;textBox_username.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.TextBoxExt, Syncfusion.Shared.Base, Version=32.1462.19.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;panel5.Parent" xml:space="preserve">
+    <value>pnl_permissions</value>
+  </data>
+  <data name="&gt;&gt;cb_licensesManagement.Parent" xml:space="preserve">
+    <value>panel7</value>
+  </data>
+  <data name="&gt;&gt;panel8.Parent" xml:space="preserve">
+    <value>pnl_permissions</value>
+  </data>
+  <data name="cb_interLicenseAppsManagement.Items1" xml:space="preserve">
+    <value>No Access</value>
+  </data>
+  <data name="&gt;&gt;panel6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cb_usersManagement.Items" xml:space="preserve">
+    <value>Full Access</value>
+  </data>
+  <data name="label16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 3, 5</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ll_licenseDetentionManagement.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cb_licensesManagement.Items2" xml:space="preserve">
+    <value>Custom Settings</value>
+  </data>
+  <data name="&gt;&gt;ll_applicationSettingsAccess.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel4.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panel5.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button_next.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 34</value>
+  </data>
+  <data name="cb_reportsAccess.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="panel11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 3, 0, 15</value>
+  </data>
+  <data name="ll_licensesManagement.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;errorProvider1.Name" xml:space="preserve">
+    <value>errorProvider1</value>
+  </data>
+  <data name="ll_reportsAccess.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnl_loginInfoFields.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="ll_localLicenseAppsManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="pnl_permissions.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ll_driversManagement.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btn_save.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="panel11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 3</value>
+  </data>
+  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+    <value>panel11</value>
+  </data>
+  <data name="ll_lookupTablesManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 21</value>
+  </data>
+  <data name="label13.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="textBox_password.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 30</value>
+  </data>
+  <data name="ll_peopleManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;ll_usersManagement.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="lbl_userID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 10pt</value>
+  </data>
+  <data name="textBox_username.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="ll_usersManagement.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;panel12.Parent" xml:space="preserve">
+    <value>pnl_permissions</value>
+  </data>
+  <data name="button_next.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ll_usersManagement.Text" xml:space="preserve">
+    <value>Configure...</value>
+  </data>
+  <data name="tab_personalInfo.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ll_driversManagement.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cb_reportsAccess.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cb_usersManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="button_close.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="label1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ctrl_PersonCardWithFilter1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ll_lookupTablesManagement.Text" xml:space="preserve">
+    <value>Configure...</value>
+  </data>
+  <data name="ll_localLicenseAppsManagement.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label11.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="ll_reportsAccess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-99, -24</value>
+  </data>
+  <data name="cb_dashboardAccess.DropDownWidth" type="System.Int32, mscorlib">
+    <value>154</value>
+  </data>
+  <data name="ll_localLicenseAppsManagement.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tab_loginInfo.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label14.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel8.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="panel10.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_title.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cb_driversManagement.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cb_lookupTablesManagement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 0</value>
+  </data>
+  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;panel7.Parent" xml:space="preserve">
+    <value>pnl_permissions</value>
+  </data>
+  <data name="cb_interLicenseAppsManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 29</value>
+  </data>
+  <data name="cb_licenseDetentionManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, -28</value>
+  </data>
+  <data name="cb_licenseDetentionManagement.Items1" xml:space="preserve">
+    <value>No Access</value>
+  </data>
+  <data name="button_close.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ll_licenseDetentionManagement.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="panel1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tab_personalInfo.Name" xml:space="preserve">
+    <value>tab_personalInfo</value>
+  </data>
+  <data name="panel6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label_title.Text" xml:space="preserve">
+    <value>Add New User</value>
+  </data>
+  <data name="cb_licenseDetentionManagement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 0</value>
+  </data>
+  <data name="cb_usersManagement.Items2" xml:space="preserve">
+    <value>Custom Settings</value>
+  </data>
+  <data name="panel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="button_next.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ll_testsManagement.Text" xml:space="preserve">
+    <value>Configure...</value>
+  </data>
+  <data name="label4.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 3, 5</value>
+  </data>
+  <data name="cb_driversManagement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 0</value>
+  </data>
+  <data name="lbl_userID.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lbl_userID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 26</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cb_licenseDetentionManagement.Text" xml:space="preserve">
+    <value>Full Access</value>
+  </data>
+  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;ll_reportsAccess.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ll_reportsAccess.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="panel10.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;panel6.Parent" xml:space="preserve">
+    <value>pnl_permissions</value>
+  </data>
+  <data name="label_title.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 10</value>
+  </data>
+  <data name="cb_localLicenseAppsManagement.Items1" xml:space="preserve">
+    <value>No Access</value>
+  </data>
+  <data name="panel5.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 3, 5</value>
+  </data>
+  <data name="ll_driversManagement.Text" xml:space="preserve">
+    <value>Configure...</value>
+  </data>
+  <data name="label16.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;panel12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_password.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="textBox_password.MaxLength" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="lbl_userID.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>10. Reports Access:</value>
+  </data>
+  <data name="&gt;&gt;btn_save.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ll_interLicenseAppsManagement.Name" xml:space="preserve">
+    <value>ll_interLicenseAppsManagement</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 101</value>
+  </data>
+  <data name="&gt;&gt;ll_peopleManagement.Name" xml:space="preserve">
+    <value>ll_peopleManagement</value>
+  </data>
+  <data name="btn_save.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;ll_applicationSettingsAccess.Name" xml:space="preserve">
+    <value>ll_applicationSettingsAccess</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ll_peopleManagement.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>1. People Management:</value>
+  </data>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_next.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cb_localLicenseAppsManagement.DropDownWidth" type="System.Int32, mscorlib">
+    <value>154</value>
+  </data>
+  <data name="cb_dashboardAccess.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 30</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_userID.Text" xml:space="preserve">
+    <value>[???]</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ll_licenseDetentionManagement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_confirmPassword.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label10.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;panel10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cb_peopleManagement.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="button_close.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cb_usersManagement.Items1" xml:space="preserve">
+    <value>No Access</value>
+  </data>
+  <data name="&gt;&gt;cb_usersManagement.Type" xml:space="preserve">
+    <value>Salem.Controls.SalDropDownList, Salem.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="textBox_password.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBox_isActive.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="panel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 7</value>
+  </data>
+  <data name="panel8.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;panel8.Name" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="panel12.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 3, 5</value>
+  </data>
+  <data name="button_next.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tab_permissions.Type" xml:space="preserve">
+    <value>Manina.Windows.Forms.Tab, TabControl, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cb_usersManagement.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ll_peopleManagement.Text" xml:space="preserve">
+    <value>Configure...</value>
+  </data>
+  <data name="panel1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 11, 0, 7</value>
+  </data>
+  <data name="cb_licenseDetentionManagement.DropDownWidth" type="System.Int32, mscorlib">
+    <value>154</value>
+  </data>
+  <data name="ll_driversManagement.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="&gt;&gt;label_title.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tab_personalInfo.Text" xml:space="preserve">
+    <value>Personal Info</value>
+  </data>
+  <data name="ll_lookupTablesManagement.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ll_dashboardAccess.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="panel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 11, 0, 7</value>
+  </data>
+  <data name="btn_save.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 10pt</value>
+  </data>
+  <data name="cb_interLicenseAppsManagement.Items" xml:space="preserve">
+    <value>Full Access</value>
+  </data>
+  <data name="tabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="textBox_confirmPassword.IconPadding" type="System.Int32, mscorlib">
+    <value>-22</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>panel7</value>
+  </data>
+  <data name="ll_testsManagement.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cb_peopleManagement.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="panel12.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tabControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 9pt</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 10pt, style=Bold</value>
+  </data>
+  <data name="pnl_permissions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;textBox_confirmPassword.Parent" xml:space="preserve">
+    <value>pnl_loginInfoFields</value>
+  </data>
+  <data name="cb_testsManagement.DropDownWidth" type="System.Int32, mscorlib">
+    <value>154</value>
+  </data>
+  <data name="textBox_username.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 10pt</value>
+  </data>
+  <data name="&gt;&gt;checkBox_isActive.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label5.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ctrl_PersonCardWithFilter1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cb_licenseDetentionManagement.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 3, 5</value>
+  </data>
+  <data name="&gt;&gt;ctrl_PersonCardWithFilter1.Type" xml:space="preserve">
+    <value>DVLD.People.Controls.Ctrl_PersonInfoCardWithFilter, DVLD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ctrl_PersonCardWithFilter1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>917, 375</value>
+  </data>
+  <data name="textBox_confirmPassword.MaxLength" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="ll_dashboardAccess.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBox_password.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 10pt</value>
+  </data>
+  <data name="label10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="label8.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 21</value>
+  </data>
+  <data name="&gt;&gt;cb_driversManagement.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cb_usersManagement.Name" xml:space="preserve">
+    <value>cb_usersManagement</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>9. Dashboard Access:</value>
+  </data>
+  <data name="label2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cb_peopleManagement.Items" xml:space="preserve">
+    <value>Full Access</value>
+  </data>
+  <data name="&gt;&gt;ll_localLicenseAppsManagement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 21</value>
+  </data>
+  <data name="cb_testsManagement.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_userID.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 10</value>
+  </data>
+  <data name="ll_lookupTablesManagement.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cb_testsManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;cb_interLicenseAppsManagement.Type" xml:space="preserve">
+    <value>Salem.Controls.SalDropDownList, Salem.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cb_driversManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 29</value>
+  </data>
+  <data name="&gt;&gt;textBox_username.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cb_reportsAccess.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ll_peopleManagement.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;pnl_permissions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ll_applicationSettingsAccess.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ll_usersManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-99, -24</value>
+  </data>
+  <data name="label14.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ll_dashboardAccess.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_title.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label1.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ll_licenseDetentionManagement.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;checkBox_isActive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>3. Drivers Management:</value>
+  </data>
+  <data name="button_close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>636, 580</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;ll_licensesManagement.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cb_peopleManagement.Text" xml:space="preserve">
+    <value>Full Access</value>
+  </data>
+  <data name="label11.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;cb_interLicenseAppsManagement.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="cb_localLicenseAppsManagement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="cb_localLicenseAppsManagement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 0</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>pnl_loginInfoFields</value>
+  </data>
+  <data name="textBox_confirmPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 30</value>
+  </data>
+  <data name="&gt;&gt;pnl_loginInfoFields.Parent" xml:space="preserve">
+    <value>tab_loginInfo</value>
+  </data>
+  <data name="pnl_permissions.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 9.5pt</value>
+  </data>
+  <data name="&gt;&gt;lbl_userID.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button_close.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="panel2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;cb_licenseDetentionManagement.Type" xml:space="preserve">
+    <value>Salem.Controls.SalDropDownList, Salem.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cb_dashboardAccess.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="ll_licensesManagement.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cb_licensesManagement.Items" xml:space="preserve">
+    <value>Full Access</value>
+  </data>
+  <data name="cb_lookupTablesManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 29</value>
+  </data>
+  <data name="pnl_permissions.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="textBox_password.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="&gt;&gt;ll_peopleManagement.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>51</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="errorProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>16, 14</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ar</value>
+  </metadata>
+</root>

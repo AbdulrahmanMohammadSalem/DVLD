@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbl_cannotUpdate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 7.8pt, style=Bold, Italic</value>
+  </data>
+  <data name="lbl_cannotUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 535</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbl_cannotUpdate.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="lbl_cannotUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 23</value>
+  </data>
+  <data name="lbl_cannotUpdate.Text" xml:space="preserve">
+    <value>لقد خضع المتقدم بالفعل لهذا الاختبار فلا يمكنك تعديل الحجز.</value>
+  </data>
+  <data name="dtp_testTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="dtp_testTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 332</value>
+  </data>
+  <data name="dtp_testTime.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="dtp_testTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 26</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 330</value>
+  </data>
+  <data name="label10.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 30</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>وقت الاختبار:</value>
+  </data>
+  <data name="dtp_testDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="dtp_testDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 290</value>
+  </data>
+  <data name="dtp_testDate.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="dtp_testDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 26</value>
+  </data>
+  <data name="lbl_totalFees.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 8.5pt</value>
+  </data>
+  <data name="lbl_totalFees.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 66</value>
+  </data>
+  <data name="lbl_totalFees.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="lbl_totalFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 26</value>
+  </data>
+  <data name="lbl_totalFees.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 8pt, style=Bold</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 61</value>
+  </data>
+  <data name="label9.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 30</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>المبلغ الكلي:</value>
+  </data>
+  <data name="lbl_retakeTestAppFees.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 8.5pt</value>
+  </data>
+  <data name="lbl_retakeTestAppFees.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 65</value>
+  </data>
+  <data name="lbl_retakeTestAppFees.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="lbl_retakeTestAppFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 26</value>
+  </data>
+  <data name="lbl_retakeTestAppFees.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 8pt, style=Bold</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 61</value>
+  </data>
+  <data name="label8.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 30</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>رسوم إعادة الاختبار:</value>
+  </data>
+  <data name="lbl_retakeAppID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 8.5pt</value>
+  </data>
+  <data name="lbl_retakeAppID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 30</value>
+  </data>
+  <data name="lbl_retakeAppID.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="lbl_retakeAppID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 26</value>
+  </data>
+  <data name="lbl_retakeAppID.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 8pt, style=Bold</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 27</value>
+  </data>
+  <data name="label7.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 30</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>رقم طلب إعادة الاختبار:</value>
+  </data>
+  <data name="gb_retakeTestInfo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rubik, 7.5pt</value>
+  </data>
+  <data name="gb_retakeTestInfo.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="gb_retakeTestInfo.Text" xml:space="preserve">
+    <value>معلومات إعادة الاختبار</value>
+  </data>
+  <data name="lbl_testFees.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="lbl_testFees.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 376</value>
+  </data>
+  <data name="lbl_testFees.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="lbl_testFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 30</value>
+  </data>
+  <data name="lbl_testFees.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 372</value>
+  </data>
+  <data name="label6.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 30</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>رسوم الاختبار:</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 288</value>
+  </data>
+  <data name="label4.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 30</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>تاريخ الاختبار:</value>
+  </data>
+  <data name="lbl_totalTrials.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="lbl_totalTrials.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 250</value>
+  </data>
+  <data name="lbl_totalTrials.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="lbl_totalTrials.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 30</value>
+  </data>
+  <data name="lbl_totalTrials.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 246</value>
+  </data>
+  <data name="label3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 30</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>إجمالي المحاولات:</value>
+  </data>
+  <data name="lbl_applicantName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="lbl_applicantName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 208</value>
+  </data>
+  <data name="lbl_applicantName.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="lbl_applicantName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 30</value>
+  </data>
+  <data name="lbl_applicantName.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 204</value>
+  </data>
+  <data name="label2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 30</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>اسم مقدم الطلب:</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 162</value>
+  </data>
+  <data name="label1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 30</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>فئة الرخصة:</value>
+  </data>
+  <data name="lbl_lDLAppID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="lbl_lDLAppID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 124</value>
+  </data>
+  <data name="lbl_lDLAppID.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="lbl_lDLAppID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 30</value>
+  </data>
+  <data name="lbl_lDLAppID.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 120</value>
+  </data>
+  <data name="label5.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 30</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>رقم طلب رخصة القيادة المحلية:</value>
+  </data>
+  <data name="lbl_title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rubik SemiBold, 15.5pt, style=Bold</value>
+  </data>
+  <data name="lbl_title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 21</value>
+  </data>
+  <data name="lbl_title.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>120, 0, 100, 0</value>
+  </data>
+  <data name="lbl_title.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="lbl_title.Text" xml:space="preserve">
+    <value>حجز موعد اختبار</value>
+  </data>
+  <data name="lbl_licenseClass.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="lbl_licenseClass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 166</value>
+  </data>
+  <data name="lbl_licenseClass.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="lbl_licenseClass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 30</value>
+  </data>
+  <data name="lbl_licenseClass.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="gb_mainContainer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rubik, 9pt</value>
+  </data>
+  <data name="gb_mainContainer.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="gb_mainContainer.Text" xml:space="preserve">
+    <value>اختبار</value>
+  </data>
+  <data name="button_close.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 9pt, style=Bold</value>
+  </data>
+  <data name="button_close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 591</value>
+  </data>
+  <data name="button_close.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>42, 0, 0, 0</value>
+  </data>
+  <data name="button_close.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="button_close.Text" xml:space="preserve">
+    <value>إغلاق</value>
+  </data>
+  <data name="button_save.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 9pt, style=Bold</value>
+  </data>
+  <data name="button_save.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 591</value>
+  </data>
+  <data name="button_save.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>40, 0, 0, 0</value>
+  </data>
+  <data name="button_save.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="button_save.Text" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>حجز موعد اختبار</value>
+  </data>
+</root>

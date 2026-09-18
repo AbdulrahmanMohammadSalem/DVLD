@@ -1,0 +1,1090 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1032, 573</value>
+  </data>
+  <data name="btn_manageInterLicenseApps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>418, 38</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_detainLicense.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btn_managePeople.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 10.2pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.BottomToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_userActivityReport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_manageLicenseClasses.Text" xml:space="preserve">
+    <value>Manage License Classes</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 6</value>
+  </data>
+  <data name="&gt;&gt;accountSettingsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.RightToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_servicesMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="accountSettingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 68</value>
+  </data>
+  <data name="btn_userActivityReport.Text" xml:space="preserve">
+    <value>User Activity Report</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem6.Name" xml:space="preserve">
+    <value>toolStripMenuItem6</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_analyticsMenu.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btn_drivingLicenseServicesMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_driverProfileReport.Name" xml:space="preserve">
+    <value>btn_driverProfileReport</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.ContentPanel.Name" xml:space="preserve">
+    <value>toolStripContainer1.ContentPanel</value>
+  </data>
+  <data name="btn_applicationSettings.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 10.2pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem5.Name" xml:space="preserve">
+    <value>toolStripMenuItem5</value>
+  </data>
+  <data name="btn_manageLocalLicenseApps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>418, 38</value>
+  </data>
+  <data name="btn_manageInterLicenseApps.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btn_newLocalLicenseApp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 28</value>
+  </data>
+  <data name="btn_manageTestTypes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>308, 38</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.TopToolStripPanel.Parent" xml:space="preserve">
+    <value>toolStripContainer1</value>
+  </data>
+  <data name="btn_viewAllApps.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;btn_newInterLicenseApp.Name" xml:space="preserve">
+    <value>btn_newInterLicenseApp</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.TopToolStripPanel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btn_retakeTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>429, 38</value>
+  </data>
+  <data name="btn_changeCurrentUserPassword.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btn_manageLicenseDetentions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 38</value>
+  </data>
+  <data name="&gt;&gt;btn_drivingLicenseServicesMenu.Name" xml:space="preserve">
+    <value>btn_drivingLicenseServicesMenu</value>
+  </data>
+  <data name="btn_newInterLicenseApp.Text" xml:space="preserve">
+    <value>International License</value>
+  </data>
+  <data name="btn_drivingLicenseServicesMenu.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;btn_managePeople.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn_analyticsMenu.Text" xml:space="preserve">
+    <value>Analytics</value>
+  </data>
+  <data name="btn_viewAllApps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>418, 38</value>
+  </data>
+  <data name="toolStripMenuItem7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>426, 6</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.Name" xml:space="preserve">
+    <value>toolStripContainer1</value>
+  </data>
+  <data name="btn_testAttemptsReports.Size" type="System.Drawing.Size, System.Drawing">
+    <value>401, 30</value>
+  </data>
+  <data name="btn_drivingLicenseServicesMenu.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 10.2pt, style=Bold</value>
+  </data>
+  <data name="btn_retakeTest.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_manageAppsMenu.Text" xml:space="preserve">
+    <value>Manage Applications</value>
+  </data>
+  <data name="&gt;&gt;btn_driverProfileReport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip_mainOptions.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btn_lookupTablesMenu.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btn_userActivityReport.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.LeftToolStripPanel.Parent" xml:space="preserve">
+    <value>toolStripContainer1</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.LeftToolStripPanel.Name" xml:space="preserve">
+    <value>toolStripContainer1.LeftToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_manageAppsMenu.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btn_reportsMenu.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btn_analyticsMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_viewAllLicenses.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_viewAllApps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_lookupTablesMenu.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 10.2pt, style=Bold</value>
+  </data>
+  <data name="btn_releaseDetainedLicenseApp2.Text" xml:space="preserve">
+    <value>Release Detained License</value>
+  </data>
+  <data name="&gt;&gt;btn_currentUserInfo.Name" xml:space="preserve">
+    <value>btn_currentUserInfo</value>
+  </data>
+  <data name="toolStripContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Frm_MainScreen</value>
+  </data>
+  <data name="btn_driverProfileReport.Text" xml:space="preserve">
+    <value>Driver Profile Report</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_lookupTablesMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.TopToolStripPanel.Name" xml:space="preserve">
+    <value>toolStripContainer1.TopToolStripPanel</value>
+  </data>
+  <data name="btn_dashboard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 38</value>
+  </data>
+  <data name="btn_managePeople.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 68</value>
+  </data>
+  <data name="btn_retakeTest.Text" xml:space="preserve">
+    <value>Retake Test</value>
+  </data>
+  <data name="&gt;&gt;btn_detainLicense.Name" xml:space="preserve">
+    <value>btn_detainLicense</value>
+  </data>
+  <data name="btn_manageUsers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 68</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.RightToolStripPanel.Name" xml:space="preserve">
+    <value>toolStripContainer1.RightToolStripPanel</value>
+  </data>
+  <data name="btn_lookupTablesMenu.Text" xml:space="preserve">
+    <value>Lookup Tables</value>
+  </data>
+  <data name="&gt;&gt;btn_signOut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_manageLicenseClasses.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_releaseDetainedLicenseApp1.Text" xml:space="preserve">
+    <value>Release Detained Driving License</value>
+  </data>
+  <data name="btn_applicationSettings.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem7.Name" xml:space="preserve">
+    <value>toolStripMenuItem7</value>
+  </data>
+  <data name="btn_detainLicense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 38</value>
+  </data>
+  <data name="btn_servicesMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 68</value>
+  </data>
+  <data name="btn_newDrivingLicenseMenu.Text" xml:space="preserve">
+    <value>New Driving License</value>
+  </data>
+  <data name="btn_manageUsers.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;btn_personHistoryReport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_changeCurrentUserPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 38</value>
+  </data>
+  <data name="&gt;&gt;btn_dashboard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_userActivityReport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>401, 30</value>
+  </data>
+  <data name="btn_manageAppsMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 70</value>
+  </data>
+  <data name="btn_replaceLicenseApp.Text" xml:space="preserve">
+    <value>Replacement for Lost or Damaged License</value>
+  </data>
+  <data name="menuStrip_mainOptions.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 4, 10, 4</value>
+  </data>
+  <data name="pictureBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btn_manageDrivers.Text" xml:space="preserve">
+    <value>Drivers</value>
+  </data>
+  <data name="btn_dashboard.Text" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="menuStrip_mainOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btn_manageUsers.Name" xml:space="preserve">
+    <value>btn_manageUsers</value>
+  </data>
+  <data name="&gt;&gt;btn_newLocalLicenseApp.Name" xml:space="preserve">
+    <value>btn_newLocalLicenseApp</value>
+  </data>
+  <data name="btn_manageLicenseClasses.Size" type="System.Drawing.Size, System.Drawing">
+    <value>308, 38</value>
+  </data>
+  <data name="btn_applicationSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 68</value>
+  </data>
+  <data name="&gt;&gt;btn_dashboard.Name" xml:space="preserve">
+    <value>btn_dashboard</value>
+  </data>
+  <data name="&gt;&gt;btn_newDrivingLicenseMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_renewLicenseApp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>429, 38</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.ContentPanel.Parent" xml:space="preserve">
+    <value>toolStripContainer1</value>
+  </data>
+  <data name="btn_manageDrivers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 68</value>
+  </data>
+  <data name="&gt;&gt;accountSettingsToolStripMenuItem.Name" xml:space="preserve">
+    <value>accountSettingsToolStripMenuItem</value>
+  </data>
+  <data name="toolStripMenuItem8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 6</value>
+  </data>
+  <data name="&gt;&gt;btn_viewAllApps.Name" xml:space="preserve">
+    <value>btn_viewAllApps</value>
+  </data>
+  <data name="&gt;&gt;btn_releaseDetainedLicenseApp2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip_mainOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_servicesMenu.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 10.2pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;menuStrip_mainOptions.Parent" xml:space="preserve">
+    <value>toolStripContainer1.TopToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem3.Name" xml:space="preserve">
+    <value>toolStripMenuItem3</value>
+  </data>
+  <data name="btn_replaceLicenseApp.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btn_localLicenseAppDetailsReport.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.BottomToolStripPanel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Driving &amp; Vehicles License Department System</value>
+  </data>
+  <data name="toolStripContainer1.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1032, 497</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.ContentPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripContentPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_testAttemptsReports.Name" xml:space="preserve">
+    <value>btn_testAttemptsReports</value>
+  </data>
+  <data name="accountSettingsToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btn_dashboard.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Display Semib, 9pt, style=Bold</value>
+  </data>
+  <data name="btn_replaceLicenseApp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>429, 38</value>
+  </data>
+  <data name="btn_applicationSettings.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;btn_manageAppsMenu.Name" xml:space="preserve">
+    <value>btn_manageAppsMenu</value>
+  </data>
+  <data name="btn_newInterLicenseApp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 28</value>
+  </data>
+  <data name="&gt;&gt;btn_viewAllLicenses.Name" xml:space="preserve">
+    <value>btn_viewAllLicenses</value>
+  </data>
+  <data name="menuStrip_mainOptions.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="toolStripContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1032, 573</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 20</value>
+  </data>
+  <data name="btn_viewAllLicenses.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="toolStripMenuItem6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 6</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1050, 620</value>
+  </data>
+  <data name="&gt;&gt;btn_retakeTest.Name" xml:space="preserve">
+    <value>btn_retakeTest</value>
+  </data>
+  <data name="btn_managePeople.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Name" xml:space="preserve">
+    <value>toolStripMenuItem2</value>
+  </data>
+  <data name="&gt;&gt;btn_detainLicensesMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_manageInterLicenseApps.Name" xml:space="preserve">
+    <value>btn_manageInterLicenseApps</value>
+  </data>
+  <data name="&gt;&gt;btn_manageDrivers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_licenseDetentionReport.Text" xml:space="preserve">
+    <value>License Detention Report</value>
+  </data>
+  <data name="&gt;&gt;btn_manageLicenseDetentions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_renewLicenseApp.Name" xml:space="preserve">
+    <value>btn_renewLicenseApp</value>
+  </data>
+  <data name="btn_viewAllLicenses.Text" xml:space="preserve">
+    <value>View All Licenses</value>
+  </data>
+  <data name="&gt;&gt;btn_reportsMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_manageAppTypes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>308, 38</value>
+  </data>
+  <data name="&gt;&gt;menuStrip_mainOptions.Name" xml:space="preserve">
+    <value>menuStrip_mainOptions</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_testAttemptsReports.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 6</value>
+  </data>
+  <data name="&gt;&gt;btn_changeCurrentUserPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Salem.Controls.SalForm, Salem.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1032, 497</value>
+  </data>
+  <data name="btn_licenseDetentionReport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>401, 30</value>
+  </data>
+  <data name="&gt;&gt;btn_detainLicensesMenu.Name" xml:space="preserve">
+    <value>btn_detainLicensesMenu</value>
+  </data>
+  <data name="btn_detainLicense.Text" xml:space="preserve">
+    <value>Detain License</value>
+  </data>
+  <data name="btn_manageDrivers.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.RightToolStripPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btn_releaseDetainedLicenseApp1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>429, 38</value>
+  </data>
+  <data name="&gt;&gt;btn_manageLocalLicenseApps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_reportsMenu.Name" xml:space="preserve">
+    <value>btn_reportsMenu</value>
+  </data>
+  <data name="&gt;&gt;btn_currentUserInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_personHistoryReport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>401, 30</value>
+  </data>
+  <data name="&gt;&gt;btn_retakeTest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_applicationSettings.Name" xml:space="preserve">
+    <value>btn_applicationSettings</value>
+  </data>
+  <data name="&gt;&gt;btn_replaceLicenseApp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_localLicenseAppDetailsReport.Text" xml:space="preserve">
+    <value>Local License Application Details Report</value>
+  </data>
+  <data name="btn_reportsMenu.Text" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        LzowMDATODg4ACoqMAA+TiMBSnMzflB+OPpZh0P/VIM+/FiHRHNKWToAAAAAAAAAAABPdjoMUX87wk96
+        Of9VekP/TXI81kVYOS64//8AX3aGAFNibAA1ODsALi0sAMPAwVewsLC9boeU2EdUYP9LXG3/cpetz7S0
+        tbvX1NJRLCwrAEBFSwBrf48AeZq0ANL//wBOZEswTXJB11N5Qv9Qezr/UX46xE91OQ0AAAAAAAAAAEtx
+        NBJNdDi9U3NN/1t2b/9gd3r4boORzGF3ho5RYWxfT11mLDMvLwbAurcxt7SzvJicoEyPrL/BbISY/1h2
+        j/+ft8W4mJiYUqilo4BaLRAEU1VdC2V3hzNnf5JpcIqflV92idFXcHP6U29e/09yRv9NdTm7TG8zEgAA
+        AAAAAAAASGstA1N4Qp5UbVz/aX+O/3OKm/9+nLD/fJ2z/22No/5vkKbnZIOZsGd9jMlacIHoQVtxx2qT
+        svZZeZj/S2mH/5euv/hHW27RVnKH2WuGm6Bvi6O+a4mj62B/m/9gfZf/WnKK/1x1iv9ee4b/SmFR/1J3
+        Q55MdDEDAAAAAAAAAABTfDwPVYM/y0xnR/9ofo7/fJWp/4Wlu/+Jq8L/g6jA/4Opw/97pMD/a5Sx/1uD
+        ov9Eao//RnWg/zxeg/8+XH3/T3GS/1B6n/9rmbv/eaLA/2+Zuv9pk7b/X4Kj/2B9mP9bdY7/UmmC/1t1
+        h/9KaUP/VIA+zFJ8PBAAAAAAAAAAAFB5ORZOejfTVIJA/Fp8X/95laf/h6S6/4ypvv+Nq77/jKrA/4On
+        wP9olbb/aJa3/0Zqj/9EdaT/Rm+W/1J5nP9SfqT/THee/2qWuf94ocD/cJi2/22Tsv96nbv/aYmo/1t6
+        mf9QbH7/S29H/1aFQPtOeTfRTnc4FgAAAAAAAAAASm40CU51OGNZiUTmUYA7/1p8W/mEna3zhZ6w/3eV
+        qv9xmLT/YY6v/1+Lq/9ciqv/Q2SH/0Z0n/98o8L/fafE/3Gixv9Ld6H/aZO1/2CKq/9bgJ//XYOh/2eG
+        oP9xjaf/ZIWe6k1yS/NSgTv/WYlE5U52N15IbjEIAAAAAAAAAABJeDEAWIREIVWFQeRRgDv/UH469ldz
+        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
+        CB/8AAA//4AD///gB///4Af///gf///+f/8=
+</value>
+  </data>
+  <data name="btn_signOut.Text" xml:space="preserve">
+    <value>Sign Out</value>
+  </data>
+  <data name="btn_drivingLicenseServicesMenu.Text" xml:space="preserve">
+    <value>Driving Licenses Services</value>
+  </data>
+  <data name="&gt;&gt;btn_testAttemptsReports.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_changeCurrentUserPassword.Name" xml:space="preserve">
+    <value>btn_changeCurrentUserPassword</value>
+  </data>
+  <data name="btn_newDrivingLicenseMenu.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 10.2pt, style=Bold</value>
+  </data>
+  <data name="btn_releaseDetainedLicenseApp2.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem8.Name" xml:space="preserve">
+    <value>toolStripMenuItem8</value>
+  </data>
+  <data name="btn_manageAppTypes.Text" xml:space="preserve">
+    <value>Manage Application Types</value>
+  </data>
+  <data name="btn_manageUsers.Text" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="&gt;&gt;btn_newDrivingLicenseMenu.Name" xml:space="preserve">
+    <value>btn_newDrivingLicenseMenu</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem4.Name" xml:space="preserve">
+    <value>toolStripMenuItem4</value>
+  </data>
+  <data name="btn_lookupTablesMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 70</value>
+  </data>
+  <data name="&gt;&gt;btn_manageAppTypes.Name" xml:space="preserve">
+    <value>btn_manageAppTypes</value>
+  </data>
+  <data name="&gt;&gt;btn_manageLocalLicenseApps.Name" xml:space="preserve">
+    <value>btn_manageLocalLicenseApps</value>
+  </data>
+  <data name="menuStrip_mainOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1032, 76</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
+    <value>toolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_lookupTablesMenu.Name" xml:space="preserve">
+    <value>btn_lookupTablesMenu</value>
+  </data>
+  <data name="menuStrip_mainOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btn_driverProfileReport.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.BottomToolStripPanel.Name" xml:space="preserve">
+    <value>toolStripContainer1.BottomToolStripPanel</value>
+  </data>
+  <data name="btn_manageLicenseClasses.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;btn_localLicenseAppDetailsReport.Name" xml:space="preserve">
+    <value>btn_localLicenseAppDetailsReport</value>
+  </data>
+  <data name="btn_licenseDetentionReport.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.LeftToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="accountSettingsToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 10.2pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_manageTestTypes.Text" xml:space="preserve">
+    <value>Manage Test Types</value>
+  </data>
+  <data name="accountSettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Account Settings</value>
+  </data>
+  <data name="btn_analyticsMenu.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btn_managePeople.Text" xml:space="preserve">
+    <value>People</value>
+  </data>
+  <data name="btn_driverProfileReport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>401, 30</value>
+  </data>
+  <data name="btn_detainLicensesMenu.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;btn_signOut.Name" xml:space="preserve">
+    <value>btn_signOut</value>
+  </data>
+  <data name="btn_manageUsers.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 10.2pt, style=Bold</value>
+  </data>
+  <data name="btn_manageLicenseDetentions.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>426, 6</value>
+  </data>
+  <data name="btn_reportsMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 38</value>
+  </data>
+  <data name="&gt;&gt;btn_newLocalLicenseApp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_personHistoryReport.Text" xml:space="preserve">
+    <value>Person History Report</value>
+  </data>
+  <data name="&gt;&gt;btn_userActivityReport.Name" xml:space="preserve">
+    <value>btn_userActivityReport</value>
+  </data>
+  <data name="btn_newDrivingLicenseMenu.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_localLicenseAppDetailsReport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btn_currentUserInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 38</value>
+  </data>
+  <data name="&gt;&gt;btn_releaseDetainedLicenseApp1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_manageAppTypes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_releaseDetainedLicenseApp2.Name" xml:space="preserve">
+    <value>btn_releaseDetainedLicenseApp2</value>
+  </data>
+  <data name="btn_analyticsMenu.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 10.2pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btn_renewLicenseApp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_personHistoryReport.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btn_manageLocalLicenseApps.Text" xml:space="preserve">
+    <value>Local Driving License Applications</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>toolStripContainer1.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.ContentPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btn_manageUsers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_localLicenseAppDetailsReport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>401, 30</value>
+  </data>
+  <data name="&gt;&gt;btn_manageLicenseClasses.Name" xml:space="preserve">
+    <value>btn_manageLicenseClasses</value>
+  </data>
+  <data name="btn_changeCurrentUserPassword.Text" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="&gt;&gt;btn_licenseDetentionReport.Name" xml:space="preserve">
+    <value>btn_licenseDetentionReport</value>
+  </data>
+  <data name="&gt;&gt;btn_managePeople.Name" xml:space="preserve">
+    <value>btn_managePeople</value>
+  </data>
+  <data name="btn_manageAppsMenu.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 10.2pt, style=Bold</value>
+  </data>
+  <data name="btn_manageInterLicenseApps.Text" xml:space="preserve">
+    <value>International Driving license Applications</value>
+  </data>
+  <data name="&gt;&gt;btn_applicationSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_signOut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 38</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btn_servicesMenu.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="btn_renewLicenseApp.Text" xml:space="preserve">
+    <value>Renew Driving License</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btn_viewAllLicenses.Size" type="System.Drawing.Size, System.Drawing">
+    <value>429, 38</value>
+  </data>
+  <data name="btn_reportsMenu.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="menuStrip_mainOptions.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btn_servicesMenu.Text" xml:space="preserve">
+    <value>&amp;Services</value>
+  </data>
+  <data name="btn_manageAppTypes.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="toolStripContainer1.Text" xml:space="preserve">
+    <value>toolStripContainer1</value>
+  </data>
+  <data name="&gt;&gt;btn_manageInterLicenseApps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_reportsMenu.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 10.2pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btn_releaseDetainedLicenseApp1.Name" xml:space="preserve">
+    <value>btn_releaseDetainedLicenseApp1</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>415, 6</value>
+  </data>
+  <data name="btn_manageLicenseDetentions.Text" xml:space="preserve">
+    <value>Manage Detained Licenses</value>
+  </data>
+  <data name="&gt;&gt;btn_servicesMenu.Name" xml:space="preserve">
+    <value>btn_servicesMenu</value>
+  </data>
+  <data name="btn_renewLicenseApp.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btn_manageLocalLicenseApps.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;btn_analyticsMenu.Name" xml:space="preserve">
+    <value>btn_analyticsMenu</value>
+  </data>
+  <data name="btn_detainLicensesMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 70</value>
+  </data>
+  <data name="btn_signOut.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="toolStripContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btn_manageTestTypes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_analyticsMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 70</value>
+  </data>
+  <data name="btn_releaseDetainedLicenseApp1.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btn_manageTestTypes.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btn_manageDrivers.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 10.2pt, style=Bold</value>
+  </data>
+  <data name="btn_currentUserInfo.Text" xml:space="preserve">
+    <value>Current User Info</value>
+  </data>
+  <data name="&gt;&gt;btn_personHistoryReport.Name" xml:space="preserve">
+    <value>btn_personHistoryReport</value>
+  </data>
+  <data name="btn_detainLicensesMenu.Text" xml:space="preserve">
+    <value>Detain Licenses</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="menuStrip_mainOptions.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="btn_newDrivingLicenseMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>429, 38</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.RightToolStripPanel.Parent" xml:space="preserve">
+    <value>toolStripContainer1</value>
+  </data>
+  <data name="&gt;&gt;btn_detainLicense.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.LeftToolStripPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btn_drivingLicenseServicesMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 70</value>
+  </data>
+  <data name="&gt;&gt;btn_manageLicenseDetentions.Name" xml:space="preserve">
+    <value>btn_manageLicenseDetentions</value>
+  </data>
+  <data name="btn_currentUserInfo.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.TopToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_viewAllApps.Text" xml:space="preserve">
+    <value>View All Applications</value>
+  </data>
+  <data name="&gt;&gt;btn_manageDrivers.Name" xml:space="preserve">
+    <value>btn_manageDrivers</value>
+  </data>
+  <data name="&gt;&gt;btn_manageAppsMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>426, 6</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_detainLicensesMenu.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 10.2pt, style=Bold</value>
+  </data>
+  <data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 6</value>
+  </data>
+  <data name="&gt;&gt;btn_manageTestTypes.Name" xml:space="preserve">
+    <value>btn_manageTestTypes</value>
+  </data>
+  <data name="&gt;&gt;btn_licenseDetentionReport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_testAttemptsReports.Text" xml:space="preserve">
+    <value>Test Attempts Report</value>
+  </data>
+  <data name="btn_releaseDetainedLicenseApp2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 38</value>
+  </data>
+  <data name="&gt;&gt;btn_newInterLicenseApp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_newLocalLicenseApp.Text" xml:space="preserve">
+    <value>Local License</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.BottomToolStripPanel.Parent" xml:space="preserve">
+    <value>toolStripContainer1</value>
+  </data>
+  <data name="toolStripContainer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;btn_replaceLicenseApp.Name" xml:space="preserve">
+    <value>btn_replaceLicenseApp</value>
+  </data>
+  <metadata name="menuStrip_mainOptions.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ar</value>
+  </metadata>
+</root>

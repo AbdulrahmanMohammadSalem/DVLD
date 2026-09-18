@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="allTime" xml:space="preserve">
+    <value>على الإطلاق</value>
+  </data>
+  <data name="col_createdBy" xml:space="preserve">
+    <value>أنشئ بواسطة</value>
+  </data>
+  <data name="col_detainDate" xml:space="preserve">
+    <value>تاريخ الحجز</value>
+  </data>
+  <data name="col_detainReason" xml:space="preserve">
+    <value>سبب الحجز</value>
+  </data>
+  <data name="col_fineFees" xml:space="preserve">
+    <value>قيمة الغرامة</value>
+  </data>
+  <data name="col_isReleased" xml:space="preserve">
+    <value>هل انفك الحجز؟</value>
+  </data>
+  <data name="col_localLicenseID" xml:space="preserve">
+    <value>رقم الرخصة المحلية</value>
+  </data>
+  <data name="col_releaseAppID" xml:space="preserve">
+    <value>رقم طلب فك الحجز</value>
+  </data>
+  <data name="col_releaseDate" xml:space="preserve">
+    <value>تاريخ فك الحجز</value>
+  </data>
+  <data name="col_releasedBy" xml:space="preserve">
+    <value>انفك الحجز بواسطة</value>
+  </data>
+  <data name="field_address" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="field_dateOfBirth" xml:space="preserve">
+    <value>تاريخ الميلاد</value>
+  </data>
+  <data name="field_email" xml:space="preserve">
+    <value>البريد الإلكتروني</value>
+  </data>
+  <data name="field_fullName" xml:space="preserve">
+    <value>الاسم الكامل</value>
+  </data>
+  <data name="field_gender" xml:space="preserve">
+    <value>النوع</value>
+  </data>
+  <data name="field_nationality" xml:space="preserve">
+    <value>الجنسية</value>
+  </data>
+  <data name="field_nationalNum" xml:space="preserve">
+    <value>الرقم القومي</value>
+  </data>
+  <data name="field_personID" xml:space="preserve">
+    <value>رقم الشخص</value>
+  </data>
+  <data name="field_phoneNum" xml:space="preserve">
+    <value>رقم الهاتف</value>
+  </data>
+  <data name="from" xml:space="preserve">
+    <value>من</value>
+  </data>
+  <data name="h_apps" xml:space="preserve">
+    <value>الطلبات</value>
+  </data>
+  <data name="h_detentions" xml:space="preserve">
+    <value>عمليات حجز الرخص</value>
+  </data>
+  <data name="h_drivingTests" xml:space="preserve">
+    <value>اختبارات القيادة</value>
+  </data>
+  <data name="h_interLicenses" xml:space="preserve">
+    <value>الرخص الدولية</value>
+  </data>
+  <data name="h_localLicenseApps" xml:space="preserve">
+    <value>طلبات رخص القيادة المحلية</value>
+  </data>
+  <data name="h_localLicenses" xml:space="preserve">
+    <value>الرخص المحلية</value>
+  </data>
+  <data name="h_otherApps" xml:space="preserve">
+    <value>الطلبات الأخر</value>
+  </data>
+  <data name="h_personalInfo" xml:space="preserve">
+    <value>البيانات الشخصية</value>
+  </data>
+  <data name="h_tests" xml:space="preserve">
+    <value>الاختبارات</value>
+  </data>
+  <data name="h_visionTests" xml:space="preserve">
+    <value>اختبارات النظر</value>
+  </data>
+  <data name="h_writtenTests" xml:space="preserve">
+    <value>الاختبارات التحريرية</value>
+  </data>
+  <data name="reportTitle" xml:space="preserve">
+    <value>سجل الأحداث الكامل لشخص</value>
+  </data>
+  <data name="upUntil" xml:space="preserve">
+    <value>حتى</value>
+  </data>
+  <data name="col_testAppointID" xml:space="preserve">
+    <value>رقم الحجز</value>
+  </data>
+  <data name="col_localLicenseAppID" xml:space="preserve">
+    <value>رقم طلب الرخصة المحلية</value>
+  </data>
+  <data name="col_class" xml:space="preserve">
+    <value>الفئة</value>
+  </data>
+  <data name="col_appointDate" xml:space="preserve">
+    <value>تاريخ الحجز</value>
+  </data>
+  <data name="col_testResult" xml:space="preserve">
+    <value>نتيجة الاختبار</value>
+  </data>
+  <data name="col_isLocked" xml:space="preserve">
+    <value>هل أغلق؟</value>
+  </data>
+  <data name="col_retakeAppID" xml:space="preserve">
+    <value>رقم طلب إعادة الاختبار</value>
+  </data>
+  <data name="col_totalPaidFees" xml:space="preserve">
+    <value>المبلغ الكلي المدفوع</value>
+  </data>
+  <data name="col_appointCreatedBy" xml:space="preserve">
+    <value>أنشئ الحجز بواسطة</value>
+  </data>
+  <data name="col_testCreatedBy" xml:space="preserve">
+    <value>أنشئ الاختبار بواسطة</value>
+  </data>
+  <data name="col_id" xml:space="preserve">
+    <value>الرقم التعريفي</value>
+  </data>
+  <data name="col_issueDate" xml:space="preserve">
+    <value>تاريخ الإصدار</value>
+  </data>
+  <data name="col_expirationDate" xml:space="preserve">
+    <value>تاريخ الانتهاء</value>
+  </data>
+  <data name="col_isActive" xml:space="preserve">
+    <value>هل فعالة؟</value>
+  </data>
+  <data name="col_appID" xml:space="preserve">
+    <value>رقم الطلب</value>
+  </data>
+  <data name="col_assocLocalLicenseID" xml:space="preserve">
+    <value>رقم الرخصة المحلية المصاحبة</value>
+  </data>
+  <data name="col_issueReason" xml:space="preserve">
+    <value>سبب الإصدار</value>
+  </data>
+  <data name="col_issueNotes" xml:space="preserve">
+    <value>ملاحظات الإصدار</value>
+  </data>
+  <data name="col_firstTimeFees" xml:space="preserve">
+    <value>رسوم الإصدار للمرة الأولى</value>
+  </data>
+  <data name="col_type" xml:space="preserve">
+    <value>النوع</value>
+  </data>
+  <data name="col_dateTime" xml:space="preserve">
+    <value>الوقت والتاريخ</value>
+  </data>
+  <data name="col_fees" xml:space="preserve">
+    <value>الرسوم</value>
+  </data>
+  <data name="col_passedTests" xml:space="preserve">
+    <value>الاختبارات المجتازة</value>
+  </data>
+  <data name="col_status" xml:space="preserve">
+    <value>الحالة</value>
+  </data>
+  <data name="col_updateDate" xml:space="preserve">
+    <value>تاريخ تحديث الحالة</value>
+  </data>
+  <data name="reportSubject_1" xml:space="preserve">
+    <value>تقرير يوثق سجل شخص بالرقم التعريفي </value>
+  </data>
+  <data name="reportSubject_2" xml:space="preserve">
+    <value> والذي رقمه القومي </value>
+  </data>
+  <data name="col_paidFees" xml:space="preserve">
+    <value>الرسوم المدفوعة</value>
+  </data>
+  <data name="totalPaidFineFees" xml:space="preserve">
+    <value>إجمالي الغرامات المدفوعة</value>
+  </data>
+  <data name="totalPendingFineFees" xml:space="preserve">
+    <value>إجمالي الغرامات غير المدفوعة</value>
+  </data>
+</root>

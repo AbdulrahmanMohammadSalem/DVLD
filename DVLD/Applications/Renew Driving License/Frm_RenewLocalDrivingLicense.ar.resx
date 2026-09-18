@@ -1,0 +1,566 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label_title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rubik SemiBold, 16.1999989pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label_title.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label_title.Text" xml:space="preserve">
+    <value>طلب تجديد الرخصة المحلية</value>
+  </data>
+  <data name="txt_notes.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt, style=Italic</value>
+  </data>
+  <data name="txt_notes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 214</value>
+  </data>
+  <data name="txt_notes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>483, 76</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>737, 216</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 30</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>ملاحظات:</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 179</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 30</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>الرسوم الكلية:</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 142</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 30</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>أنشئ بواسطة:</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAOZJREFUWEft
+        llEKwyAQRHOUHqVH6SEq9DYFe5Acw/zlKA1ClXWqg1u3lIIPFnRmspuYH5dlMvkXnN+eqLXQZLvRNNVk
+        u9E01WQLro9wdn5bY4NUycN1rTqya5yRvDec33YaGMT5cIkvgXrm46NTQGdQ0wg6A//ptwrnZqhpBJ1B
+        TSPoDGnWjm1Ek33lvkCatfWI1toXtB5kjXu11r4AH5Q1qsm+cl9ATSPoDGnWvqJXY9AMvgCuezUGzbSa
+        sWE1jUEz2EyWRmPQDDWNoDPifeB2DyfUrXhdeHbUMymAx2pY/EY0mfyCA7VqNtcBsKriAAAAAElFTkSu
+        QmCC
+</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 105</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 30</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>تاريخ انتهاء الرخصة الجديدة:</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 68</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 30</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>رقم الرخصة القديمة:</value>
+  </data>
+  <data name="lbl_newLicenseID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="lbl_newLicenseID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 34</value>
+  </data>
+  <data name="lbl_newLicenseID.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="lbl_licenseFees.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="lbl_licenseFees.Location" type="System.Drawing.Point, System.Drawing">
+    <value>497, 182</value>
+  </data>
+  <data name="lbl_licenseFees.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>737, 179</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 30</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>رسوم الرخصة:</value>
+  </data>
+  <data name="lbl_applicationFees.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="lbl_applicationFees.Location" type="System.Drawing.Point, System.Drawing">
+    <value>497, 145</value>
+  </data>
+  <data name="lbl_applicationFees.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>737, 142</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 30</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>رسوم الطلب:</value>
+  </data>
+  <data name="lbl_issueDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="lbl_issueDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>497, 108</value>
+  </data>
+  <data name="lbl_issueDate.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAOZJREFUWEft
+        llEKwyAQRHOUHqVH6SEq9DYFe5Acw/zlKA1ClXWqg1u3lIIPFnRmspuYH5dlMvkXnN+eqLXQZLvRNNVk
+        u9E01WQLro9wdn5bY4NUycN1rTqya5yRvDec33YaGMT5cIkvgXrm46NTQGdQ0wg6A//ptwrnZqhpBJ1B
+        TSPoDGnWjm1Ek33lvkCatfWI1toXtB5kjXu11r4AH5Q1qsm+cl9ATSPoDGnWvqJXY9AMvgCuezUGzbSa
+        sWE1jUEz2EyWRmPQDDWNoDPifeB2DyfUrXhdeHbUMymAx2pY/EY0mfyCA7VqNtcBsKriAAAAAElFTkSu
+        QmCC
+</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>737, 105</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 30</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>تاريخ إصدار الرخصة:</value>
+  </data>
+  <data name="lbl_applicationDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="lbl_applicationDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>497, 71</value>
+  </data>
+  <data name="lbl_applicationDate.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAOZJREFUWEft
+        llEKwyAQRHOUHqVH6SEq9DYFe5Acw/zlKA1ClXWqg1u3lIIPFnRmspuYH5dlMvkXnN+eqLXQZLvRNNVk
+        u9E01WQLro9wdn5bY4NUycN1rTqya5yRvDec33YaGMT5cIkvgXrm46NTQGdQ0wg6A//ptwrnZqhpBJ1B
+        TSPoDGnWjm1Ek33lvkCatfWI1toXtB5kjXu11r4AH5Q1qsm+cl9ATSPoDGnWvqJXY9AMvgCuezUGzbSa
+        sWE1jUEz2EyWRmPQDDWNoDPifeB2DyfUrXhdeHbUMymAx2pY/EY0mfyCA7VqNtcBsKriAAAAAElFTkSu
+        QmCC
+</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>737, 68</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 30</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>تاريخ تقديم الطلب:</value>
+  </data>
+  <data name="lbl_renewAppID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="lbl_renewAppID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>497, 34</value>
+  </data>
+  <data name="lbl_renewAppID.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>737, 31</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 30</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>رقم الطلب:</value>
+  </data>
+  <data name="lbl_oldLicenseID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="lbl_oldLicenseID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 71</value>
+  </data>
+  <data name="lbl_oldLicenseID.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="lbl_newExpirationDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="lbl_newExpirationDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 108</value>
+  </data>
+  <data name="lbl_newExpirationDate.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="lbl_createdBy.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="lbl_createdBy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 145</value>
+  </data>
+  <data name="lbl_createdBy.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="lbl_totalFees.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="lbl_totalFees.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 182</value>
+  </data>
+  <data name="lbl_totalFees.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 31</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 30</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>رقم الرخصة الجديدة:</value>
+  </data>
+  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rubik, 9pt</value>
+  </data>
+  <data name="groupBox1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>941, 308</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>معلومات طلب التجديد</value>
+  </data>
+  <data name="ll_showRenewedLicenseInfo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="ll_showRenewedLicenseInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>531, 881</value>
+  </data>
+  <data name="ll_showRenewedLicenseInfo.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="ll_showRenewedLicenseInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 26</value>
+  </data>
+  <data name="ll_showRenewedLicenseInfo.Text" xml:space="preserve">
+    <value>عرض معلومات الرخصة الجديدة</value>
+  </data>
+  <data name="ll_showLicenseHistory.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="ll_showLicenseHistory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>767, 881</value>
+  </data>
+  <data name="ll_showLicenseHistory.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="ll_showLicenseHistory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 26</value>
+  </data>
+  <data name="ll_showLicenseHistory.Text" xml:space="preserve">
+    <value>عرض سجل الرخص للسائق</value>
+  </data>
+  <data name="button_close.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 9pt, style=Bold</value>
+  </data>
+  <data name="button_close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 889</value>
+  </data>
+  <data name="button_close.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>42, 0, 0, 0</value>
+  </data>
+  <data name="button_close.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="button_close.Text" xml:space="preserve">
+    <value>إغلاق</value>
+  </data>
+  <data name="btn_renew.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 9pt, style=Bold, Italic</value>
+  </data>
+  <data name="btn_renew.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 889</value>
+  </data>
+  <data name="btn_renew.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>34, 0, 0, 0</value>
+  </data>
+  <data name="btn_renew.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="btn_renew.Text" xml:space="preserve">
+    <value>تجديد</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>تجديد رخصة محلية</value>
+  </data>
+</root>

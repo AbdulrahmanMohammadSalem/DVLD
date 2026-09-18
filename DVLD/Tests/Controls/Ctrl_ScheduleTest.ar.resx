@@ -1,0 +1,648 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbl_cannotUpdate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 8pt, style=Bold, Italic</value>
+  </data>
+  <data name="lbl_cannotUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 535</value>
+  </data>
+  <data name="lbl_cannotUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>497, 25</value>
+  </data>
+  <data name="lbl_cannotUpdate.Text" xml:space="preserve">
+    <value>لقد خضع المتقدم بالفعل لهذا الاختبار فلا يمكنك تعديل الحجز.</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dtp_testTime.Calendar.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dtp_testTime.Calendar.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dtp_testTime.Calendar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dtp_testTime.Calendar.AutoScroll" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dtp_testTime.Calendar.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dtp_testTime.Calendar.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="dtp_testTime.Calendar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="dtp_testTime.Calendar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="dtp_testTime.Calendar.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dtp_testTime.Calendar.NoneButton.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dtp_testTime.Calendar.NoneButton.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dtp_testTime.Calendar.NoneButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="dtp_testTime.Calendar.NoneButton.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="dtp_testTime.Calendar.NoneButton.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dtp_testTime.Calendar.NoneButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="dtp_testTime.Calendar.NoneButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="dtp_testTime.Calendar.NoneButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="dtp_testTime.Calendar.NoneButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="dtp_testTime.Calendar.NoneButton.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="dtp_testTime.Calendar.NoneButton.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtp_testTime.Calendar.NoneButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="dtp_testTime.Calendar.NoneButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 0</value>
+  </data>
+  <data name="dtp_testTime.Calendar.NoneButton.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dtp_testTime.Calendar.NoneButton.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="dtp_testTime.Calendar.NoneButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="dtp_testTime.Calendar.NoneButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="dtp_testTime.Calendar.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="dtp_testTime.Calendar.TodayButton.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dtp_testTime.Calendar.TodayButton.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dtp_testTime.Calendar.TodayButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="dtp_testTime.Calendar.TodayButton.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="dtp_testTime.Calendar.TodayButton.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dtp_testTime.Calendar.TodayButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="dtp_testTime.Calendar.TodayButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dtp_testTime.Calendar.TodayButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="dtp_testTime.Calendar.TodayButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="dtp_testTime.Calendar.TodayButton.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="dtp_testTime.Calendar.TodayButton.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtp_testTime.Calendar.TodayButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="dtp_testTime.Calendar.TodayButton.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dtp_testTime.Calendar.TodayButton.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="dtp_testTime.Calendar.TodayButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="dtp_testTime.Calendar.TodayButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="dtp_testTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="dtp_testTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 332</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 330</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 30</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>وقت الاختبار:</value>
+  </data>
+  <data name="dtp_testDate.Calendar.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dtp_testDate.Calendar.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dtp_testDate.Calendar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="dtp_testDate.Calendar.AutoScroll" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dtp_testDate.Calendar.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dtp_testDate.Calendar.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="dtp_testDate.Calendar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="dtp_testDate.Calendar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="dtp_testDate.Calendar.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dtp_testDate.Calendar.NoneButton.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dtp_testDate.Calendar.NoneButton.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dtp_testDate.Calendar.NoneButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="dtp_testDate.Calendar.NoneButton.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="dtp_testDate.Calendar.NoneButton.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dtp_testDate.Calendar.NoneButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="dtp_testDate.Calendar.NoneButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="dtp_testDate.Calendar.NoneButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="dtp_testDate.Calendar.NoneButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="dtp_testDate.Calendar.NoneButton.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="dtp_testDate.Calendar.NoneButton.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtp_testDate.Calendar.NoneButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="dtp_testDate.Calendar.NoneButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 0</value>
+  </data>
+  <data name="dtp_testDate.Calendar.NoneButton.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dtp_testDate.Calendar.NoneButton.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="dtp_testDate.Calendar.NoneButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="dtp_testDate.Calendar.NoneButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="dtp_testDate.Calendar.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="dtp_testDate.Calendar.TodayButton.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dtp_testDate.Calendar.TodayButton.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dtp_testDate.Calendar.TodayButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="dtp_testDate.Calendar.TodayButton.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="dtp_testDate.Calendar.TodayButton.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dtp_testDate.Calendar.TodayButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="dtp_testDate.Calendar.TodayButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dtp_testDate.Calendar.TodayButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="dtp_testDate.Calendar.TodayButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="dtp_testDate.Calendar.TodayButton.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="dtp_testDate.Calendar.TodayButton.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtp_testDate.Calendar.TodayButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="dtp_testDate.Calendar.TodayButton.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dtp_testDate.Calendar.TodayButton.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="dtp_testDate.Calendar.TodayButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="dtp_testDate.Calendar.TodayButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="dtp_testDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="dtp_testDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 290</value>
+  </data>
+  <data name="lbl_totalFees.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 8pt</value>
+  </data>
+  <data name="lbl_totalFees.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 65</value>
+  </data>
+  <data name="lbl_totalFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 26</value>
+  </data>
+  <data name="lbl_totalFees.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 7.5pt, style=Bold</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 61</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 30</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>المبلغ الكلي:</value>
+  </data>
+  <data name="lbl_retakeTestAppFees.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 8pt</value>
+  </data>
+  <data name="lbl_retakeTestAppFees.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 65</value>
+  </data>
+  <data name="lbl_retakeTestAppFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 26</value>
+  </data>
+  <data name="lbl_retakeTestAppFees.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="lbl_retakeAppID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 8pt</value>
+  </data>
+  <data name="lbl_retakeAppID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 31</value>
+  </data>
+  <data name="lbl_retakeAppID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 26</value>
+  </data>
+  <data name="lbl_retakeAppID.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 7.5pt, style=Bold</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 27</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 30</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>رقم طلب إعادة الاختبار:</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 7.5pt, style=Bold</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 61</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 30</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>رسوم إعادة الاختبار:</value>
+  </data>
+  <data name="gb_retakeTestInfo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rubik, 8pt</value>
+  </data>
+  <data name="gb_retakeTestInfo.Text" xml:space="preserve">
+    <value>معلومات إعادة الاختبار</value>
+  </data>
+  <data name="lbl_testFees.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="lbl_testFees.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 375</value>
+  </data>
+  <data name="lbl_testFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 30</value>
+  </data>
+  <data name="lbl_testFees.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 372</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 30</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>رسوم الاختبار:</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 288</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 30</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>تاريخ الاختبار:</value>
+  </data>
+  <data name="lbl_totalTrials.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="lbl_totalTrials.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 249</value>
+  </data>
+  <data name="lbl_totalTrials.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 30</value>
+  </data>
+  <data name="lbl_totalTrials.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 246</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 30</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>إجمالي المحاولات:</value>
+  </data>
+  <data name="lbl_applicantName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="lbl_applicantName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 207</value>
+  </data>
+  <data name="lbl_applicantName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 30</value>
+  </data>
+  <data name="lbl_applicantName.Text" xml:space="preserve">
+    <value>[؟؟؟؟]</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 204</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 30</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>اسم مقدم الطلب:</value>
+  </data>
+  <data name="lbl_lDLAppID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="lbl_lDLAppID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 123</value>
+  </data>
+  <data name="lbl_lDLAppID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 30</value>
+  </data>
+  <data name="lbl_lDLAppID.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 120</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 30</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>رقم طلب رخصة القيادة المحلية:</value>
+  </data>
+  <data name="lbl_title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rubik SemiBold, 15.5pt, style=Bold</value>
+  </data>
+  <data name="lbl_title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 21</value>
+  </data>
+  <data name="lbl_title.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>110, 0, 110, 0</value>
+  </data>
+  <data name="lbl_title.Text" xml:space="preserve">
+    <value>حجز موعد اختبار</value>
+  </data>
+  <data name="lbl_licenseClass.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="lbl_licenseClass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 165</value>
+  </data>
+  <data name="lbl_licenseClass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 30</value>
+  </data>
+  <data name="lbl_licenseClass.Text" xml:space="preserve">
+    <value>[؟؟؟]</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 162</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 30</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>فئة الرخصة:</value>
+  </data>
+  <data name="gb_mainContainer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rubik, 9pt</value>
+  </data>
+  <data name="gb_mainContainer.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="gb_mainContainer.Text" xml:space="preserve">
+    <value>اختبار</value>
+  </data>
+</root>

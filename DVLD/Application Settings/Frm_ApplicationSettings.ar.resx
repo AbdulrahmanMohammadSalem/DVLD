@@ -1,0 +1,857 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbl_language.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbl_language.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="lbl_language.Location" type="System.Drawing.Point, System.Drawing">
+    <value>822, 15</value>
+  </data>
+  <data name="lbl_language.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="lbl_language.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 30</value>
+  </data>
+  <data name="lbl_language.Text" xml:space="preserve">
+    <value>اللغة:</value>
+  </data>
+  <data name="lbl_language.ToolTip" xml:space="preserve">
+    <value>تغيير اللغة يتطلب إعادة تشغيل النظام.</value>
+  </data>
+  <data name="cb_language.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="cb_language.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="cb_language.Location" type="System.Drawing.Point, System.Drawing">
+    <value>616, 13</value>
+  </data>
+  <data name="cb_language.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 3, 0, 3</value>
+  </data>
+  <data name="cb_language.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="cb_language.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 34</value>
+  </data>
+  <data name="lbl_colorMode.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lbl_colorMode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="lbl_colorMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>822, 56</value>
+  </data>
+  <data name="lbl_colorMode.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="lbl_colorMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 30</value>
+  </data>
+  <data name="lbl_colorMode.Text" xml:space="preserve">
+    <value>نمط الألوان:</value>
+  </data>
+  <data name="lbl_theme.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lbl_theme.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="lbl_theme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>822, 97</value>
+  </data>
+  <data name="lbl_theme.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="lbl_theme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 30</value>
+  </data>
+  <data name="lbl_theme.Text" xml:space="preserve">
+    <value>السمة:</value>
+  </data>
+  <data name="cb_colorMode.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="cb_colorMode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="cb_colorMode.Items" xml:space="preserve">
+    <value>فاتح</value>
+  </data>
+  <data name="cb_colorMode.Items1" xml:space="preserve">
+    <value>داكن</value>
+  </data>
+  <data name="cb_colorMode.Items2" xml:space="preserve">
+    <value>حسب النظام</value>
+  </data>
+  <data name="cb_colorMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>616, 54</value>
+  </data>
+  <data name="cb_colorMode.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="cb_colorMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 34</value>
+  </data>
+  <data name="cb_theme.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="cb_theme.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="cb_theme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>616, 95</value>
+  </data>
+  <data name="cb_theme.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="cb_theme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 34</value>
+  </data>
+  <data name="btn_close.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btn_close.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 9pt, style=Bold</value>
+  </data>
+  <data name="btn_close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>798, 408</value>
+  </data>
+  <data name="btn_close.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>42, 0, 0, 0</value>
+  </data>
+  <data name="btn_close.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="btn_close.Text" xml:space="preserve">
+    <value>إغلاق</value>
+  </data>
+  <data name="btn_apply.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btn_apply.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 9pt, style=Bold</value>
+  </data>
+  <data name="btn_apply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>618, 408</value>
+  </data>
+  <data name="btn_apply.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>36, 0, 0, 0</value>
+  </data>
+  <data name="btn_apply.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="btn_apply.Text" xml:space="preserve">
+    <value>تطبيق</value>
+  </data>
+  <data name="groupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rubik, 9pt</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>565, 154</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>ألوان القوائم</value>
+  </data>
+  <data name="lbl_selectedTheme.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Light, 7pt, style=Italic</value>
+  </data>
+  <data name="lbl_selectedTheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, -1</value>
+  </data>
+  <data name="lbl_selectedTheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>406, 30</value>
+  </data>
+  <data name="lbl_selectedTheme.Text" xml:space="preserve">
+    <value>"Simple" (فاتح)</value>
+  </data>
+  <data name="btn_strongForeColor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="contextMenuStrip1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9pt, style=Bold</value>
+  </data>
+  <data name="contextMenuStrip1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 28</value>
+  </data>
+  <data name="btn_strongForeColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 84</value>
+  </data>
+  <data name="btn_strongForeColor.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="btn_surfaceBackColor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btn_surfaceBackColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 49</value>
+  </data>
+  <data name="btn_surfaceBackColor.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="btn_gridHeaderHighlightColor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btn_gridHeaderHighlightColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 224</value>
+  </data>
+  <data name="btn_gridHeaderHighlightColor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 3, 10, 3</value>
+  </data>
+  <data name="btn_gridHeaderHighlightColor.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="btn_inactiveTabColor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btn_inactiveTabColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 189</value>
+  </data>
+  <data name="btn_inactiveTabColor.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="btn_surfaceBorderColor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btn_surfaceBorderColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 154</value>
+  </data>
+  <data name="btn_surfaceBorderColor.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="btn_baseLinkColor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btn_baseLinkColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 119</value>
+  </data>
+  <data name="btn_baseLinkColor.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="btn_baseForeColor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btn_baseForeColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 84</value>
+  </data>
+  <data name="btn_baseForeColor.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="btn_baseBackColor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btn_baseBackColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 49</value>
+  </data>
+  <data name="btn_baseBackColor.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="btn_gridHeaderCellColor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btn_gridHeaderCellColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 224</value>
+  </data>
+  <data name="btn_gridHeaderCellColor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 3, 10, 3</value>
+  </data>
+  <data name="btn_gridHeaderCellColor.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="btn_surfaceHoverColor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btn_surfaceHoverColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 189</value>
+  </data>
+  <data name="btn_surfaceHoverColor.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label16.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 8pt, style=Bold, Italic</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 122</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 25</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>لون عناوين الشاشات:</value>
+  </data>
+  <data name="btn_inactiveForeColor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btn_inactiveForeColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 154</value>
+  </data>
+  <data name="btn_inactiveForeColor.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label15.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 8pt, style=Bold, Italic</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 87</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 25</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>لون النص القوي:</value>
+  </data>
+  <data name="btn_accentForeColor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btn_accentForeColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 119</value>
+  </data>
+  <data name="btn_accentForeColor.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label14.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 8pt, style=Bold, Italic</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>423, 157</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 25</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>لون النص غير النشط:</value>
+  </data>
+  <data name="label13.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 8pt, style=Bold, Italic</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 122</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 25</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>لون الروابط:</value>
+  </data>
+  <data name="label12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 8pt, style=Bold, Italic</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 227</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 25</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>لون تحديد رءوس الجدوال:</value>
+  </data>
+  <data name="label11.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 8pt, style=Bold, Italic</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>434, 227</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 25</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>لون رءوس الجداول:</value>
+  </data>
+  <data name="label10.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 8pt, style=Bold, Italic</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 157</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 25</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>لون حواف الأسطح:</value>
+  </data>
+  <data name="label9.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 8pt, style=Bold, Italic</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>365, 192</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 25</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>لون تمرير المؤشر على الأسطح:</value>
+  </data>
+  <data name="label8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 8pt, style=Bold, Italic</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 192</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 25</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>لون التبويبة غير الفعالة:</value>
+  </data>
+  <data name="label4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 8pt, style=Bold, Italic</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>423, 52</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 25</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>لون الخلفية الأساسي:</value>
+  </data>
+  <data name="label3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 9pt, style=Bold, Italic, Underline</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>403, 10</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 26</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>تعديل السمة المختارة:</value>
+  </data>
+  <data name="label18.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 8pt, style=Bold, Italic</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 52</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 25</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>لون خلفية الأسطح:</value>
+  </data>
+  <data name="label17.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 8pt, style=Bold, Italic</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>434, 87</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 25</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>لون النص الأساسي:</value>
+  </data>
+  <data name="pnl_themeValues.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="pnl_themeValues.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 15</value>
+  </data>
+  <data name="pnl_themeValues.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="pnl_themeValues.Size" type="System.Drawing.Size, System.Drawing">
+    <value>587, 433</value>
+  </data>
+  <data name="btn_selectHue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btn_selectHue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 95</value>
+  </data>
+  <data name="btn_selectHue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 29</value>
+  </data>
+  <data name="trackBar1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="trackBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 71</value>
+  </data>
+  <data name="trackBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 18</value>
+  </data>
+  <data name="label21.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="label21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 8pt, style=Bold, Italic</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 40</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 25</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>اختيار تدرج اللون:</value>
+  </data>
+  <data name="label6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 8pt, style=Bold, Italic</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 73</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 25</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>لون خيارات القوائم عند التمرير:</value>
+  </data>
+  <data name="btn_menuItemHoverBorderColor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btn_menuItemHoverBorderColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 105</value>
+  </data>
+  <data name="btn_menuItemHoverBorderColor.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="resetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 24</value>
+  </data>
+  <data name="resetToolStripMenuItem.Text" xml:space="preserve">
+    <value>إعادة ضبط</value>
+  </data>
+  <data name="btn_menuItemHoverColor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btn_menuItemHoverColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 71</value>
+  </data>
+  <data name="btn_menuItemHoverColor.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="btn_mainMenuBackColor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btn_mainMenuBackColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 36</value>
+  </data>
+  <data name="btn_mainMenuBackColor.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label19.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 8pt, style=Bold, Italic</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>316, 108</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 25</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>لون حواف خيارات القوائم عند التمرير:</value>
+  </data>
+  <data name="label20.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 8pt, style=Bold, Italic</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 39</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 25</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>لون خلفية شريط القوائم الرئيسي:</value>
+  </data>
+  <data name="gb_menuItemsStyle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rubik, 9pt</value>
+  </data>
+  <data name="gb_menuItemsStyle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>616, 149</value>
+  </data>
+  <data name="gb_menuItemsStyle.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="gb_menuItemsStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 113</value>
+  </data>
+  <data name="gb_menuItemsStyle.Text" xml:space="preserve">
+    <value>نظام ألوان خيارات القوائم</value>
+  </data>
+  <data name="rb_fixedHue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="rb_fixedHue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 8pt, style=Bold, Italic</value>
+  </data>
+  <data name="rb_fixedHue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 67</value>
+  </data>
+  <data name="rb_fixedHue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 29</value>
+  </data>
+  <data name="rb_fixedHue.Text" xml:space="preserve">
+    <value>تدرج ثابت</value>
+  </data>
+  <data name="rb_freeValues.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="rb_freeValues.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 8pt, style=Bold, Italic</value>
+  </data>
+  <data name="rb_freeValues.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 35</value>
+  </data>
+  <data name="rb_freeValues.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 29</value>
+  </data>
+  <data name="rb_freeValues.Text" xml:space="preserve">
+    <value>قيم حرة</value>
+  </data>
+  <data name="ll_branchIntoNewTheme.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="ll_branchIntoNewTheme.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 8pt, style=Italic</value>
+  </data>
+  <data name="ll_branchIntoNewTheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>695, 272</value>
+  </data>
+  <data name="ll_branchIntoNewTheme.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="ll_branchIntoNewTheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 25</value>
+  </data>
+  <data name="ll_branchIntoNewTheme.Text" xml:space="preserve">
+    <value>اشتقاق سمة جديدة من السمة المختارة.</value>
+  </data>
+  <data name="ll_saveChangesToSelectedTheme.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="ll_saveChangesToSelectedTheme.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 8pt, style=Italic</value>
+  </data>
+  <data name="ll_saveChangesToSelectedTheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>722, 300</value>
+  </data>
+  <data name="ll_saveChangesToSelectedTheme.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="ll_saveChangesToSelectedTheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 25</value>
+  </data>
+  <data name="ll_saveChangesToSelectedTheme.Text" xml:space="preserve">
+    <value>حفظ التعديلات على السمة المختارة.</value>
+  </data>
+  <data name="ll_deleteSelectedTheme.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="ll_deleteSelectedTheme.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 8pt, style=Italic</value>
+  </data>
+  <data name="ll_deleteSelectedTheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>806, 356</value>
+  </data>
+  <data name="ll_deleteSelectedTheme.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="ll_deleteSelectedTheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 25</value>
+  </data>
+  <data name="ll_deleteSelectedTheme.Text" xml:space="preserve">
+    <value>حذف السمة المختارة!</value>
+  </data>
+  <data name="ll_renameSelectedTheme.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="ll_renameSelectedTheme.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 8pt, style=Italic</value>
+  </data>
+  <data name="ll_renameSelectedTheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>777, 328</value>
+  </data>
+  <data name="ll_renameSelectedTheme.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="ll_renameSelectedTheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 25</value>
+  </data>
+  <data name="ll_renameSelectedTheme.Text" xml:space="preserve">
+    <value>تغيير اسم السمة المختارة.</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>967, 463</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>إعدادات النظام</value>
+  </data>
+</root>

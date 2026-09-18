@@ -1,0 +1,584 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chk_colorful.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="chk_colorful.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="chk_colorful.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 140</value>
+  </data>
+  <data name="chk_colorful.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 30, 0</value>
+  </data>
+  <data name="chk_colorful.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 30</value>
+  </data>
+  <data name="chk_colorful.Text" xml:space="preserve">
+    <value>تلوين المستند</value>
+  </data>
+  <data name="chk_includeDvldLogo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="chk_includeDvldLogo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="chk_includeDvldLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 103</value>
+  </data>
+  <data name="chk_includeDvldLogo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 30, 0</value>
+  </data>
+  <data name="chk_includeDvldLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 30</value>
+  </data>
+  <data name="chk_includeDvldLogo.Text" xml:space="preserve">
+    <value>تضمين شعار النظام</value>
+  </data>
+  <data name="chk_includeDateTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="chk_includeDateTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="chk_includeDateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 66</value>
+  </data>
+  <data name="chk_includeDateTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 30, 0</value>
+  </data>
+  <data name="chk_includeDateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 30</value>
+  </data>
+  <data name="chk_includeDateTime.Text" xml:space="preserve">
+    <value>تضمين الوقت والتاريخ</value>
+  </data>
+  <data name="chk_openAfterSaving.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="chk_openAfterSaving.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="chk_openAfterSaving.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 29</value>
+  </data>
+  <data name="chk_openAfterSaving.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 30, 0</value>
+  </data>
+  <data name="chk_openAfterSaving.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 30</value>
+  </data>
+  <data name="chk_openAfterSaving.Text" xml:space="preserve">
+    <value>فتح الملف بعد التصدير</value>
+  </data>
+  <data name="cb_pageOrientation.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="cb_pageOrientation.Items" xml:space="preserve">
+    <value>اتجاه رأسي</value>
+  </data>
+  <data name="cb_pageOrientation.Items1" xml:space="preserve">
+    <value>اتجاه أفقي</value>
+  </data>
+  <data name="cb_pageOrientation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 0</value>
+  </data>
+  <data name="cb_pageOrientation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 34</value>
+  </data>
+  <data name="cb_pageOrientation.Text" xml:space="preserve">
+    <value>اتجاه رأسي</value>
+  </data>
+  <data name="cb_vMarginUnit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="cb_vMarginUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="cb_vMarginUnit.Items" xml:space="preserve">
+    <value>سم</value>
+  </data>
+  <data name="cb_vMarginUnit.Items1" xml:space="preserve">
+    <value>مم</value>
+  </data>
+  <data name="cb_vMarginUnit.Items2" xml:space="preserve">
+    <value>بوصة</value>
+  </data>
+  <data name="cb_vMarginUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 84</value>
+  </data>
+  <data name="cb_vMarginUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 34</value>
+  </data>
+  <data name="cb_vMarginUnit.Text" xml:space="preserve">
+    <value>سم</value>
+  </data>
+  <data name="chk_useCustomPageSize.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="chk_useCustomPageSize.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="chk_useCustomPageSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 4</value>
+  </data>
+  <data name="chk_useCustomPageSize.Text" xml:space="preserve">
+    <value>استخدام حجم مخصص</value>
+  </data>
+  <data name="txt_vMargin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 86</value>
+  </data>
+  <data name="txt_vMargin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 0, 3</value>
+  </data>
+  <data name="txt_vMargin.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txt_vMargin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 30</value>
+  </data>
+  <data name="cb_pageHeightUnit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="cb_pageHeightUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="cb_pageHeightUnit.Items" xml:space="preserve">
+    <value>سم</value>
+  </data>
+  <data name="cb_pageHeightUnit.Items1" xml:space="preserve">
+    <value>مم</value>
+  </data>
+  <data name="cb_pageHeightUnit.Items2" xml:space="preserve">
+    <value>بوصة</value>
+  </data>
+  <data name="cb_pageHeightUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 43</value>
+  </data>
+  <data name="cb_pageHeightUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 34</value>
+  </data>
+  <data name="cb_pageHeightUnit.Text" xml:space="preserve">
+    <value>سم</value>
+  </data>
+  <data name="label6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 86</value>
+  </data>
+  <data name="label6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 30</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>الهوامش الرأسية:</value>
+  </data>
+  <data name="txt_pageHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 45</value>
+  </data>
+  <data name="txt_pageHeight.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txt_pageHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 30</value>
+  </data>
+  <data name="lbl_pageHeight.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="lbl_pageHeight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="lbl_pageHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 45</value>
+  </data>
+  <data name="lbl_pageHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 30</value>
+  </data>
+  <data name="lbl_pageHeight.Text" xml:space="preserve">
+    <value>الطول:</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>433, 119</value>
+  </data>
+  <data name="label5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 0</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 30</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>الحجم:</value>
+  </data>
+  <data name="cb_pageSize.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="cb_pageSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="cb_pageSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>317, 34</value>
+  </data>
+  <data name="txt_hMargin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 86</value>
+  </data>
+  <data name="txt_hMargin.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txt_hMargin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 30</value>
+  </data>
+  <data name="cb_hMarginUnit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="cb_hMarginUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="cb_hMarginUnit.Items" xml:space="preserve">
+    <value>سم</value>
+  </data>
+  <data name="cb_hMarginUnit.Items1" xml:space="preserve">
+    <value>مم</value>
+  </data>
+  <data name="cb_hMarginUnit.Items2" xml:space="preserve">
+    <value>بوصة</value>
+  </data>
+  <data name="cb_hMarginUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 84</value>
+  </data>
+  <data name="cb_hMarginUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 34</value>
+  </data>
+  <data name="cb_hMarginUnit.Text" xml:space="preserve">
+    <value>سم</value>
+  </data>
+  <data name="txt_pageWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 45</value>
+  </data>
+  <data name="txt_pageWidth.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txt_pageWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 30</value>
+  </data>
+  <data name="cb_pageWidthUnit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="cb_pageWidthUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="cb_pageWidthUnit.Items" xml:space="preserve">
+    <value>سم</value>
+  </data>
+  <data name="cb_pageWidthUnit.Items1" xml:space="preserve">
+    <value>مم</value>
+  </data>
+  <data name="cb_pageWidthUnit.Items2" xml:space="preserve">
+    <value>بوصة</value>
+  </data>
+  <data name="cb_pageWidthUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 43</value>
+  </data>
+  <data name="cb_pageWidthUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 34</value>
+  </data>
+  <data name="cb_pageWidthUnit.Text" xml:space="preserve">
+    <value>سم</value>
+  </data>
+  <data name="lbl_pageWidth.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="lbl_pageWidth.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="lbl_pageWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 45</value>
+  </data>
+  <data name="lbl_pageWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 30</value>
+  </data>
+  <data name="lbl_pageWidth.Text" xml:space="preserve">
+    <value>العرض:</value>
+  </data>
+  <data name="label7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 86</value>
+  </data>
+  <data name="label7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 0, 0</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 30</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>الهوامش الأفقية:</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>443, 0</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>433, 119</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 31</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>876, 119</value>
+  </data>
+  <data name="groupBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>13, 13, 13, 23</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>إعداد الصفحة</value>
+  </data>
+  <data name="cb_preferredFontFamily.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt</value>
+  </data>
+  <data name="cb_preferredFontFamily.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 132</value>
+  </data>
+  <data name="cb_preferredFontFamily.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="cb_preferredFontFamily.Size" type="System.Drawing.Size, System.Drawing">
+    <value>492, 27</value>
+  </data>
+  <data name="btn_browseFolder.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Baskerville Old Face, 10.2pt</value>
+  </data>
+  <data name="btn_browseFolder.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btn_browseFolder.ToolTip" xml:space="preserve">
+    <value>تصفح المجلدات</value>
+  </data>
+  <data name="txt_fullPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 19</value>
+  </data>
+  <data name="buttonEdit3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt, style=Italic</value>
+  </data>
+  <data name="buttonEdit3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 86</value>
+  </data>
+  <data name="buttonEdit3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="buttonEdit3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>492, 27</value>
+  </data>
+  <data name="label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>765, 130</value>
+  </data>
+  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 0, 0</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 30</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>الخط المفضل:</value>
+  </data>
+  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>765, 84</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 0, 0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 30</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>المسار الكامل:</value>
+  </data>
+  <data name="txt_fileName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro, 9pt, style=Italic</value>
+  </data>
+  <data name="txt_fileName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 40</value>
+  </data>
+  <data name="txt_fileName.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txt_fileName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>492, 26</value>
+  </data>
+  <data name="label13.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro SemiBold, 9pt, style=Bold</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>765, 38</value>
+  </data>
+  <data name="label13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 0, 0</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 30</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>اسم الملف:</value>
+  </data>
+  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rubik, 9pt</value>
+  </data>
+  <data name="groupBox1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>إعدادات تصدير المستند</value>
+  </data>
+</root>

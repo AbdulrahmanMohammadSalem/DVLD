@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="activate_deactivateUser" xml:space="preserve">
+    <value>تجميد وتنشيط مستخدم</value>
+  </data>
+  <data name="addNewPerson" xml:space="preserve">
+    <value>إضافة شخص جديد</value>
+  </data>
+  <data name="addNewUser" xml:space="preserve">
+    <value>إضافة مستخدم جديد</value>
+  </data>
+  <data name="appTypes" xml:space="preserve">
+    <value>أنواع الطلبات</value>
+  </data>
+  <data name="arrow" xml:space="preserve">
+    <value>←</value>
+  </data>
+  <data name="cancelApp" xml:space="preserve">
+    <value>إلغاء الطلب</value>
+  </data>
+  <data name="changeColorMode" xml:space="preserve">
+    <value>تغيير نمط الألوان</value>
+  </data>
+  <data name="changeLanguage" xml:space="preserve">
+    <value>تغيير اللغة</value>
+  </data>
+  <data name="changeUserPassword" xml:space="preserve">
+    <value>تغيير كلمة المرور</value>
+  </data>
+  <data name="changeUserPermissions" xml:space="preserve">
+    <value>تغيير صلاحيات المستخدم</value>
+  </data>
+  <data name="createNewAppoint" xml:space="preserve">
+    <value>إنشاء حجز جديد</value>
+  </data>
+  <data name="createNewInterLicenseApp" xml:space="preserve">
+    <value>إنشاء طلب إصدار رخصة قيادة دولية جديد -- إصدار رخصة قيادة دولية</value>
+  </data>
+  <data name="createNewLocalLicenseApp" xml:space="preserve">
+    <value>إنشاء طلب إصدار رخصة قيادة محلية جديد</value>
+  </data>
+  <data name="createNewTheme" xml:space="preserve">
+    <value>إنشاء سمة جديدة (الاشتقاق أو من الصفر)</value>
+  </data>
+  <data name="deleteApp" xml:space="preserve">
+    <value>حذف الطلب</value>
+  </data>
+  <data name="deletePerson" xml:space="preserve">
+    <value>حذف الشخص</value>
+  </data>
+  <data name="deleteTheme" xml:space="preserve">
+    <value>حذف السمة</value>
+  </data>
+  <data name="deleteUser" xml:space="preserve">
+    <value>حذف المستخدم</value>
+  </data>
+  <data name="detainLicense" xml:space="preserve">
+    <value>حجز رخصة</value>
+  </data>
+  <data name="editAppInfo" xml:space="preserve">
+    <value>تعديل بيانات الطلب</value>
+  </data>
+  <data name="editPersonalInfo" xml:space="preserve">
+    <value>تعديل البيانات الشخصية</value>
+  </data>
+  <data name="editThemeValues" xml:space="preserve">
+    <value>تعديل ألوان السمة</value>
+  </data>
+  <data name="editUsername" xml:space="preserve">
+    <value>تغيير اسم المستخدم</value>
+  </data>
+  <data name="exportAppointsData" xml:space="preserve">
+    <value>تصدير بيانات الحجوزات</value>
+  </data>
+  <data name="exportData" xml:space="preserve">
+    <value>تصدير البيانات</value>
+  </data>
+  <data name="exportDetainedLicensesData" xml:space="preserve">
+    <value>تصدير بيانات حجز الرخص</value>
+  </data>
+  <data name="exportDriversData" xml:space="preserve">
+    <value>تصدير بيانات السائقين</value>
+  </data>
+  <data name="exportInterLicenseAppData" xml:space="preserve">
+    <value>تصدير بيانات طلبات إصدار رخص القيادة الدولية</value>
+  </data>
+  <data name="exportInterLicensesData" xml:space="preserve">
+    <value>تصدير بيانات الرخص الدولية</value>
+  </data>
+  <data name="exportLocalLicenseAppsData" xml:space="preserve">
+    <value>تصدير بيانات طلبات إصدار رخص القيادة المحلية</value>
+  </data>
+  <data name="exportLocalLicensesData" xml:space="preserve">
+    <value>تصدير بيانات الرخص المحلية</value>
+  </data>
+  <data name="exportPeopleData" xml:space="preserve">
+    <value>تصدير بيانات الأشخاص</value>
+  </data>
+  <data name="exportUsersData" xml:space="preserve">
+    <value>تصدير بيانات المستخدمين</value>
+  </data>
+  <data name="fullAccess" xml:space="preserve">
+    <value>صلاحيات مطلقة</value>
+  </data>
+  <data name="issueLicenseReplacement" xml:space="preserve">
+    <value>إصدار بدل لرخصة</value>
+  </data>
+  <data name="issueLocalLicenseFirstTime" xml:space="preserve">
+    <value>إصدار رخصة محلية للمرة الأولى</value>
+  </data>
+  <data name="licenseClasses" xml:space="preserve">
+    <value>فئات الرخص</value>
+  </data>
+  <data name="noAccess" xml:space="preserve">
+    <value>لا صلاحيات</value>
+  </data>
+  <data name="phoneCall" xml:space="preserve">
+    <value>إجراء اتصال هاتفي</value>
+  </data>
+  <data name="releaseDetainedLicense" xml:space="preserve">
+    <value>فك الحجز عن رخصة</value>
+  </data>
+  <data name="renameTheme" xml:space="preserve">
+    <value>تغيير اسم السمة</value>
+  </data>
+  <data name="renewLicense" xml:space="preserve">
+    <value>تجديد رخصة</value>
+  </data>
+  <data name="seeAllAppoints" xml:space="preserve">
+    <value>رؤية جميع الحجوزات</value>
+  </data>
+  <data name="seeAllDrivers" xml:space="preserve">
+    <value>رؤية جميع السائقين</value>
+  </data>
+  <data name="seeAllInterLicenseApps" xml:space="preserve">
+    <value>رؤية جميع طلبات إصدار رخص القيادة الدولية</value>
+  </data>
+  <data name="seeAllLocalLicenseApps" xml:space="preserve">
+    <value>رؤية جميع طلبات إصدار رخص القيادة المحلية</value>
+  </data>
+  <data name="seeAllPeople" xml:space="preserve">
+    <value>رؤية جميع الأشخاص</value>
+  </data>
+  <data name="seeAllUsers" xml:space="preserve">
+    <value>رؤية جميع المستخدمين</value>
+  </data>
+  <data name="seeDriverDrivingTestsHistory" xml:space="preserve">
+    <value>رؤية سجل اختبارات القيادة للسائق</value>
+  </data>
+  <data name="seeDriverInterLicensesHistory" xml:space="preserve">
+    <value>رؤية سجل الرخص الدولية للسائق</value>
+  </data>
+  <data name="seeDriverLocalLicensesHistory" xml:space="preserve">
+    <value>رؤية سجل الرخص المحلية للسائق</value>
+  </data>
+  <data name="seeDriversVisionTestsHistory" xml:space="preserve">
+    <value>رؤية سجل اختبارات النظر للسائق</value>
+  </data>
+  <data name="seeDriverWrittenTestsHistory" xml:space="preserve">
+    <value>رؤية سجل الاختبارات التحريرية للسائق</value>
+  </data>
+  <data name="seePersonalInfoCards" xml:space="preserve">
+    <value>رؤية بطاقات البيانات الشخصية</value>
+  </data>
+  <data name="sendEmail" xml:space="preserve">
+    <value>إرسال رسالة بالبريد الإلكتروني</value>
+  </data>
+  <data name="showFullInterLicenseInfo" xml:space="preserve">
+    <value>عرض جميع بيانات الرخصة الدولية</value>
+  </data>
+  <data name="showFullLocalLicenseInfo" xml:space="preserve">
+    <value>عرض جميع بيانات الرخصة المحلية</value>
+  </data>
+  <data name="systemWideRevenue" xml:space="preserve">
+    <value>الأرباح على مستوى النظام</value>
+  </data>
+  <data name="testResultsRates_avgAttemptsToPass" xml:space="preserve">
+    <value>معدلات نتائج الاختبارات -- متوسط المحاولات للنجاح</value>
+  </data>
+  <data name="testTypes" xml:space="preserve">
+    <value>أنواع الاختبارات</value>
+  </data>
+  <data name="updateAppointInfo" xml:space="preserve">
+    <value>تحديث بيانات الحجز</value>
+  </data>
+  <data name="updateData" xml:space="preserve">
+    <value>تحديث البيانات</value>
+  </data>
+  <data name="viewAllData" xml:space="preserve">
+    <value>عرض جميع البيانات</value>
+  </data>
+  <data name="viewAllDetainedLicenses" xml:space="preserve">
+    <value>عرض جميع الرخص المحجوزة</value>
+  </data>
+  <data name="viewAllInterLicenses" xml:space="preserve">
+    <value>عرض جميع الرخص الدولية</value>
+  </data>
+  <data name="viewAllLocalLicenses" xml:space="preserve">
+    <value>عرض جميع الرخص المحلية</value>
+  </data>
+  <data name="viewFullAppDetails" xml:space="preserve">
+    <value>عرض جميع بيانات طلب إصدار رخصة قيادة محلية</value>
+  </data>
+</root>

@@ -1,0 +1,801 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="helpToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>19, 10</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pb_help.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pb_help.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="pb_help.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pb_help.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="pb_help.ToolTip" xml:space="preserve">
+    <value>This chart displays the total number of applications of the selected type(s) across the months of a specified year, filtered by the selected status.</value>
+  </data>
+  <data name="&gt;&gt;pb_help.Name" xml:space="preserve">
+    <value>pb_help</value>
+  </data>
+  <data name="&gt;&gt;pb_help.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pb_help.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pb_help.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btn_refresh.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_refresh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 5</value>
+  </data>
+  <data name="btn_refresh.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 5, 5, 5</value>
+  </data>
+  <data name="btn_refresh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="btn_refresh.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <metadata name="normalToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>183, 11</value>
+  </metadata>
+  <data name="btn_refresh.ToolTip" xml:space="preserve">
+    <value>Reload chart</value>
+  </data>
+  <data name="&gt;&gt;btn_refresh.Name" xml:space="preserve">
+    <value>btn_refresh</value>
+  </data>
+  <data name="&gt;&gt;btn_refresh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_refresh.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_refresh.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btn_export.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_export.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_export.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 5</value>
+  </data>
+  <data name="btn_export.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 5, 5, 5</value>
+  </data>
+  <data name="btn_export.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="btn_export.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="btn_export.ToolTip" xml:space="preserve">
+    <value>Export chart</value>
+  </data>
+  <data name="&gt;&gt;btn_export.Name" xml:space="preserve">
+    <value>btn_export</value>
+  </data>
+  <data name="&gt;&gt;btn_export.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_export.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_export.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ll_prevQuarter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="ll_prevQuarter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ll_prevQuarter.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ll_prevQuarter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8pt, style=Italic</value>
+  </data>
+  <data name="ll_prevQuarter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>916, 549</value>
+  </data>
+  <data name="ll_prevQuarter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 0, 0</value>
+  </data>
+  <data name="ll_prevQuarter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 19</value>
+  </data>
+  <data name="ll_prevQuarter.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="ll_prevQuarter.Text" xml:space="preserve">
+    <value>← Previous Quarter</value>
+  </data>
+  <data name="&gt;&gt;ll_prevQuarter.Name" xml:space="preserve">
+    <value>ll_prevQuarter</value>
+  </data>
+  <data name="&gt;&gt;ll_prevQuarter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ll_prevQuarter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ll_prevQuarter.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ll_nextQuarter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="ll_nextQuarter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ll_nextQuarter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8pt, style=Italic</value>
+  </data>
+  <data name="ll_nextQuarter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1051, 549</value>
+  </data>
+  <data name="ll_nextQuarter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 19</value>
+  </data>
+  <data name="ll_nextQuarter.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="ll_nextQuarter.Text" xml:space="preserve">
+    <value>Next Quarter →</value>
+  </data>
+  <data name="&gt;&gt;ll_nextQuarter.Name" xml:space="preserve">
+    <value>ll_nextQuarter</value>
+  </data>
+  <data name="&gt;&gt;ll_nextQuarter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ll_nextQuarter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ll_nextQuarter.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chk_retakeFailedTest.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="chk_retakeFailedTest.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk_retakeFailedTest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>453, 624</value>
+  </data>
+  <data name="chk_retakeFailedTest.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 15, 15, 10</value>
+  </data>
+  <data name="chk_retakeFailedTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 26</value>
+  </data>
+  <data name="chk_retakeFailedTest.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="chk_retakeFailedTest.Text" xml:space="preserve">
+    <value>Retake Failed Test</value>
+  </data>
+  <data name="&gt;&gt;chk_retakeFailedTest.Name" xml:space="preserve">
+    <value>chk_retakeFailedTest</value>
+  </data>
+  <data name="&gt;&gt;chk_retakeFailedTest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk_retakeFailedTest.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_retakeFailedTest.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="chk_replaceDamagedLicense.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="chk_replaceDamagedLicense.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk_replaceDamagedLicense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>655, 588</value>
+  </data>
+  <data name="chk_replaceDamagedLicense.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 15, 15, 10</value>
+  </data>
+  <data name="chk_replaceDamagedLicense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 26</value>
+  </data>
+  <data name="chk_replaceDamagedLicense.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="chk_replaceDamagedLicense.Text" xml:space="preserve">
+    <value>Replace Damaged License</value>
+  </data>
+  <data name="&gt;&gt;chk_replaceDamagedLicense.Name" xml:space="preserve">
+    <value>chk_replaceDamagedLicense</value>
+  </data>
+  <data name="&gt;&gt;chk_replaceDamagedLicense.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk_replaceDamagedLicense.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_replaceDamagedLicense.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cb_appStatus.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="cb_appStatus.DropDownWidth" type="System.Int32, mscorlib">
+    <value>172</value>
+  </data>
+  <data name="cb_appStatus.Items" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="cb_appStatus.Items1" xml:space="preserve">
+    <value>Cancelled</value>
+  </data>
+  <data name="cb_appStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>985, 621</value>
+  </data>
+  <data name="cb_appStatus.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 15, 3</value>
+  </data>
+  <data name="cb_appStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 30</value>
+  </data>
+  <data name="cb_appStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="cb_appStatus.Text" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="&gt;&gt;cb_appStatus.Name" xml:space="preserve">
+    <value>cb_appStatus</value>
+  </data>
+  <data name="&gt;&gt;cb_appStatus.Type" xml:space="preserve">
+    <value>Salem.Controls.SalDropDownList, Salem.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cb_appStatus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cb_appStatus.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 10.2pt, style=Bold</value>
+  </data>
+  <data name="label3.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>918, 625</value>
+  </data>
+  <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 3, 3</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 22</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 10.2pt, style=Bold</value>
+  </data>
+  <data name="label2.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>918, 589</value>
+  </data>
+  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 3, 3</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 22</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Year:</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="num_year.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="num_year.Location" type="System.Drawing.Point, System.Drawing">
+    <value>985, 585</value>
+  </data>
+  <data name="num_year.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 15, 0</value>
+  </data>
+  <data name="num_year.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 30</value>
+  </data>
+  <data name="num_year.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;num_year.Name" xml:space="preserve">
+    <value>num_year</value>
+  </data>
+  <data name="&gt;&gt;num_year.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;num_year.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;num_year.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="chk_overallTotal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="chk_overallTotal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk_overallTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>655, 624</value>
+  </data>
+  <data name="chk_overallTotal.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 15, 15</value>
+  </data>
+  <data name="chk_overallTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 26</value>
+  </data>
+  <data name="chk_overallTotal.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="chk_overallTotal.Text" xml:space="preserve">
+    <value>Overall Total</value>
+  </data>
+  <data name="&gt;&gt;chk_overallTotal.Name" xml:space="preserve">
+    <value>chk_overallTotal</value>
+  </data>
+  <data name="&gt;&gt;chk_overallTotal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk_overallTotal.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_overallTotal.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="chk_releaseDetainedLicense.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="chk_releaseDetainedLicense.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk_releaseDetainedLicense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 624</value>
+  </data>
+  <data name="chk_releaseDetainedLicense.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 15, 15</value>
+  </data>
+  <data name="chk_releaseDetainedLicense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 26</value>
+  </data>
+  <data name="chk_releaseDetainedLicense.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="chk_releaseDetainedLicense.Text" xml:space="preserve">
+    <value>Release Detained License</value>
+  </data>
+  <data name="&gt;&gt;chk_releaseDetainedLicense.Name" xml:space="preserve">
+    <value>chk_releaseDetainedLicense</value>
+  </data>
+  <data name="&gt;&gt;chk_releaseDetainedLicense.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk_releaseDetainedLicense.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_releaseDetainedLicense.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="chk_renewLicense.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="chk_renewLicense.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk_renewLicense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 624</value>
+  </data>
+  <data name="chk_renewLicense.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 0, 10, 15</value>
+  </data>
+  <data name="chk_renewLicense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 26</value>
+  </data>
+  <data name="chk_renewLicense.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="chk_renewLicense.Text" xml:space="preserve">
+    <value>Renew License</value>
+  </data>
+  <data name="&gt;&gt;chk_renewLicense.Name" xml:space="preserve">
+    <value>chk_renewLicense</value>
+  </data>
+  <data name="&gt;&gt;chk_renewLicense.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk_renewLicense.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_renewLicense.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="chk_replaceLostLicense.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="chk_replaceLostLicense.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk_replaceLostLicense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>453, 588</value>
+  </data>
+  <data name="chk_replaceLostLicense.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 15, 15, 10</value>
+  </data>
+  <data name="chk_replaceLostLicense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 26</value>
+  </data>
+  <data name="chk_replaceLostLicense.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="chk_replaceLostLicense.Text" xml:space="preserve">
+    <value>Replace Lost License</value>
+  </data>
+  <data name="&gt;&gt;chk_replaceLostLicense.Name" xml:space="preserve">
+    <value>chk_replaceLostLicense</value>
+  </data>
+  <data name="&gt;&gt;chk_replaceLostLicense.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk_replaceLostLicense.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_replaceLostLicense.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="chk_newInterLicense.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="chk_newInterLicense.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk_newInterLicense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 588</value>
+  </data>
+  <data name="chk_newInterLicense.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 15, 15, 10</value>
+  </data>
+  <data name="chk_newInterLicense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 26</value>
+  </data>
+  <data name="chk_newInterLicense.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="chk_newInterLicense.Text" xml:space="preserve">
+    <value>New International License</value>
+  </data>
+  <data name="&gt;&gt;chk_newInterLicense.Name" xml:space="preserve">
+    <value>chk_newInterLicense</value>
+  </data>
+  <data name="&gt;&gt;chk_newInterLicense.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk_newInterLicense.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_newInterLicense.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="chk_newLocalLicense.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="chk_newLocalLicense.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk_newLocalLicense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 588</value>
+  </data>
+  <data name="chk_newLocalLicense.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 15, 10, 10</value>
+  </data>
+  <data name="chk_newLocalLicense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 26</value>
+  </data>
+  <data name="chk_newLocalLicense.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="chk_newLocalLicense.Text" xml:space="preserve">
+    <value>New Local License</value>
+  </data>
+  <data name="&gt;&gt;chk_newLocalLicense.Name" xml:space="preserve">
+    <value>chk_newLocalLicense</value>
+  </data>
+  <data name="&gt;&gt;chk_newLocalLicense.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk_newLocalLicense.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_newLocalLicense.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="chart1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="chart1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="chart1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="chart1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1160, 573</value>
+  </data>
+  <data name="chart1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="chart1.Text" xml:space="preserve">
+    <value>chart1</value>
+  </data>
+  <data name="&gt;&gt;chart1.Name" xml:space="preserve">
+    <value>chart1</value>
+  </data>
+  <data name="&gt;&gt;chart1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataVisualization.Charting.Chart, System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35</value>
+  </data>
+  <data name="&gt;&gt;chart1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chart1.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lbl_chartIsDisabled.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="lbl_chartIsDisabled.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_chartIsDisabled.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 12pt, style=Bold</value>
+  </data>
+  <data name="lbl_chartIsDisabled.Location" type="System.Drawing.Point, System.Drawing">
+    <value>467, 272</value>
+  </data>
+  <data name="lbl_chartIsDisabled.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 28</value>
+  </data>
+  <data name="lbl_chartIsDisabled.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="lbl_chartIsDisabled.Text" xml:space="preserve">
+    <value>This chart is disabled.</value>
+  </data>
+  <data name="lbl_chartIsDisabled.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_chartIsDisabled.Name" xml:space="preserve">
+    <value>lbl_chartIsDisabled</value>
+  </data>
+  <data name="&gt;&gt;lbl_chartIsDisabled.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_chartIsDisabled.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_chartIsDisabled.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>56</value>
+  </metadata>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 10pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1142, 552</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1160, 665</value>
+  </data>
+  <data name="&gt;&gt;helpToolTip.Name" xml:space="preserve">
+    <value>helpToolTip</value>
+  </data>
+  <data name="&gt;&gt;helpToolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;normalToolTip.Name" xml:space="preserve">
+    <value>normalToolTip</value>
+  </data>
+  <data name="&gt;&gt;normalToolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>CtrlChart_TotalApplicationsWithTime</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

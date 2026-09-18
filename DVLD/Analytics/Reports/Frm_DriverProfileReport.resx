@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1320, 856</value>
+  </data>
+  <data name="cb_desiredLicenseType.Items" xml:space="preserve">
+    <value>Local</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>20, 10, 24, 0</value>
+  </data>
+  <data name="&gt;&gt;chk_includeDriverInfo.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="btn_export.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btn_export.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cb_desiredLicenseType.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chk_includeDriverInfo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_print.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 42, 0</value>
+  </data>
+  <data name="label_title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1300, 56</value>
+  </data>
+  <data name="label_title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Display Semib, 14pt, style=Bold</value>
+  </data>
+  <data name="label_title.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chk_includeInactiveLicenses.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ctrl_DocumentExportSettings1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1288, 380</value>
+  </data>
+  <data name="btn_close.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 40, 0</value>
+  </data>
+  <data name="&gt;&gt;chk_includeInactiveLicenses.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;chk_includeInactiveLicenses.Name" xml:space="preserve">
+    <value>chk_includeInactiveLicenses</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chk_includeDriverInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btn_export.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 10.2pt, style=Bold, Italic</value>
+  </data>
+  <data name="btn_print.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="ctrl_PersonInfoCardWithFilter1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DVLD.Analytics.Reports.Complementary_Forms.ReportFormBase, DVLD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_export.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Desired License Type:</value>
+  </data>
+  <data name="ctrl_DocumentExportSettings1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 76</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Frm_DriverProfileReport</value>
+  </data>
+  <data name="&gt;&gt;cb_desiredLicenseType.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label_title.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ctrl_DocumentExportSettings1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;chk_includeActiveLicenses.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btn_export.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1150, 743</value>
+  </data>
+  <data name="btn_print.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;cb_desiredLicenseType.Name" xml:space="preserve">
+    <value>cb_desiredLicenseType</value>
+  </data>
+  <data name="&gt;&gt;btn_export.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ctrl_PersonInfoCardWithFilter1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 22, 0</value>
+  </data>
+  <data name="&gt;&gt;ctrl_PersonInfoCardWithFilter1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btn_export.TabIndex" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="label_title.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="label_title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 10</value>
+  </data>
+  <data name="&gt;&gt;chk_includeActiveLicenses.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="chk_includeActiveLicenses.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_title.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 10</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 22</value>
+  </data>
+  <data name="&gt;&gt;btn_print.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_export.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_export.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btn_close.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 10pt</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Report Options</value>
+  </data>
+  <data name="cb_desiredLicenseType.Text" xml:space="preserve">
+    <value>Both</value>
+  </data>
+  <data name="btn_print.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1150, 801</value>
+  </data>
+  <data name="btn_export.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 30, 0</value>
+  </data>
+  <data name="chk_includeActiveLicenses.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 70</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cb_desiredLicenseType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 30</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Driver Profile Report</value>
+  </data>
+  <data name="btn_close.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;btn_print.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chk_includeActiveLicenses.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 0, 3</value>
+  </data>
+  <data name="&gt;&gt;btn_export.Name" xml:space="preserve">
+    <value>btn_export</value>
+  </data>
+  <data name="btn_export.Text" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="chk_includeActiveLicenses.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cb_desiredLicenseType.Items1" xml:space="preserve">
+    <value>International</value>
+  </data>
+  <data name="&gt;&gt;ctrl_PersonInfoCardWithFilter1.Type" xml:space="preserve">
+    <value>DVLD.People.Controls.Ctrl_PersonInfoCardWithFilter, DVLD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_includeInactiveLicenses.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_close.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btn_export.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="chk_includeActiveLicenses.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="chk_includeDriverInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 26</value>
+  </data>
+  <data name="chk_includeInactiveLicenses.Text" xml:space="preserve">
+    <value>Include Expired/Inactive Licenses</value>
+  </data>
+  <data name="&gt;&gt;ctrl_DocumentExportSettings1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctrl_DocumentExportSettings1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="chk_includeDriverInfo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk_includeDriverInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 36</value>
+  </data>
+  <data name="&gt;&gt;btn_close.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_close.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>955, 466</value>
+  </data>
+  <data name="ctrl_PersonInfoCardWithFilter1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 466</value>
+  </data>
+  <data name="label_title.Text" xml:space="preserve">
+    <value>New Driver Profile Report</value>
+  </data>
+  <data name="label_title.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;chk_includeDriverInfo.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;chk_includeActiveLicenses.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ctrl_PersonInfoCardWithFilter1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_export.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 40</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="btn_print.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ctrl_DocumentExportSettings1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 6, 10</value>
+  </data>
+  <data name="btn_print.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 10.2pt, style=Bold, Italic</value>
+  </data>
+  <data name="&gt;&gt;btn_close.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cb_desiredLicenseType.Type" xml:space="preserve">
+    <value>Salem.Controls.SalDropDownList, Salem.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_print.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cb_desiredLicenseType.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>349, 256</value>
+  </data>
+  <data name="btn_print.TabIndex" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="cb_desiredLicenseType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 198</value>
+  </data>
+  <data name="btn_close.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btn_export.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_close.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 40</value>
+  </data>
+  <data name="btn_print.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btn_print.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 40</value>
+  </data>
+  <data name="btn_print.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cb_desiredLicenseType.Items2" xml:space="preserve">
+    <value>Both</value>
+  </data>
+  <data name="&gt;&gt;label_title.Name" xml:space="preserve">
+    <value>label_title</value>
+  </data>
+  <data name="btn_close.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 170</value>
+  </data>
+  <data name="chk_includeInactiveLicenses.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ctrl_DocumentExportSettings1.Type" xml:space="preserve">
+    <value>DVLD.Analytics.Reports.Controls.Ctrl_DocumentExportSettings, DVLD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_print.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_close.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;chk_includeDriverInfo.Name" xml:space="preserve">
+    <value>chk_includeDriverInfo</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;chk_includeActiveLicenses.Name" xml:space="preserve">
+    <value>chk_includeActiveLicenses</value>
+  </data>
+  <data name="&gt;&gt;label_title.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="chk_includeInactiveLicenses.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btn_close.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btn_close.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="chk_includeDriverInfo.Text" xml:space="preserve">
+    <value>Include Driver Info</value>
+  </data>
+  <data name="&gt;&gt;ctrl_DocumentExportSettings1.Name" xml:space="preserve">
+    <value>ctrl_DocumentExportSettings1</value>
+  </data>
+  <data name="&gt;&gt;chk_includeDriverInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_export.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cb_desiredLicenseType.DropDownWidth" type="System.Int32, mscorlib">
+    <value>170</value>
+  </data>
+  <data name="btn_print.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ctrl_PersonInfoCardWithFilter1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btn_close.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ctrl_PersonInfoCardWithFilter1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="chk_includeActiveLicenses.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 26</value>
+  </data>
+  <data name="chk_includeInactiveLicenses.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 104</value>
+  </data>
+  <data name="btn_print.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;label_title.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ctrl_DocumentExportSettings1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>803, 373</value>
+  </data>
+  <data name="btn_export.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 10pt</value>
+  </data>
+  <data name="label_title.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chk_includeInactiveLicenses.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 26</value>
+  </data>
+  <data name="&gt;&gt;ctrl_PersonInfoCardWithFilter1.Name" xml:space="preserve">
+    <value>ctrl_PersonInfoCardWithFilter1</value>
+  </data>
+  <data name="ctrl_DocumentExportSettings1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="chk_includeInactiveLicenses.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_print.Name" xml:space="preserve">
+    <value>btn_print</value>
+  </data>
+  <data name="ctrl_PersonInfoCardWithFilter1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>917, 375</value>
+  </data>
+  <data name="btn_close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>976, 801</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="groupBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cb_desiredLicenseType.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;btn_close.Name" xml:space="preserve">
+    <value>btn_close</value>
+  </data>
+  <data name="chk_includeActiveLicenses.Text" xml:space="preserve">
+    <value>Include Active Licenses</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label_title.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

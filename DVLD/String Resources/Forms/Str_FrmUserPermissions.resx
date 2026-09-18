@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="activate_deactivateUser" xml:space="preserve">
+    <value>Activate/Deactivate User</value>
+  </data>
+  <data name="addNewPerson" xml:space="preserve">
+    <value>Add New Person</value>
+  </data>
+  <data name="addNewUser" xml:space="preserve">
+    <value>Add New User</value>
+  </data>
+  <data name="appTypes" xml:space="preserve">
+    <value>Application Types</value>
+  </data>
+  <data name="arrow" xml:space="preserve">
+    <value>→</value>
+  </data>
+  <data name="cancelApp" xml:space="preserve">
+    <value>Cancel Application</value>
+  </data>
+  <data name="changeColorMode" xml:space="preserve">
+    <value>Change Color Mode</value>
+  </data>
+  <data name="changeLanguage" xml:space="preserve">
+    <value>Change Language</value>
+  </data>
+  <data name="changeUserPassword" xml:space="preserve">
+    <value>Change User Password</value>
+  </data>
+  <data name="changeUserPermissions" xml:space="preserve">
+    <value>Change User Permissions</value>
+  </data>
+  <data name="createNewAppoint" xml:space="preserve">
+    <value>Create new Appointment</value>
+  </data>
+  <data name="createNewInterLicenseApp" xml:space="preserve">
+    <value>Create New International License Application -- Issue New International License</value>
+  </data>
+  <data name="createNewLocalLicenseApp" xml:space="preserve">
+    <value>Create New Local License Application</value>
+  </data>
+  <data name="createNewTheme" xml:space="preserve">
+    <value>Create New Theme (Branch/From Scratch)</value>
+  </data>
+  <data name="deleteApp" xml:space="preserve">
+    <value>Delete Application</value>
+  </data>
+  <data name="deletePerson" xml:space="preserve">
+    <value>Delete Person</value>
+  </data>
+  <data name="deleteTheme" xml:space="preserve">
+    <value>Delete Theme</value>
+  </data>
+  <data name="deleteUser" xml:space="preserve">
+    <value>Delete User</value>
+  </data>
+  <data name="detainLicense" xml:space="preserve">
+    <value>Detain License</value>
+  </data>
+  <data name="editAppInfo" xml:space="preserve">
+    <value>Edit Application Info</value>
+  </data>
+  <data name="editPersonalInfo" xml:space="preserve">
+    <value>Edit Personal Info</value>
+  </data>
+  <data name="editThemeValues" xml:space="preserve">
+    <value>Edit Theme Values</value>
+  </data>
+  <data name="editUsername" xml:space="preserve">
+    <value>Edit Username</value>
+  </data>
+  <data name="exportAppointsData" xml:space="preserve">
+    <value>Export Appointments Data</value>
+  </data>
+  <data name="exportData" xml:space="preserve">
+    <value>Export Data</value>
+  </data>
+  <data name="exportDetainedLicensesData" xml:space="preserve">
+    <value>Export Detained Licenses Data</value>
+  </data>
+  <data name="exportDriversData" xml:space="preserve">
+    <value>Export Drivers Data</value>
+  </data>
+  <data name="exportInterLicenseAppData" xml:space="preserve">
+    <value>Export International License Applications Data</value>
+  </data>
+  <data name="exportInterLicensesData" xml:space="preserve">
+    <value>Export International Licenses Data</value>
+  </data>
+  <data name="exportLocalLicenseAppsData" xml:space="preserve">
+    <value>Export Local License Applications Data</value>
+  </data>
+  <data name="exportLocalLicensesData" xml:space="preserve">
+    <value>Export Local Licenses Data</value>
+  </data>
+  <data name="exportPeopleData" xml:space="preserve">
+    <value>Export People Data</value>
+  </data>
+  <data name="exportUsersData" xml:space="preserve">
+    <value>Export Users Data</value>
+  </data>
+  <data name="fullAccess" xml:space="preserve">
+    <value>Full Access</value>
+  </data>
+  <data name="issueLicenseReplacement" xml:space="preserve">
+    <value>Issue License Replacement</value>
+  </data>
+  <data name="issueLocalLicenseFirstTime" xml:space="preserve">
+    <value>Issue Local License (First Time)</value>
+  </data>
+  <data name="licenseClasses" xml:space="preserve">
+    <value>License Classes</value>
+  </data>
+  <data name="noAccess" xml:space="preserve">
+    <value>No Access</value>
+  </data>
+  <data name="phoneCall" xml:space="preserve">
+    <value>Phone Call</value>
+  </data>
+  <data name="releaseDetainedLicense" xml:space="preserve">
+    <value>Release Detained License</value>
+  </data>
+  <data name="renameTheme" xml:space="preserve">
+    <value>Rename Theme</value>
+  </data>
+  <data name="renewLicense" xml:space="preserve">
+    <value>Renew License</value>
+  </data>
+  <data name="seeAllAppoints" xml:space="preserve">
+    <value>See All Appointments</value>
+  </data>
+  <data name="seeAllDrivers" xml:space="preserve">
+    <value>See All Drivers</value>
+  </data>
+  <data name="seeAllInterLicenseApps" xml:space="preserve">
+    <value>See All International License Applications</value>
+  </data>
+  <data name="seeAllLocalLicenseApps" xml:space="preserve">
+    <value>See All Local License Applications</value>
+  </data>
+  <data name="seeAllPeople" xml:space="preserve">
+    <value>See All People</value>
+  </data>
+  <data name="seeAllUsers" xml:space="preserve">
+    <value>See All Users</value>
+  </data>
+  <data name="seeDriverDrivingTestsHistory" xml:space="preserve">
+    <value>See Driver Driving Tests History</value>
+  </data>
+  <data name="seeDriverInterLicensesHistory" xml:space="preserve">
+    <value>See Driver International Licenses History</value>
+  </data>
+  <data name="seeDriverLocalLicensesHistory" xml:space="preserve">
+    <value>See Driver Local Licenses History</value>
+  </data>
+  <data name="seeDriversVisionTestsHistory" xml:space="preserve">
+    <value>See Driver Vision Tests History</value>
+  </data>
+  <data name="seeDriverWrittenTestsHistory" xml:space="preserve">
+    <value>See Driver Written Tests History</value>
+  </data>
+  <data name="seePersonalInfoCards" xml:space="preserve">
+    <value>See Personal Info Cards</value>
+  </data>
+  <data name="sendEmail" xml:space="preserve">
+    <value>Send Email</value>
+  </data>
+  <data name="showFullInterLicenseInfo" xml:space="preserve">
+    <value>Show Full International License Info</value>
+  </data>
+  <data name="showFullLocalLicenseInfo" xml:space="preserve">
+    <value>Show Full Local License Info</value>
+  </data>
+  <data name="systemWideRevenue" xml:space="preserve">
+    <value>System-Wide Revenue</value>
+  </data>
+  <data name="testResultsRates_avgAttemptsToPass" xml:space="preserve">
+    <value>Test Results Rates -- Average Attempts To Pass</value>
+  </data>
+  <data name="testTypes" xml:space="preserve">
+    <value>Test Types</value>
+  </data>
+  <data name="updateAppointInfo" xml:space="preserve">
+    <value>Update Appointment Info</value>
+  </data>
+  <data name="updateData" xml:space="preserve">
+    <value>Update Data</value>
+  </data>
+  <data name="viewAllData" xml:space="preserve">
+    <value>View All Data</value>
+  </data>
+  <data name="viewAllDetainedLicenses" xml:space="preserve">
+    <value>View All Detained Licenses</value>
+  </data>
+  <data name="viewAllInterLicenses" xml:space="preserve">
+    <value>View All International Licenses</value>
+  </data>
+  <data name="viewAllLocalLicenses" xml:space="preserve">
+    <value>View All Local Licenses</value>
+  </data>
+  <data name="viewFullAppDetails" xml:space="preserve">
+    <value>View Full Application Details</value>
+  </data>
+</root>

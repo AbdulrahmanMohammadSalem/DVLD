@@ -1,0 +1,1767 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_browseFolder.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lbl_pageWidth.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chk_includeDateTime.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Page Setup</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;cb_pageHeightUnit.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tableLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cb_preferredFontFamily.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonEdit3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cb_pageSize.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label5.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="groupBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>13, 11, 13, 26</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txt_fileName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 38</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_browseFolder.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="cb_pageOrientation.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cb_pageHeightUnit.Text" xml:space="preserve">
+    <value>cm</value>
+  </data>
+  <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cb_preferredFontFamily.Size" type="System.Drawing.Size, System.Drawing">
+    <value>492, 31</value>
+  </data>
+  <data name="lbl_pageHeight.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chk_includeDvldLogo.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chk_includeDateTime.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="cb_vMarginUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 30</value>
+  </data>
+  <data name="chk_openAfterSaving.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cb_vMarginUnit.DropDownWidth" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="cb_pageHeightUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 30</value>
+  </data>
+  <data name="txt_pageWidth.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cb_pageHeightUnit.Type" xml:space="preserve">
+    <value>Salem.Controls.SalDropDownList, Salem.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cb_vMarginUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>939, 380</value>
+  </data>
+  <data name="chk_colorful.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 26</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="chk_includeDvldLogo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>30, 0, 0, 0</value>
+  </data>
+  <data name="txt_pageWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 30</value>
+  </data>
+  <data name="&gt;&gt;errorProvider1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_fileName.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.TextBoxExt, Syncfusion.Shared.Base, Version=32.1462.19.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="cb_pageWidthUnit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 3, 3, 3</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="cb_pageOrientation.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 82</value>
+  </data>
+  <data name="buttonEdit3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chk_useCustomPageSize.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbl_pageHeight.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txt_vMargin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;cb_hMarginUnit.Name" xml:space="preserve">
+    <value>cb_hMarginUnit</value>
+  </data>
+  <data name="txt_fileName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="label2.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;cb_pageWidthUnit.Name" xml:space="preserve">
+    <value>cb_pageWidthUnit</value>
+  </data>
+  <data name="cb_hMarginUnit.DropDownWidth" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="cb_pageHeightUnit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 3, 3, 3</value>
+  </data>
+  <data name="panel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_browseFolder.ToolTip" xml:space="preserve">
+    <value>Browse folders</value>
+  </data>
+  <data name="&gt;&gt;cb_vMarginUnit.Name" xml:space="preserve">
+    <value>cb_vMarginUnit</value>
+  </data>
+  <data name="chk_colorful.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label13.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;txt_pageWidth.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="txt_hMargin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="chk_openAfterSaving.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cb_pageSize.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;txt_vMargin.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.TextBoxExt, Syncfusion.Shared.Base, Version=32.1462.19.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="cb_vMarginUnit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;cb_hMarginUnit.Type" xml:space="preserve">
+    <value>Salem.Controls.SalDropDownList, Salem.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_pageWidth.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;txt_fileName.Name" xml:space="preserve">
+    <value>txt_fileName</value>
+  </data>
+  <data name="label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="txt_fileName.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cb_pageSize.Items4" xml:space="preserve">
+    <value>A4</value>
+  </data>
+  <data name="cb_pageSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 0</value>
+  </data>
+  <data name="&gt;&gt;chk_useCustomPageSize.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="chk_openAfterSaving.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tableLayoutPanel1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panel2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;txt_vMargin.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chk_useCustomPageSize.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="panel2" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="panel1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;chk_openAfterSaving.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tableLayoutPanel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cb_hMarginUnit.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbl_pageHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="txt_fileName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>492, 30</value>
+  </data>
+  <data name="&gt;&gt;txt_pageHeight.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="txt_pageHeight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt, style=Italic</value>
+  </data>
+  <data name="lbl_pageHeight.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cb_pageWidthUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>363, 40</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;txt_fullPath.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.TextBoxExt, Syncfusion.Shared.Base, Version=32.1462.19.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;chk_colorful.Name" xml:space="preserve">
+    <value>chk_colorful</value>
+  </data>
+  <data name="chk_colorful.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cb_pageSize.Items10" xml:space="preserve">
+    <value>Ledger</value>
+  </data>
+  <data name="$this.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cb_pageOrientation.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbl_pageHeight.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chk_colorful.Text" xml:space="preserve">
+    <value>Colorful</value>
+  </data>
+  <data name="label13.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cb_pageHeightUnit.Items2" xml:space="preserve">
+    <value>in</value>
+  </data>
+  <data name="cb_pageWidthUnit.Items1" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="cb_pageWidthUnit.Items2" xml:space="preserve">
+    <value>in</value>
+  </data>
+  <data name="&gt;&gt;chk_openAfterSaving.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="txt_vMargin.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_pageHeight.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 38</value>
+  </data>
+  <data name="txt_fileName.MaxLength" type="System.Int32, mscorlib">
+    <value>251</value>
+  </data>
+  <data name="cb_hMarginUnit.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label7.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 30</value>
+  </data>
+  <data name="lbl_pageHeight.Text" xml:space="preserve">
+    <value>Height:</value>
+  </data>
+  <data name="txt_pageWidth.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txt_hMargin.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.TextBoxExt, Syncfusion.Shared.Base, Version=32.1462.19.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;cb_preferredFontFamily.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="txt_pageHeight.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chk_openAfterSaving.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 26</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="buttonEdit3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt, style=Italic</value>
+  </data>
+  <data name="btn_browseFolder.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 10.2pt</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Full Path:</value>
+  </data>
+  <data name="groupBox2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;cb_pageHeightUnit.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="chk_useCustomPageSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>186, 0</value>
+  </data>
+  <data name="btn_browseFolder.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 84</value>
+  </data>
+  <data name="txt_fullPath.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;chk_includeDvldLogo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txt_vMargin.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;cb_pageSize.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cb_hMarginUnit.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cb_pageSize.Items7" xml:space="preserve">
+    <value>B5</value>
+  </data>
+  <data name="cb_pageSize.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label6.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chk_useCustomPageSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 30</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="buttonEdit3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 84</value>
+  </data>
+  <data name="txt_pageHeight.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="chk_includeDvldLogo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cb_pageOrientation.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="cb_pageOrientation.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txt_hMargin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 82</value>
+  </data>
+  <data name="label7.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cb_hMarginUnit.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 10pt, style=Bold</value>
+  </data>
+  <data name="txt_hMargin.IconPadding" type="System.Int32, mscorlib">
+    <value>-22</value>
+  </data>
+  <data name="&gt;&gt;txt_pageHeight.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.TextBoxExt, Syncfusion.Shared.Base, Version=32.1462.19.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="cb_pageOrientation.DropDownWidth" type="System.Int32, mscorlib">
+    <value>170</value>
+  </data>
+  <data name="tableLayoutPanel1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;cb_vMarginUnit.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txt_fileName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt, style=Italic</value>
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cb_hMarginUnit.Text" xml:space="preserve">
+    <value>cm</value>
+  </data>
+  <data name="&gt;&gt;buttonEdit3.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="cb_preferredFontFamily.SelectedIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="chk_useCustomPageSize.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;txt_pageHeight.Name" xml:space="preserve">
+    <value>txt_pageHeight</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="cb_preferredFontFamily.DropDownWidth" type="System.Int32, mscorlib">
+    <value>272</value>
+  </data>
+  <data name="&gt;&gt;txt_fullPath.Parent" xml:space="preserve">
+    <value>buttonEdit3</value>
+  </data>
+  <data name="txt_fullPath.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chk_includeDateTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chk_colorful.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lbl_pageWidth.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cb_hMarginUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 0, 0</value>
+  </data>
+  <data name="label13.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="txt_pageHeight.IconPadding" type="System.Int32, mscorlib">
+    <value>-22</value>
+  </data>
+  <data name="&gt;&gt;lbl_pageWidth.Name" xml:space="preserve">
+    <value>lbl_pageWidth</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>939, 380</value>
+  </data>
+  <data name="btn_browseFolder.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 34</value>
+  </data>
+  <data name="label7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 83</value>
+  </data>
+  <data name="txt_pageWidth.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="chk_colorful.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cb_pageOrientation.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lbl_pageHeight.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txt_pageWidth.Name" xml:space="preserve">
+    <value>txt_pageWidth</value>
+  </data>
+  <data name="&gt;&gt;chk_useCustomPageSize.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cb_pageWidthUnit.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbl_pageHeight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="txt_fileName.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chk_useCustomPageSize.Name" xml:space="preserve">
+    <value>chk_useCustomPageSize</value>
+  </data>
+  <data name="cb_hMarginUnit.Items1" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="cb_hMarginUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 30</value>
+  </data>
+  <data name="cb_pageWidthUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chk_openAfterSaving.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="groupBox1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chk_includeDateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 26</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chk_includeDateTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>30, 0, 0, 0</value>
+  </data>
+  <data name="cb_pageSize.Items3" xml:space="preserve">
+    <value>A3</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="cb_pageSize.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cb_vMarginUnit.Items" xml:space="preserve">
+    <value>cm</value>
+  </data>
+  <data name="&gt;&gt;cb_preferredFontFamily.Type" xml:space="preserve">
+    <value>Salem.Controls.SalDropDownEdit, Salem.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cb_pageWidthUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label5.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txt_hMargin.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="cb_pageSize.Items6" xml:space="preserve">
+    <value>A6</value>
+  </data>
+  <data name="cb_pageWidthUnit.DropDownWidth" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 30</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>H Margin:</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label6.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_vMargin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 83</value>
+  </data>
+  <data name="&gt;&gt;chk_openAfterSaving.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="txt_fileName.IconPadding" type="System.Int32, mscorlib">
+    <value>-22</value>
+  </data>
+  <data name="chk_colorful.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 130</value>
+  </data>
+  <data name="label1.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lbl_pageWidth.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;cb_pageSize.Name" xml:space="preserve">
+    <value>cb_pageSize</value>
+  </data>
+  <data name="chk_includeDateTime.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cb_pageOrientation.Text" xml:space="preserve">
+    <value>Portrait</value>
+  </data>
+  <data name="cb_hMarginUnit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 3, 3, 3</value>
+  </data>
+  <data name="cb_pageSize.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Ctrl_DocumentExportSettings</value>
+  </data>
+  <data name="label13.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txt_vMargin.Text" xml:space="preserve">
+    <value>1.0</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 30</value>
+  </data>
+  <data name="txt_pageHeight.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cb_pageHeightUnit.Items1" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="cb_pageHeightUnit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;btn_browseFolder.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ButtonEditChildButton, Syncfusion.Tools.Windows, Version=32.1462.19.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="panel1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_pageHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cb_hMarginUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="groupBox1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;txt_hMargin.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cb_vMarginUnit.Items2" xml:space="preserve">
+    <value>in</value>
+  </data>
+  <data name="cb_vMarginUnit.Items1" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="panel2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chk_useCustomPageSize.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;cb_pageWidthUnit.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="chk_includeDvldLogo.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lbl_pageWidth.Text" xml:space="preserve">
+    <value>Width:</value>
+  </data>
+  <data name="txt_vMargin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt, style=Italic</value>
+  </data>
+  <data name="cb_pageWidthUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 30</value>
+  </data>
+  <data name="chk_colorful.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>30, 0, 0, 0</value>
+  </data>
+  <data name="chk_includeDvldLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 26</value>
+  </data>
+  <data name="cb_pageOrientation.Items" xml:space="preserve">
+    <value>Portrait</value>
+  </data>
+  <data name="label1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="txt_pageHeight.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 6, 3</value>
+  </data>
+  <data name="txt_pageWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cb_pageSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 30</value>
+  </data>
+  <data name="chk_includeDvldLogo.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;cb_vMarginUnit.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chk_useCustomPageSize.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="chk_openAfterSaving.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btn_browseFolder.Parent" xml:space="preserve">
+    <value>buttonEdit3</value>
+  </data>
+  <data name="chk_openAfterSaving.Location" type="System.Drawing.Point, System.Drawing">
+    <value>724, 33</value>
+  </data>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tableLayoutPanel1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_pageHeight.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>433, 113</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>433, 113</value>
+  </data>
+  <data name="lbl_pageWidth.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="txt_hMargin.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lbl_pageHeight.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="chk_includeDateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>724, 70</value>
+  </data>
+  <data name="cb_preferredFontFamily.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cb_hMarginUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>363, 82</value>
+  </data>
+  <data name="txt_hMargin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt, style=Italic</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 10pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lbl_pageHeight.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="lbl_pageHeight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 10pt, style=Bold</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_openAfterSaving.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="cb_pageSize.Items9" xml:space="preserve">
+    <value>Legal</value>
+  </data>
+  <data name="chk_useCustomPageSize.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cb_preferredFontFamily.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 14</value>
+  </data>
+  <data name="&gt;&gt;txt_fullPath.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;chk_useCustomPageSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cb_vMarginUnit.Type" xml:space="preserve">
+    <value>Salem.Controls.SalDropDownList, Salem.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cb_vMarginUnit.Text" xml:space="preserve">
+    <value>cm</value>
+  </data>
+  <data name="label2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label13.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="cb_pageOrientation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 30</value>
+  </data>
+  <data name="txt_fileName.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_vMargin.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_fullPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 23</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_pageHeight.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txt_hMargin.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="txt_hMargin.Text" xml:space="preserve">
+    <value>1.5</value>
+  </data>
+  <data name="lbl_pageWidth.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txt_hMargin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 30</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;txt_pageWidth.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lbl_pageWidth.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_fileName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbl_pageHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 41</value>
+  </data>
+  <data name="cb_pageHeightUnit.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cb_pageHeightUnit.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cb_pageOrientation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="txt_hMargin.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_pageWidth.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txt_vMargin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 30</value>
+  </data>
+  <data name="lbl_pageHeight.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="cb_pageWidthUnit.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txt_fullPath.Name" xml:space="preserve">
+    <value>txt_fullPath</value>
+  </data>
+  <data name="&gt;&gt;cb_pageOrientation.Type" xml:space="preserve">
+    <value>Salem.Controls.SalDropDownList, Salem.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="groupBox2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;cb_pageWidthUnit.Type" xml:space="preserve">
+    <value>Salem.Controls.SalDropDownList, Salem.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="$this.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbl_pageWidth.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="chk_includeDateTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk_openAfterSaving.Text" xml:space="preserve">
+    <value>Open After Saving</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txt_vMargin.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="txt_pageWidth.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="cb_pageWidthUnit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="cb_vMarginUnit.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_vMargin.Name" xml:space="preserve">
+    <value>txt_vMargin</value>
+  </data>
+  <data name="label6.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cb_pageHeightUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_pageHeight.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="cb_pageWidthUnit.Text" xml:space="preserve">
+    <value>cm</value>
+  </data>
+  <data name="cb_pageWidthUnit.Items" xml:space="preserve">
+    <value>cm</value>
+  </data>
+  <data name="txt_pageWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 40</value>
+  </data>
+  <data name="&gt;&gt;vistaFolderBrowserDialog1.Type" xml:space="preserve">
+    <value>Ookii.Dialogs.WinForms.VistaFolderBrowserDialog, Ookii.Dialogs.WinForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=66aa232afad40158</value>
+  </data>
+  <data name="&gt;&gt;cb_preferredFontFamily.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;chk_includeDvldLogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_pageWidth.IconPadding" type="System.Int32, mscorlib">
+    <value>-22</value>
+  </data>
+  <data name="txt_pageWidth.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt, style=Italic</value>
+  </data>
+  <data name="chk_colorful.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chk_colorful.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cb_hMarginUnit.Items" xml:space="preserve">
+    <value>cm</value>
+  </data>
+  <data name="cb_pageSize.Items5" xml:space="preserve">
+    <value>A5</value>
+  </data>
+  <data name="cb_preferredFontFamily.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 130</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cb_pageHeightUnit.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cb_hMarginUnit.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;lbl_pageHeight.Name" xml:space="preserve">
+    <value>lbl_pageHeight</value>
+  </data>
+  <data name="groupBox2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="groupBox2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="chk_colorful.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="buttonEdit3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>492, 31</value>
+  </data>
+  <data name="&gt;&gt;cb_pageSize.Type" xml:space="preserve">
+    <value>Salem.Controls.SalDropDownList, Salem.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_pageWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 40</value>
+  </data>
+  <data name="&gt;&gt;cb_pageHeightUnit.Name" xml:space="preserve">
+    <value>cb_pageHeightUnit</value>
+  </data>
+  <data name="buttonEdit3.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_pageWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 30</value>
+  </data>
+  <data name="&gt;&gt;buttonEdit3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;chk_colorful.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;btn_browseFolder.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="cb_pageWidthUnit.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txt_vMargin.IconPadding" type="System.Int32, mscorlib">
+    <value>-22</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chk_includeDateTime.Name" xml:space="preserve">
+    <value>chk_includeDateTime</value>
+  </data>
+  <data name="chk_includeDateTime.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="lbl_pageHeight.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 0, 0</value>
+  </data>
+  <data name="label6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 0, 0</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Size:</value>
+  </data>
+  <data name="txt_pageHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 30</value>
+  </data>
+  <data name="&gt;&gt;chk_includeDateTime.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;chk_openAfterSaving.Name" xml:space="preserve">
+    <value>chk_openAfterSaving</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cb_vMarginUnit.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cb_vMarginUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>363, 83</value>
+  </data>
+  <data name="chk_colorful.Location" type="System.Drawing.Point, System.Drawing">
+    <value>724, 144</value>
+  </data>
+  <data name="chk_includeDvldLogo.Text" xml:space="preserve">
+    <value>Include DVLD Logo</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cb_pageOrientation.Name" xml:space="preserve">
+    <value>cb_pageOrientation</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="buttonEdit3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;chk_includeDateTime.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="txt_fullPath.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 10pt, style=Bold</value>
+  </data>
+  <data name="label5.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chk_includeDvldLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>724, 107</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 30</value>
+  </data>
+  <data name="buttonEdit3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cb_pageSize.Items2" xml:space="preserve">
+    <value>A2</value>
+  </data>
+  <data name="txt_fullPath.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cb_vMarginUnit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="label7.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_fileName.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>16, 12</value>
+  </data>
+  <data name="cb_preferredFontFamily.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cb_pageSize.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cb_pageHeightUnit.DropDownWidth" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="lbl_pageHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 30</value>
+  </data>
+  <data name="chk_includeDateTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="chk_includeDvldLogo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="cb_pageHeightUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>363, 41</value>
+  </data>
+  <data name="&gt;&gt;chk_includeDvldLogo.Name" xml:space="preserve">
+    <value>chk_includeDvldLogo</value>
+  </data>
+  <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 10pt, style=Bold</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>File Name:</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cb_pageSize.Items1" xml:space="preserve">
+    <value>A1</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Preferred Font:</value>
+  </data>
+  <data name="label6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;cb_pageOrientation.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;buttonEdit3.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ButtonEdit, Syncfusion.Tools.Windows, Version=32.1462.19.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="cb_preferredFontFamily.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>V Margin:</value>
+  </data>
+  <data name="label13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_includeDvldLogo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_pageWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="label1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btn_browseFolder.Text" xml:space="preserve">
+    <value>⋯</value>
+  </data>
+  <data name="txt_fullPath.IconPadding" type="System.Int32, mscorlib">
+    <value>-22</value>
+  </data>
+  <data name="label5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btn_browseFolder.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="$this.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_hMargin.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 5, 0</value>
+  </data>
+  <data name="&gt;&gt;vistaFolderBrowserDialog1.Name" xml:space="preserve">
+    <value>vistaFolderBrowserDialog1</value>
+  </data>
+  <data name="txt_vMargin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 6, 3</value>
+  </data>
+  <data name="panel1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cb_pageWidthUnit.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>902, 173</value>
+  </data>
+  <data name="lbl_pageHeight.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btn_browseFolder.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="groupBox2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="panel1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cb_pageHeightUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="txt_vMargin.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lbl_pageWidth.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chk_openAfterSaving.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>443, 0</value>
+  </data>
+  <data name="chk_useCustomPageSize.Text" xml:space="preserve">
+    <value>Use Custom Page Size</value>
+  </data>
+  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 10pt</value>
+  </data>
+  <data name="cb_pageSize.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 16, 3</value>
+  </data>
+  <data name="txt_fullPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 4</value>
+  </data>
+  <data name="cb_pageSize.Items8" xml:space="preserve">
+    <value>Letter</value>
+  </data>
+  <data name="cb_hMarginUnit.Items2" xml:space="preserve">
+    <value>in</value>
+  </data>
+  <data name="&gt;&gt;btn_browseFolder.Name" xml:space="preserve">
+    <value>btn_browseFolder</value>
+  </data>
+  <data name="btn_browseFolder.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txt_pageWidth.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 6, 3</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>876, 113</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="&gt;&gt;cb_preferredFontFamily.Name" xml:space="preserve">
+    <value>cb_preferredFontFamily</value>
+  </data>
+  <data name="cb_pageOrientation.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txt_fileName.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="cb_preferredFontFamily.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cb_pageHeightUnit.Items" xml:space="preserve">
+    <value>cm</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 30</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Document Export Settings</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 30</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>803, 373</value>
+  </data>
+  <data name="label5.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="&gt;&gt;lbl_pageHeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_pageWidth.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.TextBoxExt, Syncfusion.Shared.Base, Version=32.1462.19.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="label7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 181</value>
+  </data>
+  <data name="txt_pageWidth.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chk_includeDateTime.Text" xml:space="preserve">
+    <value>Include Date/Time</value>
+  </data>
+  <data name="&gt;&gt;cb_pageOrientation.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_pageWidth.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 10pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk_colorful.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonEdit3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_pageHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 41</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lbl_pageWidth.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cb_pageSize.Items" xml:space="preserve">
+    <value>A0</value>
+  </data>
+  <data name="&gt;&gt;buttonEdit3.Name" xml:space="preserve">
+    <value>buttonEdit3</value>
+  </data>
+  <data name="label13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="cb_preferredFontFamily.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label6.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;txt_fileName.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 15, 15, 0</value>
+  </data>
+  <data name="&gt;&gt;cb_pageWidthUnit.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cb_vMarginUnit.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;txt_hMargin.Name" xml:space="preserve">
+    <value>txt_hMargin</value>
+  </data>
+  <data name="cb_pageOrientation.Items1" xml:space="preserve">
+    <value>Landscape</value>
+  </data>
+  <data name="label7.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chk_useCustomPageSize.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lbl_pageWidth.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;errorProvider1.Name" xml:space="preserve">
+    <value>errorProvider1</value>
+  </data>
+  <data name="&gt;&gt;chk_includeDateTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cb_pageHeightUnit.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cb_pageSize.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chk_includeDvldLogo.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 10pt, style=Bold</value>
+  </data>
+  <data name="label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cb_hMarginUnit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="panel2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbl_pageWidth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 10pt, style=Bold</value>
+  </data>
+  <data name="cb_vMarginUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_hMargin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 6, 3</value>
+  </data>
+  <data name="cb_pageSize.DropDownWidth" type="System.Int32, mscorlib">
+    <value>170</value>
+  </data>
+  <data name="chk_includeDvldLogo.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chk_openAfterSaving.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>30, 0, 0, 0</value>
+  </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>255, 17</value>
+  </metadata>
+  <metadata name="errorProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>371, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="vistaFolderBrowserDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>
