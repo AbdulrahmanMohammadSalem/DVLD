@@ -1,6 +1,6 @@
 # DVLD
 
-In order to compile and thus use this software, you must 
+In order to compile and thus use this software, you must have
 
 1. the same database schema upon which this project was built. You have two options:
 	- You can recreate the entire schema by executing the scripts found in `Database Design/Schema Creation Script.sql`, and optionally fill it with the data from my project using the scripts from `Database Design/Populating Tables With Data.sql`. This enables you to also choose another name for the database. Or
