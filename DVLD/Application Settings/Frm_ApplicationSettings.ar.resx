@@ -147,9 +147,6 @@
   <data name="cb_language.DropDownHeight" type="System.Int32, mscorlib">
     <value>110</value>
   </data>
-  <data name="cb_language.DropDownItemsHeight" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
   <data name="cb_language.DropDownWidth" type="System.Int32, mscorlib">
     <value>206</value>
   </data>
@@ -210,9 +207,6 @@
   <data name="cb_colorMode.DropDownHeight" type="System.Int32, mscorlib">
     <value>110</value>
   </data>
-  <data name="cb_colorMode.DropDownItemsHeight" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
   <data name="cb_colorMode.DropDownWidth" type="System.Int32, mscorlib">
     <value>206</value>
   </data>
@@ -242,9 +236,6 @@
   </data>
   <data name="cb_theme.DropDownHeight" type="System.Int32, mscorlib">
     <value>110</value>
-  </data>
-  <data name="cb_theme.DropDownItemsHeight" type="System.Int32, mscorlib">
-    <value>26</value>
   </data>
   <data name="cb_theme.DropDownWidth" type="System.Int32, mscorlib">
     <value>206</value>

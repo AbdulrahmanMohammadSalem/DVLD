@@ -117,9 +117,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;cb_language.Type" xml:space="preserve">
     <value>Salem.Controls.SalDropDownList, Salem.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
@@ -143,6 +142,7 @@
   <data name="label18.TabIndex" type="System.Int32, mscorlib">
     <value>64</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btn_baseForeColor.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
@@ -152,30 +152,27 @@
   <data name="&gt;&gt;label21.Parent" xml:space="preserve">
     <value>groupBox2</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI Semibold, 9.5pt, style=Bold, Italic</value>
+  <data name="btn_baseForeColor.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
   </data>
-  <data name="btn_menuItemHoverColor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 29</value>
+  <data name="ll_saveChangesToSelectedTheme.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="btn_surfaceHoverColor.Text" xml:space="preserve">
     <value>#000000</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btn_mainMenuBackColor.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 29</value>
   </data>
   <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
     <value>17</value>
   </data>
-  <data name="&gt;&gt;trackBar1.Name" xml:space="preserve">
-    <value>trackBar1</value>
+  <data name="label8.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="label9.ToolTip" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;btn_baseBackColor.Parent" xml:space="preserve">
-    <value>pnl_themeValues</value>
   </data>
   <data name="lbl_colorMode.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 5</value>
@@ -285,8 +282,8 @@
   <data name="label17.Text" xml:space="preserve">
     <value>General Text Color:</value>
   </data>
-  <data name="label17.ToolTip" xml:space="preserve">
-    <value />
+  <data name="btn_surfaceBackColor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 0, 3</value>
   </data>
   <data name="&gt;&gt;btn_gridHeaderCellColor.Name" xml:space="preserve">
     <value>btn_gridHeaderCellColor</value>
@@ -312,6 +309,9 @@
   <data name="&gt;&gt;rb_fixedHue.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="btn_inactiveTabColor.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="gb_menuItemsStyle.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 5, 0, 5</value>
   </data>
@@ -330,8 +330,8 @@
   <data name="&gt;&gt;btn_menuItemHoverBorderColor.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="ll_saveChangesToSelectedTheme.TabIndex" type="System.Int32, mscorlib">
-    <value>62</value>
+  <data name="cb_language.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI Variable Text, 10pt</value>
@@ -353,6 +353,9 @@
   </data>
   <data name="label13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 5</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>86</value>
   </data>
   <data name="&gt;&gt;btn_menuItemHoverBorderColor.Parent" xml:space="preserve">
     <value>groupBox2</value>
@@ -426,11 +429,11 @@
   <data name="&gt;&gt;lbl_colorMode.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="cb_colorMode.DropDownWidth" type="System.Int32, mscorlib">
-    <value>154</value>
+  <data name="label10.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
-  <data name="btn_surfaceBorderColor.TabIndex" type="System.Int32, mscorlib">
-    <value>72</value>
+  <data name="lbl_colorMode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="btn_gridHeaderHighlightColor.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -477,9 +480,6 @@
   <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
     <value>169, 21</value>
   </data>
-  <data name="lbl_theme.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 30</value>
-  </data>
   <data name="&gt;&gt;btn_baseBackColor.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -504,8 +504,8 @@
   <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="btn_gridHeaderHighlightColor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 29</value>
+  <data name="&gt;&gt;btn_baseBackColor.Parent" xml:space="preserve">
+    <value>pnl_themeValues</value>
   </data>
   <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
     <value>145, 21</value>
@@ -515,9 +515,6 @@
   </data>
   <data name="label16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
-  </data>
-  <data name="lbl_language.TabIndex" type="System.Int32, mscorlib">
-    <value>50</value>
   </data>
   <data name="&gt;&gt;btn_strongForeColor.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -543,6 +540,9 @@
   <data name="btn_surfaceBackColor.Location" type="System.Drawing.Point, System.Drawing">
     <value>525, 47</value>
   </data>
+  <data name="&gt;&gt;btn_apply.Name" xml:space="preserve">
+    <value>btn_apply</value>
+  </data>
   <data name="label12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 5</value>
   </data>
@@ -554,9 +554,6 @@
   </data>
   <data name="&gt;&gt;resetToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label21.Name" xml:space="preserve">
-    <value>label21</value>
   </data>
   <data name="ll_renameSelectedTheme.Text" xml:space="preserve">
     <value>Rename selected theme.</value>
@@ -588,8 +585,8 @@
   <data name="&gt;&gt;label17.Parent" xml:space="preserve">
     <value>pnl_themeValues</value>
   </data>
-  <data name="$this.ToolTip" xml:space="preserve">
-    <value />
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
   </data>
   <data name="btn_gridHeaderHighlightColor.ToolTip" xml:space="preserve">
     <value />
@@ -603,8 +600,8 @@
   <data name="&gt;&gt;label6.Parent" xml:space="preserve">
     <value>groupBox2</value>
   </data>
-  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="label17.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;btn_mainMenuBackColor.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -614,9 +611,6 @@
   </data>
   <data name="ll_branchIntoNewTheme.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="&gt;&gt;btn_accentForeColor.ZOrder" xml:space="preserve">
-    <value>15</value>
   </data>
   <data name="label8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 5</value>
@@ -675,6 +669,9 @@
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 73</value>
   </data>
+  <data name="rb_fixedHue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="&gt;&gt;btn_baseLinkColor.Parent" xml:space="preserve">
     <value>pnl_themeValues</value>
   </data>
@@ -707,6 +704,9 @@
   </data>
   <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
     <value>305, 120</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>pnl_themeValues</value>
   </data>
   <data name="&gt;&gt;ll_branchIntoNewTheme.Type" xml:space="preserve">
     <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -755,6 +755,9 @@
   </data>
   <data name="&gt;&gt;label17.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 10.2pt, style=Bold, Italic, Underline</value>
   </data>
   <data name="btn_apply.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 36, 0</value>
@@ -840,6 +843,9 @@
   <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 21</value>
   </data>
+  <data name="label19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="cb_colorMode.Size" type="System.Drawing.Size, System.Drawing">
     <value>205, 30</value>
   </data>
@@ -903,9 +909,6 @@
   <data name="trackBar1.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;gb_menuItemsStyle.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
   <data name="label16.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -951,14 +954,11 @@
   <data name="btn_selectHue.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="pnl_themeValues.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>10, 10, 10, 10</value>
-  </data>
   <data name="&gt;&gt;cb_theme.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="label10.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
+  <data name="&gt;&gt;btn_accentForeColor.ZOrder" xml:space="preserve">
+    <value>15</value>
   </data>
   <data name="&gt;&gt;label3.Name" xml:space="preserve">
     <value>label3</value>
@@ -971,6 +971,9 @@
   </data>
   <data name="btn_inactiveForeColor.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;rb_freeValues.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ll_renameSelectedTheme.Parent" xml:space="preserve">
     <value>$this</value>
@@ -1035,9 +1038,6 @@
   <data name="label19.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 21</value>
-  </data>
   <data name="label4.ToolTip" xml:space="preserve">
     <value />
   </data>
@@ -1085,9 +1085,6 @@
   </data>
   <data name="&gt;&gt;btn_surfaceBorderColor.ZOrder" xml:space="preserve">
     <value>6</value>
-  </data>
-  <data name="lbl_colorMode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="label18.ToolTip" xml:space="preserve">
     <value />
@@ -1218,6 +1215,9 @@
   <data name="label16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 5</value>
   </data>
+  <data name="btn_gridHeaderHighlightColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 29</value>
+  </data>
   <data name="ll_saveChangesToSelectedTheme.Text" xml:space="preserve">
     <value>Save changes to the selected theme.</value>
   </data>
@@ -1241,6 +1241,9 @@
   </data>
   <data name="btn_apply.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI Variable Text, 10pt</value>
+  </data>
+  <data name="&gt;&gt;lbl_theme.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="btn_close.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -1278,6 +1281,9 @@
   <data name="&gt;&gt;btn_gridHeaderHighlightColor.Parent" xml:space="preserve">
     <value>pnl_themeValues</value>
   </data>
+  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
   <data name="&gt;&gt;contextMenuStrip1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -1314,8 +1320,8 @@
   <data name="label12.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
-  <data name="btn_baseForeColor.TabIndex" type="System.Int32, mscorlib">
-    <value>70</value>
+  <data name="pnl_themeValues.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
   </data>
   <data name="label17.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -1350,8 +1356,8 @@
   <data name="label14.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
-  <data name="btn_surfaceBackColor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 0, 3</value>
+  <data name="lbl_theme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 30</value>
   </data>
   <data name="btn_menuItemHoverColor.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI Semibold, 8pt, style=Bold</value>
@@ -1407,8 +1413,8 @@
   <data name="label11.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="btn_surfaceBorderColor.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;btn_strongForeColor.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="gb_menuItemsStyle.TabIndex" type="System.Int32, mscorlib">
     <value>60</value>
@@ -1542,8 +1548,8 @@
   <data name="label16.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
-  <data name="rb_fixedHue.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="lbl_colorMode.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;label4.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1571,9 +1577,6 @@
   </data>
   <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
     <value>125, 21</value>
-  </data>
-  <data name="&gt;&gt;btn_strongForeColor.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <data name="label11.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1610,6 +1613,9 @@
   </data>
   <data name="&gt;&gt;ll_deleteSelectedTheme.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="btn_mainMenuBackColor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 8pt, style=Bold</value>
   </data>
   <data name="&gt;&gt;label9.Name" xml:space="preserve">
     <value>label9</value>
@@ -1665,8 +1671,8 @@
   <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
     <value>14</value>
   </data>
-  <data name="label13.Text" xml:space="preserve">
-    <value>Link Text Color:</value>
+  <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9.5pt, style=Bold, Italic</value>
   </data>
   <data name="btn_baseBackColor.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 29</value>
@@ -1689,8 +1695,8 @@
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 10</value>
   </data>
-  <data name="btn_gridHeaderHighlightColor.TabIndex" type="System.Int32, mscorlib">
-    <value>74</value>
+  <data name="cb_colorMode.DropDownWidth" type="System.Int32, mscorlib">
+    <value>154</value>
   </data>
   <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
     <value>305, 85</value>
@@ -1706,9 +1712,6 @@
   </data>
   <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
     <value>12</value>
-  </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 23</value>
   </data>
   <data name="cb_colorMode.Items" xml:space="preserve">
     <value>Light</value>
@@ -1812,9 +1815,6 @@
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="btn_close.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI Variable Text, 10pt</value>
-  </data>
   <data name="label6.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
@@ -1842,14 +1842,11 @@
   <data name="label14.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
-    <value>groupBox2</value>
+  <data name="btn_menuItemHoverColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 29</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Application Settings</value>
-  </data>
-  <data name="label8.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="rb_fixedHue.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 25</value>
@@ -1871,12 +1868,6 @@
   </data>
   <data name="label19.TabIndex" type="System.Int32, mscorlib">
     <value>87</value>
-  </data>
-  <data name="groupBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>10, 10, 10, 10</value>
-  </data>
-  <data name="lbl_colorMode.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;lbl_theme.Parent" xml:space="preserve">
     <value>$this</value>
@@ -1914,17 +1905,14 @@
   <data name="trackBar1.Size" type="System.Drawing.Size, System.Drawing">
     <value>237, 18</value>
   </data>
-  <data name="&gt;&gt;btn_inactiveTabColor.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="btn_strongForeColor.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
   <data name="btn_surfaceBorderColor.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI Semibold, 8pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;btn_apply.Name" xml:space="preserve">
-    <value>btn_apply</value>
+  <data name="btn_surfaceBorderColor.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
   </data>
   <data name="label9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 5</value>
@@ -1977,8 +1965,8 @@
   <data name="label14.Text" xml:space="preserve">
     <value>Inactive Text Color:</value>
   </data>
-  <data name="label19.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 5</value>
+  <data name="btn_surfaceBorderColor.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="lbl_colorMode.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI Variable Text, 10pt, style=Bold</value>
@@ -1992,8 +1980,8 @@
   <data name="lbl_selectedTheme.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopRight</value>
   </data>
-  <data name="label8.TabIndex" type="System.Int32, mscorlib">
-    <value>54</value>
+  <data name="ll_saveChangesToSelectedTheme.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
   </data>
   <data name="btn_strongForeColor.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI Semibold, 8pt, style=Bold</value>
@@ -2028,8 +2016,11 @@
   <data name="cb_theme.TabIndex" type="System.Int32, mscorlib">
     <value>56</value>
   </data>
-  <data name="ll_saveChangesToSelectedTheme.ToolTip" xml:space="preserve">
-    <value />
+  <data name="btn_gridHeaderHighlightColor.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="btn_accentForeColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 117</value>
   </data>
   <data name="&gt;&gt;lbl_selectedTheme.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -2057,6 +2048,9 @@
   </data>
   <data name="&gt;&gt;ll_branchIntoNewTheme.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="&gt;&gt;trackBar1.Name" xml:space="preserve">
+    <value>trackBar1</value>
   </data>
   <data name="cb_language.Items1" xml:space="preserve">
     <value>العربية</value>
@@ -2103,17 +2097,17 @@
   <data name="btn_baseForeColor.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI Semibold, 10.2pt, style=Bold, Italic, Underline</value>
+  <data name="btn_close.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text, 10pt</value>
   </data>
   <data name="btn_selectHue.Text" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;rb_freeValues.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="groupBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
   </data>
-  <data name="&gt;&gt;lbl_theme.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;btn_inactiveTabColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="btn_menuItemHoverColor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 10, 3</value>
@@ -2133,11 +2127,11 @@
   <data name="rb_freeValues.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="btn_mainMenuBackColor.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI Semibold, 8pt, style=Bold</value>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 21</value>
   </data>
-  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>86</value>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Link Text Color:</value>
   </data>
   <data name="&gt;&gt;label20.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2148,8 +2142,8 @@
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
     <value>24</value>
   </data>
-  <data name="btn_inactiveTabColor.ToolTip" xml:space="preserve">
-    <value />
+  <data name="lbl_language.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
   </data>
   <data name="btn_menuItemHoverColor.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -2166,20 +2160,26 @@
   <data name="label20.TabIndex" type="System.Int32, mscorlib">
     <value>86</value>
   </data>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
     <value>338, 39</value>
   </data>
   <data name="gb_menuItemsStyle.Text" xml:space="preserve">
     <value>Menu Items Style</value>
   </data>
-  <data name="btn_accentForeColor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 117</value>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 23</value>
   </data>
   <data name="cb_language.Items" xml:space="preserve">
     <value>English</value>
   </data>
-  <data name="cb_language.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 10pt</value>
+  <data name="&gt;&gt;btn_surfaceBackColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label19.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 5</value>
   </data>
   <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -2187,8 +2187,8 @@
   <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
     <value>122, 30</value>
   </data>
-  <data name="&gt;&gt;btn_surfaceBackColor.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;gb_menuItemsStyle.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="btn_baseForeColor.Location" type="System.Drawing.Point, System.Drawing">
     <value>220, 82</value>
@@ -2211,8 +2211,8 @@
   <data name="&gt;&gt;lbl_language.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
-    <value>pnl_themeValues</value>
+  <data name="&gt;&gt;label21.Name" xml:space="preserve">
+    <value>label21</value>
   </data>
   <data name="btn_baseLinkColor.Location" type="System.Drawing.Point, System.Drawing">
     <value>525, 117</value>
