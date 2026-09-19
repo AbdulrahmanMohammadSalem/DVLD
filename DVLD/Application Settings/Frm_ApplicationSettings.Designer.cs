@@ -115,6 +115,7 @@
             this.cb_language.DataBindings.Add(new System.Windows.Forms.Binding("DropDownArrowColor", global::DVLD.Properties.Settings.Default, "BaseForeColor", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.cb_language.DropDownArrowColor = global::DVLD.Properties.Settings.Default.BaseForeColor;
             this.cb_language.ForeColor = global::DVLD.Properties.Settings.Default.BaseForeColor;
+            this.cb_language.FormattingEnabled = false;
             this.cb_language.Items.AddRange(new object[] {
             resources.GetString("cb_language.Items"),
             resources.GetString("cb_language.Items1")});
@@ -151,6 +152,7 @@
             this.cb_colorMode.DataBindings.Add(new System.Windows.Forms.Binding("DropDownArrowColor", global::DVLD.Properties.Settings.Default, "BaseForeColor", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.cb_colorMode.DropDownArrowColor = global::DVLD.Properties.Settings.Default.BaseForeColor;
             this.cb_colorMode.ForeColor = global::DVLD.Properties.Settings.Default.BaseForeColor;
+            this.cb_colorMode.FormattingEnabled = false;
             this.cb_colorMode.Items.AddRange(new object[] {
             resources.GetString("cb_colorMode.Items"),
             resources.GetString("cb_colorMode.Items1"),
@@ -174,6 +176,7 @@
             this.cb_theme.DataBindings.Add(new System.Windows.Forms.Binding("DropDownArrowColor", global::DVLD.Properties.Settings.Default, "BaseForeColor", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.cb_theme.DropDownArrowColor = global::DVLD.Properties.Settings.Default.BaseForeColor;
             this.cb_theme.ForeColor = global::DVLD.Properties.Settings.Default.BaseForeColor;
+            this.cb_theme.FormattingEnabled = false;
             this.cb_theme.MouseOverBackColor = global::DVLD.Properties.Settings.Default.SurfaceHoverColor;
             this.cb_theme.Name = "cb_theme";
             this.cb_theme.SelectedIndex = -1;

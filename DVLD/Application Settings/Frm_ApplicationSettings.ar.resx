@@ -143,6 +143,16 @@
   <data name="cb_language.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cb_language.DropDownHeight" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="cb_language.DropDownItemsHeight" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="cb_language.DropDownWidth" type="System.Int32, mscorlib">
+    <value>206</value>
+  </data>
   <data name="cb_language.Font" type="System.Drawing.Font, System.Drawing">
     <value>Readex Pro, 9pt</value>
   </data>
@@ -197,6 +207,15 @@
   <data name="cb_colorMode.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
+  <data name="cb_colorMode.DropDownHeight" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="cb_colorMode.DropDownItemsHeight" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="cb_colorMode.DropDownWidth" type="System.Int32, mscorlib">
+    <value>206</value>
+  </data>
   <data name="cb_colorMode.Font" type="System.Drawing.Font, System.Drawing">
     <value>Readex Pro, 9pt</value>
   </data>
@@ -220,6 +239,15 @@
   </data>
   <data name="cb_theme.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
+  </data>
+  <data name="cb_theme.DropDownHeight" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="cb_theme.DropDownItemsHeight" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="cb_theme.DropDownWidth" type="System.Int32, mscorlib">
+    <value>206</value>
   </data>
   <data name="cb_theme.Font" type="System.Drawing.Font, System.Drawing">
     <value>Readex Pro, 9pt</value>
@@ -269,6 +297,126 @@
   <data name="btn_apply.Text" xml:space="preserve">
     <value>تطبيق</value>
   </data>
+  <data name="btn_selectHue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btn_selectHue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 95</value>
+  </data>
+  <data name="btn_selectHue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 29</value>
+  </data>
+  <data name="trackBar1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="trackBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 71</value>
+  </data>
+  <data name="trackBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 18</value>
+  </data>
+  <data name="label21.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="label21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 8pt, style=Bold, Italic</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 40</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 25</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>اختيار تدرج اللون:</value>
+  </data>
+  <data name="label6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 8pt, style=Bold, Italic</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 73</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 25</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>لون خيارات القوائم عند التمرير:</value>
+  </data>
+  <data name="btn_menuItemHoverBorderColor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="contextMenuStrip1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9pt, style=Bold</value>
+  </data>
+  <data name="resetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 24</value>
+  </data>
+  <data name="resetToolStripMenuItem.Text" xml:space="preserve">
+    <value>إعادة ضبط</value>
+  </data>
+  <data name="contextMenuStrip1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 28</value>
+  </data>
+  <data name="btn_menuItemHoverBorderColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 105</value>
+  </data>
+  <data name="btn_menuItemHoverBorderColor.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="btn_menuItemHoverColor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btn_menuItemHoverColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 71</value>
+  </data>
+  <data name="btn_menuItemHoverColor.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="btn_mainMenuBackColor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btn_mainMenuBackColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 36</value>
+  </data>
+  <data name="btn_mainMenuBackColor.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label19.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 8pt, style=Bold, Italic</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>316, 108</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 25</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>لون حواف خيارات القوائم عند التمرير:</value>
+  </data>
+  <data name="label20.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Readex Pro Medium, 8pt, style=Bold, Italic</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 39</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 25</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>لون خلفية شريط القوائم الرئيسي:</value>
+  </data>
   <data name="groupBox2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Rubik, 9pt</value>
   </data>
@@ -292,15 +440,6 @@
   </data>
   <data name="btn_strongForeColor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
-  </data>
-  <data name="contextMenuStrip1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI Semibold, 9pt, style=Bold</value>
-  </data>
-  <data name="contextMenuStrip1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Yes</value>
-  </data>
-  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 28</value>
   </data>
   <data name="btn_strongForeColor.Location" type="System.Drawing.Point, System.Drawing">
     <value>13, 84</value>
@@ -620,132 +759,6 @@
   <data name="pnl_themeValues.Size" type="System.Drawing.Size, System.Drawing">
     <value>587, 433</value>
   </data>
-  <data name="btn_selectHue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="btn_selectHue.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 95</value>
-  </data>
-  <data name="btn_selectHue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>202, 29</value>
-  </data>
-  <data name="trackBar1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="trackBar1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 71</value>
-  </data>
-  <data name="trackBar1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>202, 18</value>
-  </data>
-  <data name="label21.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="label21.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Readex Pro Medium, 8pt, style=Bold, Italic</value>
-  </data>
-  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
-    <value>90, 40</value>
-  </data>
-  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 25</value>
-  </data>
-  <data name="label21.Text" xml:space="preserve">
-    <value>اختيار تدرج اللون:</value>
-  </data>
-  <data name="label6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Readex Pro Medium, 8pt, style=Bold, Italic</value>
-  </data>
-  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>357, 73</value>
-  </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 25</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>لون خيارات القوائم عند التمرير:</value>
-  </data>
-  <data name="btn_menuItemHoverBorderColor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="btn_menuItemHoverBorderColor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>231, 105</value>
-  </data>
-  <data name="btn_menuItemHoverBorderColor.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="resetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>148, 24</value>
-  </data>
-  <data name="resetToolStripMenuItem.Text" xml:space="preserve">
-    <value>إعادة ضبط</value>
-  </data>
-  <data name="btn_menuItemHoverColor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="btn_menuItemHoverColor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>231, 71</value>
-  </data>
-  <data name="btn_menuItemHoverColor.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="btn_mainMenuBackColor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="btn_mainMenuBackColor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>231, 36</value>
-  </data>
-  <data name="btn_mainMenuBackColor.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="label19.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="label19.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Readex Pro Medium, 8pt, style=Bold, Italic</value>
-  </data>
-  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
-    <value>316, 108</value>
-  </data>
-  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
-    <value>239, 25</value>
-  </data>
-  <data name="label19.Text" xml:space="preserve">
-    <value>لون حواف خيارات القوائم عند التمرير:</value>
-  </data>
-  <data name="label20.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="label20.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Readex Pro Medium, 8pt, style=Bold, Italic</value>
-  </data>
-  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
-    <value>338, 39</value>
-  </data>
-  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 25</value>
-  </data>
-  <data name="label20.Text" xml:space="preserve">
-    <value>لون خلفية شريط القوائم الرئيسي:</value>
-  </data>
-  <data name="gb_menuItemsStyle.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Rubik, 9pt</value>
-  </data>
-  <data name="gb_menuItemsStyle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>616, 149</value>
-  </data>
-  <data name="gb_menuItemsStyle.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Yes</value>
-  </data>
-  <data name="gb_menuItemsStyle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>336, 113</value>
-  </data>
-  <data name="gb_menuItemsStyle.Text" xml:space="preserve">
-    <value>نظام ألوان خيارات القوائم</value>
-  </data>
   <data name="rb_fixedHue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Right</value>
   </data>
@@ -775,6 +788,21 @@
   </data>
   <data name="rb_freeValues.Text" xml:space="preserve">
     <value>قيم حرة</value>
+  </data>
+  <data name="gb_menuItemsStyle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rubik, 9pt</value>
+  </data>
+  <data name="gb_menuItemsStyle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>616, 149</value>
+  </data>
+  <data name="gb_menuItemsStyle.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="gb_menuItemsStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 113</value>
+  </data>
+  <data name="gb_menuItemsStyle.Text" xml:space="preserve">
+    <value>نظام ألوان خيارات القوائم</value>
   </data>
   <data name="ll_branchIntoNewTheme.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
